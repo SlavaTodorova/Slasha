@@ -1,0 +1,1311 @@
+<!--Copyright (c) [2014] [Chinkina M]-->
+
+
+
+<html lang="en"><head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>SLASH/A Ngram Tendency Viewer</title>
+
+
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!--        <link href="js/libs/bootstrap-slider/css/bootstrap-slider.css" rel="stylesheet">-->
+
+
+        <link rel="stylesheet" href="css/cssWordViz.css" />
+
+        <!-- Custom styles for this template -->
+        <link href="css/dashboard.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/docs.min.css" />
+
+        <link rel="stylesheet" href="css/number-polyfill.css" />
+
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+
+
+
+
+
+
+        <style>
+            body {
+                font: 16px sans-serif;
+                font-variant: small-caps;
+                color: #555;
+            }
+
+            table, th, tdа
+            {
+                border-collapse:collapse;
+                border-bottom:1px solid black;
+            }
+            th, td
+            {
+                padding:15px;
+            }
+        </style>
+
+        <style id="holderjs-style" type="text/css"></style>
+
+    </head>
+
+    <body style="background-color: white;">
+        <!--    <body style="">-->
+
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header" style="padding-top:25px;">
+                    <!--                <div class="navbar-header">-->
+                    <span style="font-size:20px;">
+                        <a href="mailto:velislava.todorova@student.uni-tuebingen.de?Subject=Slasha%20Project" target="_top" title="write to Velislava Todorova">
+                            Sla</a><a href="mailto:maria.chinkina@student.uni-tuebingen.de?Subject=Slasha%20Project" target="_top" title="write to Maria Chinkina" style="color:orange;">sh/A</a></span>
+                    @ Universität Tübingen
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+
+                    <form class="nav navbar-nav navbar-right" style="margin-right: 0px; margin-top: 10px; margin-bottom: 10px; width: 250px;">
+                        <div id="controls">
+                            <span class='popover-element loadCorpus' id="load_popover" data-html=true data-container="body" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content='<br/>Choose any number of files in the required* format. <br> <em>* Click on the gear-wheel icon for settings.</em>'>Load corpus:
+                                <span class="glyphicon glyphicon-question-sign"></span> </span><br> <input type="file" multiple="" id="file" style="cursor:pointer;" onchange="handleFiles(this.files)" onclick="hideTooltip();">
+                        </div>
+                    </form>
+
+                    <div class="nav navbar-nav navbar-right">
+                        <a data-toggle="modal" href="#myModal_WhatIsHowTo" style="padding-right: 70px; padding-bottom: 20px;">&dtrif; WhatIs // HowTo // POStags &dtrif; </a>
+                        <a data-toggle="modal" href="#myModal_Settings"> <span style="font-size:25px;color:orange;" class="glyphicon glyphicon-cog"></span> </a>
+                    </div>
+
+                </div>
+
+                <div  class="navbar navbar-fixed-top" style="width:25%; margin-left: 25%;">
+                    <div id="help-tooltip" class="nav navbar-nav navbar-left help-tooltip" hidden> </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <div class="container-fluid">
+            <div class="row">
+
+                <!--                WHATIS & HOWTO dialog window-->
+                <div class="modal fade" id="myModal_WhatIsHowTo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+
+
+                            <div class="panel panel-default">
+                                <ul id="myTab1" class="nav nav-tabs">
+                                    <li class="active" data-container="body" ><a href="#WhatIs" data-toggle="tab"><strong>WhatIs</strong></a></li>
+                                    <li class=""><a href="#HowTo" data-toggle="tab"><strong>HowTo</strong></a></li>
+                                    <li class=""><a href="#POS" data-toggle="tab"><strong>POS tags</strong></a></li>
+                                </ul>
+                                <div id="myTabContent1" class="tab-content">
+                                    <div class="tab-pane fade active in" id="WhatIs">
+
+
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times</button>
+                                            <h4 class="modal-title" id="myModalLabel" style=" text-align: center">WhatIs</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <hr>
+                                            <h4><strong>What is it?</strong></h4>
+                                            <p>This is <span style=" color: #f0ad4e; font-weight: bold">SLASH/A N-gram Tendency Viewer</span>, our project for the Visualization seminar led by <a href="http://linguistics.chrisculy.net" target="_blank">Dr Chris Culy</a> at <a href="http://www.uni-tuebingen.de/en/landingpage.html" target="_blank">Universität Tübingen</a> in the winter semester 2013/2014.</p>
+                                            <p>Our goal was to develop a visualization tool for the exploration of the tendencies in the change of language over time. </p>
+                                            <p><span style=" color: #f0ad4e; font-weight: bold">Slash/A</span> can visualize the n-grams frequencies from any correspondence corpus (given the corpus in the right format) and provides the user with the option of choosing among several levels of abstraction to see general tendencies out of raw data. </p>
+
+                                            <hr>
+
+                                            <h4><strong>Who are we?</strong></h4>
+                                            <p>We are <a href="mailto:maria.chinkina@stuudent.uni-tuebingen.de?Subject=Visualization%20project" class="tooltip-test" title="" data-original-title="Russia">Maria Chinkina</a> and <a href="mailto:velislava.todorova@student.uni-tuebingen.de?Subject=Visualization%20project" class="tooltip-test" title="" data-original-title="Bulgaria">Velislava Todorova</a>. </p>
+                                            <p>We are Master students in Computational Linguistics at <a href="http://www.uni-tuebingen.de/en/landingpage.html" target="_blank">Universität Tübingen.</a></p>
+
+                                            <hr>
+
+                                            <h4><strong>Why would one use this tool?</strong></h4>
+                                            <p><span style=" color: #f0ad4e; font-weight: bold">Slash/A</span> makes it possible to compare the changes or the tendencies in the use of language over time across different subsets for which your corpus is annotated.</p>
+                                            <p>You can compare authors, recipients, genres, topics – we will make the most of every annotation that you have in your corpus. All you need to do is to configure the Settings, load your corpus and start to explore.</p>
+                                        </div>
+
+                                        <div class="modal-footer" style="text-align: center">
+                                            <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+                                        </div>
+
+
+
+
+                                    </div>
+                                    <div class="tab-pane fade" id="HowTo">
+
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times</button>
+                                            <h4 class="modal-title" id="myModalLabel" style=" text-align: center">HowTo</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <hr>
+                                            <h4><strong>Where do I start?</strong></h4>
+                                            <br>
+                                            <ul><li><span style=" color: #069; font-weight: bold">Configure</span> the corpus settings by clicking on <span class="glyphicon glyphicon-cog"></span> in the top-right corner of the page.</li></ul>
+                                            <br>
+                                            <ul><li><span style=" color: #069; font-weight: bold">Load</span> (part of) your corpus in XML format. (the Browinings' corpus is provided as an example)</li></ul>
+                                            <br>
+                                            <span></span>
+                                            <ul><li><span style=" color: #069; font-weight: bold">Type in</span> one or several tokens to search in the whole corpus or only in the letters from/to some senders/addressees.
+                                                    <br>
+                                                    You may look for any token – words as well as punctuation marks.
+                                                </li></ul>
+
+                                            <span style="padding-left: 40px"><span style="text-decoration: underline;">A valid <strong>UNI-GRAM</strong> search</span> would be:</span>
+                                            <br><br>
+                                            <span style="padding-left: 40px">Simple:</span>
+                                            <br><br>
+                                            <span style="padding-left: 80px">love</span>
+                                            <br><br>
+                                            <span style="padding-left: 40px">Lemmas:</span>
+                                            <br><br>
+                                            <span style="padding-left: 80px">love/lemma</span> <br> <br>
+                                            <span style="padding-left: 80px">love/</span>
+                                            <br> <br>
+                                            <span style="padding-left: 40px">POS tags:</span>
+                                            <br><br>
+                                            <span style="padding-left: 80px">love/vbp <br>(all non 3rd person singular forms of the verb)</span> <br> <br>
+                                            <span style="padding-left: 80px">love/v* <br>(all forms of the verb)</span>
+                                            <br><br>
+                                            <span style="padding-left: 40px">Lemmas & POS tags:</span>
+                                            <br><br>
+                                            <span style="padding-left: 80px">love/lemma/nnp* <br> (for all the proper nouns (singular and plural) that are forms of the lemma 'love')</span>
+                                            <br><br><br>
+                                            <span style="padding-left: 40px"><span style="text-decoration: underline">A valid <strong>N-GRAM</strong> search</span> would be:</span>
+                                            <br><br>
+                                            <span style="padding-left: 80px">i love your verses</span> <br> <br>
+                                            <span style="padding-left: 80px">i love your *s/nns</span> <br> (for all sequences of the form 'i love your [any noun in plural ending with -s]')<br> <br>
+                                            <span style="padding-left: 80px">i love/lemma you</span> <br> <br>
+                                            <span style="padding-left: 80px">i love/v* you <br> (for all sequences of the form 'i [any form of the verb love] you')</span>
+                                            <br> <br> <br>
+
+                                            <span style="padding-left: 40px"><span style="text-decoration: underline">A valid <strong>POS</strong> search</span> would be:</span>
+                                            <br><br>
+                                            <span style="padding-left: 80px">/vbp <br>(for all verbal non third person singular present forms)</span> <br> <br>
+                                            <span style="padding-left: 80px">/v* <br>(for all verbal forms)</span> <br> <br>
+                                            <br>
+                                            <span></span>
+                                            <ul>
+                                                <li><span style=" color: #069; font-weight: bold">Hit</span> the “Show Graph” button. A line representing the frequencies of each word will appear.
+                                                    <br><br>The darker the background behind the line, the more data there is on this day.</li>
+                                            </ul> <br>
+                                            <span></span>
+                                            <ul>
+                                                <li><span style=" color: #069; font-weight: bold">Click</span> on the smoothing level buttons to see the tendencies of the word usage.</li>
+                                            </ul>
+                                            <hr>
+
+                                            <h4><strong>Is there any other functionality?</strong></h4>
+                                            <ul>
+                                                <li><span style=" color: #069">Go to "Add some statistics?"</span> to display significant <strong>fluctuations</strong> (for each n-gram) or significant <strong>difference</strong> (for the same n-gram searched for in 2 different subsets).<br><br></li>
+                                                <li><span style=" color: #069">Mouse over the dots</span> on the graph to see the detailed information about the data for each day.<br><br></li>
+                                                <li><span style=" color: #069">Click on the dots</span> on the graph to display the original text with highlighted occurrences of an n-gram on a particular day.<br><br></li>
+                                                <li><span style=" color: #069">Click “show/hide data points”</span> to show/hide the dots on the graph.<br><br></li>
+                                                <li><span style=" color: #069">Click on the n-gram label</span> at the end of the line to remove it. <br> You can restore it later.<br><br></li>
+                                                <li><span style=" color: #069">Scroll down</span> to the bottom of the page to see the history of your searches.<br>
+                                                    <br>
+                                                    Under the <strong>“Removed”</strong> tab one can find the recently removed graphs.
+                                                    Each of them can be restored with a <span style=" color: #069"><strong>click</strong></span>.
+                                                    <br><br>
+                                                    The complete history is given under the <strong>“Successful”</strong> tab.
+                                                    <br><br>
+                                                    The n-grams that were not found in the corpus are under the <strong>"Not Found"</strong> tab.
+                                                </li>
+                                            </ul>
+                                            <hr>
+                                            <br>
+                                            <h4 style=" text-align: center"><strong>ENJOY!</strong></h4>
+                                        </div>
+
+                                        <div class="modal-footer" style="text-align: center">
+                                            <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+                                        </div>
+
+
+
+
+                                    </div>
+
+                                    <div class="tab-pane fade" id="POS">
+
+
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times</button>
+                                            <h4 class="modal-title" id="myModalLabel" style=" text-align: center">List of POS tags</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h4><strong>Penn Treebank POS tags</strong></h4>
+                                            <table style="width:300px">
+                                                <tr>
+                                                    <td>CC</td>
+                                                    <td>Coordinating conjunction</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>CD</td>
+                                                    <td>Cardinal number</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>DT</td>
+                                                    <td>Determiner</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>EX</td>
+                                                    <td>Existential there</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>FW</td>
+                                                    <td>Foreign word</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>IN</td>
+                                                    <td>Preposition or subordinating conjunction</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>JJ</td>
+                                                    <td>Adjective</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>JJR</td>
+                                                    <td>Adjective, comparative</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>JJS</td>
+                                                    <td>Adjective, superlative</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>LS</td>
+                                                    <td>List item marker</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>MD</td>
+                                                    <td>Modal</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>NN</td>
+                                                    <td>Noun, singular or mass</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>NNS</td>
+                                                    <td>Noun, plural</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>NNP</td>
+                                                    <td>Proper noun, singular</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>NNPS</td>
+                                                    <td>Proper noun, plural</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>PDT</td>
+                                                    <td>Predeterminer</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>POS</td>
+                                                    <td>Possessive ending</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>PP</td>
+                                                    <td>Personal pronoun</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>PP$</td>
+                                                    <td>Possessive pronoun</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>RB</td>
+                                                    <td>Adverb</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>RBR</td>
+                                                    <td>Adverb, comparative</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>RBS</td>
+                                                    <td>Adverb, superlative</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>RP</td>
+                                                    <td>Particle</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>SYM</td>
+                                                    <td>Symbol</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TO</td>
+                                                    <td>to</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>UH</td>
+                                                    <td>Interjection</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>VB</td>
+                                                    <td>Verb, base form</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>VBD</td>
+                                                    <td>Verb, past tense</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>VBG</td>
+                                                    <td>Verb, gerund or present participle</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>VBN</td>
+                                                    <td>Verb, past participle</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>VBP</td>
+                                                    <td>Verb, non-3rd person singular present</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>VBZ</td>
+                                                    <td>Verb, 3rd person singular present</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>WDT</td>
+                                                    <td>Wh-determiner</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>WP</td>
+                                                    <td>Wh-pronoun</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>WP$</td>
+                                                    <td>Possessive wh-pronoun</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>WRB</td>
+                                                    <td>Wh-adverb</td>
+                                                </tr>
+
+
+                                            </table>
+
+                                            <br> <hr>
+
+                                            <h4><strong>Additional Options</strong></h4>
+                                            You can use the wildcard * at any position in the POS-tag to perform a more general search.
+                                            <br><br>
+                                            Here are some example queries:
+                                            <table>
+                                                <tr>
+                                                    <td>N*</td>
+                                                    <td>Noun</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>V*</td>
+                                                    <td>Verb</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>PP*</td>
+                                                    <td>Pronoun</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>JJ*</td>
+                                                    <td>Adjective</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>RB*</td>
+                                                    <td>Adverb</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>W*</td>
+                                                    <td>Wh-word</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>NNP*</td>
+                                                    <td>Any Proper Noun (singular or plural)</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>N*S</td>
+                                                    <td>Any Noun (common or proper) in plural</td>
+                                                </tr>
+                                            </table>
+                                            <hr>
+
+                                        </div>
+
+                                        <div class="modal-footer" style="text-align: center">
+                                            <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+                                        </div>
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="container-fluid">
+            <div class="row">
+
+                <!--                SETTINGS dialog window-->
+                <div class="modal fade" id="myModal_Settings" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+
+
+                            <div class="panel panel-default">
+                                <!--                                <ul id="myTab1" class="nav nav-tabs">
+                                                                    <li class="active" data-container="body" ><a href="#WhatIs" data-toggle="tab"><strong>WhatIs</strong></a></li>
+                                                                </ul>
+                                                                <div id="myTabContent1" class="tab-content">
+                                                                    <div class="tab-pane fade active in" id="WhatIs">-->
+
+
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times</button>
+                                    <h4 class="modal-title" id="myModalLabel" style=" text-align: center">Settings</h4>
+                                </div>
+                                <div class="modal-body">
+
+                                    Below you see default settings for the Brownings' corpus. <br><br>
+                                    Modify them according to the annotations in your own corpus. <br> <br>
+                                    You will find <strong>an example of an XML file</strong> from the Brownings' corpus at the bottom of this window. <br>
+                                    <hr>
+
+                                    <h4><strong>How is the following data specified in your corpus? </strong></h4>
+                                    <span style='color:red;'>* obligatory </span><br><br>
+                                    <div class="input-group" style="width:60%;">
+                                        <span class="input-group-addon" style="width:45%;text-align:left;">
+                                            <span style="color:red;">Date *</span>
+                                        </span>
+                                        <input id="getDateElement" type="text" class="form-control" placeholder="element not specified" value="written" title="element">
+                                        <input id="getDateAttribute" type="text" class="form-control" placeholder="attribute not specified" value="date" title="attribute">
+                                    </div><!-- /input-group --> <br>
+                                    <div class="input-group" style="width:60%;">
+                                        <span class="input-group-addon"  style="width:45%;text-align:left;">
+                                            <span>Subset: </span> <em><br>author / recipient / <br> genre / etc.</em>
+                                        </span>
+                                        <input id="getSubsetElement" type="text" class="form-control" placeholder="element not specified" value="correspondence" title="element">
+                                        <input id="getSubsetAttribute" type="text" class="form-control" placeholder="attribute not specified" value="from" title="attribute">
+                                    </div><!-- /input-group --> <br>
+
+
+                                    <hr>
+                                    <h4><strong>What is your corpus annotated for?</strong></h4>
+                                    Specify the elements to be able to search for them, <br> leave blank if none. <br><br>
+                                    <span style='color:red;'>** either one or the other should be specified </span><br><br>
+                                    <div class="input-group" style="width:60%;">
+                                        <span class="input-group-addon"  style="width:30%;text-align:left;">
+                                            <span style='color:red;'>Tokens **</span>
+                                        </span>
+                                        <input id="getTokenElement" type="text" class="form-control" placeholder="element not specified" value="token" title="element">
+                                        <input id="getTokenAttribute" type="text" class="form-control" placeholder="attribute not specified" title="attribute">
+                                    </div><!-- /input-group --> <br>
+                                    <div class="input-group" style="width:60%;">
+                                        <span class="input-group-addon" style="width:30%;text-align:left;">
+                                            Lemmas
+                                        </span>
+                                        <input id="getLemmaElement" type="text" class="form-control" placeholder="element not specified" value="lemma" title="element">
+                                        <input id="getLemmaAttribute" type="text" class="form-control" placeholder="attribute not specified" title="attribute">
+                                    </div><!-- /input-group --> <br>
+                                    <div class="input-group" style="width:60%;">
+                                        <span class="input-group-addon" style="width:30%;text-align:left;">
+                                            POS
+                                        </span>
+                                        <input id="getPosElement" type="text" class="form-control" placeholder="element not specified" value="tag" title="element">
+                                        <input id="getPosAttribute" type="text" class="form-control" placeholder="attribute not specified" title="attribute">
+                                    </div><!-- /input-group --><br>
+                                    <div class="input-group" style="width:60%;">
+                                        <span class="input-group-addon"  style="width:30%;text-align:left;">
+                                            <span style='color:red;'>Text **</span>
+                                        </span>
+                                        <input id="getTextElement" type="text" class="form-control" placeholder="element not specified" value="text" title="element">
+                                        <input id="getTextAttribute" type="text" class="form-control" placeholder="attribute not specified" title="attribute">
+                                    </div><!-- /input-group --> <br>
+
+                                    <hr> <br>
+                                    Here is an example of an <strong>XML file</strong> from the Brownings' corpus:<br>
+                                    <div style="height:200px; overflow-y:scroll; font-family: monospace; font-size: 12px; border: solid 1px; font-variant: initial;">
+                                        <xmp><?xml version="1.0" encoding="UTF-8"?>
+<D-Spin xmlns="http://www.dspin.de/data" version="0.4">
+    <MetaData xmlns="http://www.dspin.de/data/metadata">
+    <vistola>
+        <number volume="v1" letter="050">
+        </number>
+        <correspondence to="E" from="R">
+        </correspondence>
+        <postmark date="1845-06-25">
+        </postmark>
+        <dates>
+            <date>
+                <rough date="1845-06-25">
+                </rough>
+                <written date="1845-06-25">
+                </written>
+                <calculated date="1845-06-25">
+                </calculated>
+                <window sdate="1845-06-25" edate="1845-06-25">
+                </window>
+            </date>
+        </dates>
+        <editor initials="">
+        </editor>
+    </vistola>
+    </MetaData>
+    <TextCorpus xmlns="http://www.dspin.de/data/textcorpus" lang="en">
+        <text>
+        12. Wednesday.
+        Pomegranates you may cut deep down the middle and see into, but not
+        hearts, — so why should I try and speak?
+        Friday is best day because nearest, but Saturday is next best — it is
+        next near, you know: if I get no note, therefore, Friday is my day.
+        Now is Post-time, — which happens properly.
+        God bless you, and so your own
+        R.B.
+        </text>
+        <tokens>
+            <token ID="t_0">12</token>
+            <token ID="t_1">.</token>
+            <token ID="t_2">Wednesday</token>
+            <token ID="t_3">.</token>
+            <token ID="t_4">Pomegranates</token>
+            <token ID="t_5">you</token>
+            <token ID="t_6">may</token>
+            <token ID="t_7">cut</token>
+            <token ID="t_8">deep</token>
+            <token ID="t_9">down</token>
+            <token ID="t_10">the</token>
+            <token ID="t_11">middle</token>
+            <token ID="t_12">and</token>
+            <token ID="t_13">see</token>
+            <token ID="t_14">into</token>
+            <token ID="t_15">,</token>
+            <token ID="t_16">but</token>
+            <token ID="t_17">not</token>
+            <token ID="t_18">hearts</token>
+            <token ID="t_19">,</token>
+            <token ID="t_20">—</token>
+            <token ID="t_21">so</token>
+            <token ID="t_22">why</token>
+            <token ID="t_23">should</token>
+            <token ID="t_24">I</token>
+            <token ID="t_25">try</token>
+            <token ID="t_26">and</token>
+            <token ID="t_27">speak</token>
+            <token ID="t_28">?</token>
+            <token ID="t_29">Friday</token>
+            <token ID="t_30">is</token>
+            <token ID="t_31">best</token>
+            <token ID="t_32">day</token>
+            <token ID="t_33">because</token>
+            <token ID="t_34">nearest</token>
+            <token ID="t_35">,</token>
+            <token ID="t_36">but</token>
+            <token ID="t_37">Saturday</token>
+            <token ID="t_38">is</token>
+            <token ID="t_39">next</token>
+            <token ID="t_40">best</token>
+            <token ID="t_41">—</token>
+            <token ID="t_42">it</token>
+            <token ID="t_43">is</token>
+            <token ID="t_44">next</token>
+            <token ID="t_45">near</token>
+            <token ID="t_46">,</token>
+            <token ID="t_47">you</token>
+            <token ID="t_48">know</token>
+            <token ID="t_49">:</token>
+            <token ID="t_50">if</token>
+            <token ID="t_51">I</token>
+            <token ID="t_52">get</token>
+            <token ID="t_53">no</token>
+            <token ID="t_54">note</token>
+            <token ID="t_55">,</token>
+            <token ID="t_56">therefore</token>
+            <token ID="t_57">,</token>
+            <token ID="t_58">Friday</token>
+            <token ID="t_59">is</token>
+            <token ID="t_60">my</token>
+            <token ID="t_61">day</token>
+            <token ID="t_62">.</token>
+            <token ID="t_63">Now</token>
+            <token ID="t_64">is</token>
+            <token ID="t_65">Post-time</token>
+            <token ID="t_66">,</token>
+            <token ID="t_67">—</token>
+            <token ID="t_68">which</token>
+            <token ID="t_69">happens</token>
+            <token ID="t_70">properly</token>
+            <token ID="t_71">.</token>
+            <token ID="t_72">God</token>
+            <token ID="t_73">bless</token>
+            <token ID="t_74">you</token>
+            <token ID="t_75">,</token>
+            <token ID="t_76">and</token>
+            <token ID="t_77">so</token>
+            <token ID="t_78">your</token>
+            <token ID="t_79">own</token>
+            <token ID="t_80">R.B.</token>
+        </tokens>
+        <sentences>
+            <sentence tokenIDs="t_0 t_1 t_2 t_3">
+            </sentence>
+            <sentence tokenIDs="t_4 t_5 t_6 t_7 t_8 t_9 t_10 t_11 t_12 t_13 t_14 t_15 t_16 t_17 t_18 t_19 t_20 t_21 t_22 t_23 t_24 t_25 t_26 t_27 t_28">
+            </sentence>
+            <sentence tokenIDs="t_29 t_30 t_31 t_32 t_33 t_34 t_35 t_36 t_37 t_38 t_39 t_40 t_41 t_42 t_43 t_44 t_45 t_46 t_47 t_48 t_49 t_50 t_51 t_52 t_53 t_54 t_55 t_56 t_57 t_58 t_59 t_60 t_61 t_62">
+            </sentence>
+            <sentence tokenIDs="t_63 t_64 t_65 t_66 t_67 t_68 t_69 t_70 t_71">
+            </sentence>
+            <sentence tokenIDs="t_72 t_73 t_74 t_75 t_76 t_77 t_78 t_79 t_80">
+            </sentence>
+        </sentences>
+        <POStags tagset="PennTB">
+            <tag tokenIDs="t_0">CD
+            </tag>
+            <tag tokenIDs="t_1">.
+            </tag>
+            <tag tokenIDs="t_2">NP
+            </tag>
+            <tag tokenIDs="t_3">.
+            </tag>
+            <tag tokenIDs="t_4">NNS
+            </tag>
+            <tag tokenIDs="t_5">PP
+            </tag>
+            <tag tokenIDs="t_6">MD
+            </tag>
+            <tag tokenIDs="t_7">VB
+            </tag>
+            <tag tokenIDs="t_8">RB
+            </tag>
+            <tag tokenIDs="t_9">RB
+            </tag>
+            <tag tokenIDs="t_10">DT
+            </tag>
+            <tag tokenIDs="t_11">NN
+            </tag>
+            <tag tokenIDs="t_12">CC
+            </tag>
+            <tag tokenIDs="t_13">VB
+            </tag>
+            <tag tokenIDs="t_14">IN
+            </tag>
+            <tag tokenIDs="t_15">,
+            </tag>
+            <tag tokenIDs="t_16">CC
+            </tag>
+            <tag tokenIDs="t_17">RB
+            </tag>
+            <tag tokenIDs="t_18">NNS
+            </tag>
+            <tag tokenIDs="t_19">,
+            </tag>
+            <tag tokenIDs="t_20">NN
+            </tag>
+            <tag tokenIDs="t_21">IN
+            </tag>
+            <tag tokenIDs="t_22">WRB
+            </tag>
+            <tag tokenIDs="t_23">MD
+            </tag>
+            <tag tokenIDs="t_24">PP
+            </tag>
+            <tag tokenIDs="t_25">VB
+            </tag>
+            <tag tokenIDs="t_26">CC
+            </tag>
+            <tag tokenIDs="t_27">VB
+            </tag>
+            <tag tokenIDs="t_28">.
+            </tag>
+            <tag tokenIDs="t_29">NP
+            </tag>
+            <tag tokenIDs="t_30">VBZ
+            </tag>
+            <tag tokenIDs="t_31">JJS
+            </tag>
+            <tag tokenIDs="t_32">NN
+            </tag>
+            <tag tokenIDs="t_33">IN
+            </tag>
+            <tag tokenIDs="t_34">JJS
+            </tag>
+            <tag tokenIDs="t_35">,
+            </tag>
+            <tag tokenIDs="t_36">CC
+            </tag>
+            <tag tokenIDs="t_37">NP
+            </tag>
+            <tag tokenIDs="t_38">VBZ
+            </tag>
+            <tag tokenIDs="t_39">JJ
+            </tag>
+            <tag tokenIDs="t_40">JJS
+            </tag>
+            <tag tokenIDs="t_41">NN
+            </tag>
+            <tag tokenIDs="t_42">PP
+            </tag>
+            <tag tokenIDs="t_43">VBZ
+            </tag>
+            <tag tokenIDs="t_44">JJ
+            </tag>
+            <tag tokenIDs="t_45">IN
+            </tag>
+            <tag tokenIDs="t_46">,
+            </tag>
+            <tag tokenIDs="t_47">PP
+            </tag>
+            <tag tokenIDs="t_48">VBP
+            </tag>
+            <tag tokenIDs="t_49">:
+            </tag>
+            <tag tokenIDs="t_50">IN
+            </tag>
+            <tag tokenIDs="t_51">PP
+            </tag>
+            <tag tokenIDs="t_52">VBP
+            </tag>
+            <tag tokenIDs="t_53">DT
+            </tag>
+            <tag tokenIDs="t_54">NN
+            </tag>
+            <tag tokenIDs="t_55">,
+            </tag>
+            <tag tokenIDs="t_56">RB
+            </tag>
+            <tag tokenIDs="t_57">,
+            </tag>
+            <tag tokenIDs="t_58">NP
+            </tag>
+            <tag tokenIDs="t_59">VBZ
+            </tag>
+            <tag tokenIDs="t_60">PP$
+            </tag>
+            <tag tokenIDs="t_61">NN
+            </tag>
+            <tag tokenIDs="t_62">.
+            </tag>
+            <tag tokenIDs="t_63">RB
+            </tag>
+            <tag tokenIDs="t_64">VBZ
+            </tag>
+            <tag tokenIDs="t_65">JJ
+            </tag>
+            <tag tokenIDs="t_66">,
+            </tag>
+            <tag tokenIDs="t_67">NN
+            </tag>
+            <tag tokenIDs="t_68">WDT
+            </tag>
+            <tag tokenIDs="t_69">VBZ
+            </tag>
+            <tag tokenIDs="t_70">RB
+            </tag>
+            <tag tokenIDs="t_71">.
+            </tag>
+            <tag tokenIDs="t_72">NP
+            </tag>
+            <tag tokenIDs="t_73">VB
+            </tag>
+            <tag tokenIDs="t_74">PP
+            </tag>
+            <tag tokenIDs="t_75">,
+            </tag>
+            <tag tokenIDs="t_76">CC
+            </tag>
+            <tag tokenIDs="t_77">RB
+            </tag>
+            <tag tokenIDs="t_78">PP$
+            </tag>
+            <tag tokenIDs="t_79">JJ
+            </tag>
+            <tag tokenIDs="t_80">NP
+            </tag>
+        </POStags>
+        <lemmas>
+            <lemma tokenIDs="t_0">@card@
+            </lemma>
+            <lemma tokenIDs="t_1">.
+            </lemma>
+            <lemma tokenIDs="t_2">Wednesday
+            </lemma>
+            <lemma tokenIDs="t_3">.
+            </lemma>
+            <lemma tokenIDs="t_4">pomegranate
+            </lemma>
+            <lemma tokenIDs="t_5">you
+            </lemma>
+            <lemma tokenIDs="t_6">may
+            </lemma>
+            <lemma tokenIDs="t_7">cut
+            </lemma>
+            <lemma tokenIDs="t_8">deep
+            </lemma>
+            <lemma tokenIDs="t_9">down
+            </lemma>
+            <lemma tokenIDs="t_10">the
+            </lemma>
+            <lemma tokenIDs="t_11">middle
+            </lemma>
+            <lemma tokenIDs="t_12">and
+            </lemma>
+            <lemma tokenIDs="t_13">see
+            </lemma>
+            <lemma tokenIDs="t_14">into
+            </lemma>
+            <lemma tokenIDs="t_15">,
+            </lemma>
+            <lemma tokenIDs="t_16">but
+            </lemma>
+            <lemma tokenIDs="t_17">not
+            </lemma>
+            <lemma tokenIDs="t_18">heart
+            </lemma>
+            <lemma tokenIDs="t_19">,
+            </lemma>
+            <lemma tokenIDs="t_20">&lt;unknown&gt;
+            </lemma>
+            <lemma tokenIDs="t_21">so
+            </lemma>
+            <lemma tokenIDs="t_22">why
+            </lemma>
+            <lemma tokenIDs="t_23">should
+            </lemma>
+            <lemma tokenIDs="t_24">I
+            </lemma>
+            <lemma tokenIDs="t_25">try
+            </lemma>
+            <lemma tokenIDs="t_26">and
+            </lemma>
+            <lemma tokenIDs="t_27">speak
+            </lemma>
+            <lemma tokenIDs="t_28">?
+            </lemma>
+            <lemma tokenIDs="t_29">Friday
+            </lemma>
+            <lemma tokenIDs="t_30">be
+            </lemma>
+            <lemma tokenIDs="t_31">good
+            </lemma>
+            <lemma tokenIDs="t_32">day
+            </lemma>
+            <lemma tokenIDs="t_33">because
+            </lemma>
+            <lemma tokenIDs="t_34">near
+            </lemma>
+            <lemma tokenIDs="t_35">,
+            </lemma>
+            <lemma tokenIDs="t_36">but
+            </lemma>
+            <lemma tokenIDs="t_37">Saturday
+            </lemma>
+            <lemma tokenIDs="t_38">be
+            </lemma>
+            <lemma tokenIDs="t_39">next
+            </lemma>
+            <lemma tokenIDs="t_40">good
+            </lemma>
+            <lemma tokenIDs="t_41">&lt;unknown&gt;
+            </lemma>
+            <lemma tokenIDs="t_42">it
+            </lemma>
+            <lemma tokenIDs="t_43">be
+            </lemma>
+            <lemma tokenIDs="t_44">next
+            </lemma>
+            <lemma tokenIDs="t_45">near
+            </lemma>
+            <lemma tokenIDs="t_46">,
+            </lemma>
+            <lemma tokenIDs="t_47">you
+            </lemma>
+            <lemma tokenIDs="t_48">know
+            </lemma>
+            <lemma tokenIDs="t_49">:
+            </lemma>
+            <lemma tokenIDs="t_50">if
+            </lemma>
+            <lemma tokenIDs="t_51">I
+            </lemma>
+            <lemma tokenIDs="t_52">get
+            </lemma>
+            <lemma tokenIDs="t_53">no
+            </lemma>
+            <lemma tokenIDs="t_54">note
+            </lemma>
+            <lemma tokenIDs="t_55">,
+            </lemma>
+            <lemma tokenIDs="t_56">therefore
+            </lemma>
+            <lemma tokenIDs="t_57">,
+            </lemma>
+            <lemma tokenIDs="t_58">Friday
+            </lemma>
+            <lemma tokenIDs="t_59">be
+            </lemma>
+            <lemma tokenIDs="t_60">my
+            </lemma>
+            <lemma tokenIDs="t_61">day
+            </lemma>
+            <lemma tokenIDs="t_62">.
+            </lemma>
+            <lemma tokenIDs="t_63">now
+            </lemma>
+            <lemma tokenIDs="t_64">be
+            </lemma>
+            <lemma tokenIDs="t_65">&lt;unknown&gt;
+            </lemma>
+            <lemma tokenIDs="t_66">,
+            </lemma>
+            <lemma tokenIDs="t_67">&lt;unknown&gt;
+            </lemma>
+            <lemma tokenIDs="t_68">which
+            </lemma>
+            <lemma tokenIDs="t_69">happen
+            </lemma>
+            <lemma tokenIDs="t_70">properly
+            </lemma>
+            <lemma tokenIDs="t_71">.
+            </lemma>
+            <lemma tokenIDs="t_72">God
+            </lemma>
+            <lemma tokenIDs="t_73">bless
+            </lemma>
+            <lemma tokenIDs="t_74">you
+            </lemma>
+            <lemma tokenIDs="t_75">,
+            </lemma>
+            <lemma tokenIDs="t_76">and
+            </lemma>
+            <lemma tokenIDs="t_77">so
+            </lemma>
+            <lemma tokenIDs="t_78">your
+            </lemma>
+            <lemma tokenIDs="t_79">own
+            </lemma>
+            <lemma tokenIDs="t_80">&lt;unknown&gt;
+            </lemma>
+        </lemmas>
+        <namedEntities type="openNLP">
+            <entity class="date" tokenIDs="t_2">
+            </entity>
+            <entity class="date" tokenIDs="t_29">
+            </entity>
+            <entity class="date" tokenIDs="t_37">
+            </entity>
+            <entity class="date" tokenIDs="t_58">
+            </entity>
+        </namedEntities>
+    </TextCorpus>
+</D-Spin>
+                                        </xmp>
+                                    </div><br>
+
+                                </div>
+
+                                <div class="modal-footer" style="text-align: center">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">SAVE</button>
+                                </div>
+
+                                <!--                                    </div>
+
+                                                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="mainArea"><br>
+            <h1 class="text_heading" id="heading"><span id="display_authors"></span></h1>
+
+            <div id="smoothing"> <span class='popover-element smoothBy' id="smooth_popover" data-html=true data-container="body" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content='Select a level of abstraction <br/> or specify your own one.'><span class="glyphicon glyphicon-question-sign"></span> Tendency by </span>
+                <div class="btn-group" data-toggle="buttons" id='smooth_buttons'>
+                    <label class="btn btn-default" style="color:#555; background-color: #f8f8f8; border-color: lightgray; border-width: 1px" onclick="showData('smooth0')">
+                        <input type="radio" name="smooth0" id="option1"> day
+                    </label>
+                    <label class="btn btn-default" style="color:#555; background-color: #f8f8f8; border-color: lightgray; border-width: 1px" onclick="showData('smooth3')">
+                        <input type="radio" name="smooth3" id="option2"> week
+                    </label>
+                    <label class="btn btn-default" style="color:#555; background-color: #f8f8f8; border-color: lightgray; border-width: 1px" onclick="showData('smooth15')">
+                        <input type="radio" name="smooth15" id="option3"> month
+                    </label>
+                    <label class="btn btn-default" style="color:#555; background-color: #f8f8f8; border-color: lightgray; border-width: 1px" onclick="showData('smooth45')">
+                        <input type="radio" name="smooth45" id="option4"> 3 months
+                    </label>
+                    <label class="btn btn-default" style="color:#555; background-color: #f8f8f8; border-color: lightgray; border-width: 1px" onclick="showData('smooth182')">
+                        <input type="radio" name="smooth182" id="option5"> year
+                    </label>
+                    <label class="btn btn-default" style="color:#555; background-color: #f8f8f8; border-color: lightgray; border-width: 1px" onclick="showData('smooth1825')">
+                        <input type="radio" name="smooth1825" id="option6"> decade
+                    </label>
+
+                    <!--                    change onclick for my smooth to first call Veli's method!!!-->
+                    <label class="btn btn-default" style="color:#555; background-color: #f8f8f8; border-color: lightgray; border-width: 1px; border-right-color: #f8f8f8; border-right-width: 0px;" onclick="showData('smooth' + getParameter())" id='custom_smooth'>
+                        <input type="radio" name="smooth_custom" id="option7"> Customize:
+                        <!--                        <input id="smooth_parameter" type="number" min='0' value="500" style="width:55px; height:20px; font-size: smaller;">-->
+                    </label>
+                    <div class="input-group same-line" style="width:110px;">
+                        <input id="smooth_parameter" type="number" class="form-control"  min="0" value="500"  style="color:#555; background-color: #f8f8f8; border-color: lightgray; border-width: 1px; border-right-color: #f8f8f8; border-left-color: #f8f8f8; border-right-width: 0px;border-left-width: 0px; border-radius: 0px">
+                        <!--                        <input type="radio" name="options" id="option7"> Customize: -->
+                        <!--                        <input id="smooth_parameter" type="number" min='0' value="500" style="width:55px; height:20px; font-size: smaller;">-->
+                        <!--                    </input>-->
+                        <div class="input-group-btn">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" style="color:#555; background-color: #f8f8f8; border-color: lightgray; border-width: 1px; border-left-color: #f8f8f8; border-left-width: 0px;">
+                                &dtrif;
+                            </button>
+                            <div class="dropdown-menu" style="text-align: center; width: 175px">
+
+                                <table class="table table-bordered table-condensed table-hover" style="font-size:13px; font-variant: small-caps; text-align: center">
+                                    <thead>
+                                        <tr>
+                                            <td><strong>tendency <br> by...</strong></td>
+                                            <td><strong>correspond <br> to...</strong></td>
+                                        </tr>
+                                    </thead>
+
+
+                                    <tr>
+                                        <td>day</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>week</td>
+                                        <td>3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>month</td>
+                                        <td>15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3 months</td>
+                                        <td>45</td>
+                                    </tr>
+                                    <tr>
+                                        <td>year</td>
+                                        <td>182</td>
+                                    </tr>
+                                    <tr>
+                                        <td>decade</td>
+                                        <td>1825</td>
+                                    </tr>
+                                </table>
+                                <p>specify your parameter <br> to achieve the desired <br> tendency level</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <svg >
+            <line class="tmpLine"></line>
+            <g class="graphArea" id="graphArea">
+
+            </g>
+
+
+            </svg>
+
+
+
+
+            <div class="row" id="statistics" style="width:100%; background-color: white;" >
+                <hr>
+
+                <div class="col-lg-3" style="text-align: left; padding-left: 25px;">
+                    <br>
+                    <div>
+                        <span id="stats_popover" class="popover-element stats" data-html=true data-container="body" data-toggle="popover" data-placement="right" data-trigger="hover" data-content="<strong>Fluctuations:</strong> (Changes)<br> Mark the <em>centers</em> of time periods where an n-gram frequency is significantly higher/lower than in the rest of the corpus. <hr> <strong>Differences:</strong> <br> Mark the <em>centers</em> of time periods where the difference in the usage of the same n-gram is significantly different across subsets." > Add some statistics? &nbsp; <span class="glyphicon glyphicon-question-sign"></span></span>
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control" id="stats-select">
+                            <option value="no_thanks" selected="selected">No, thanks</option>
+                            <option value="sign_fluct">Significant Fluctuations</option>
+                            <option value="sign_diff">Significant Difference</option>
+                        </select>
+                    </div>
+                    <!--                    <input id="slider" data-slider-id='slider1' data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="0" type="text" style="width:30%;"/>-->
+                </div>
+
+                <div class="col-lg-7">
+                    <div id="alertStatistics" class="alert alert-danger" style="width:60%;position: relative;" hidden></div>
+                </div>
+
+                <br><br><br><br><br>
+                <hr>
+            </div>
+
+            <br>
+
+            <div class="row" id="lowRow">
+                <div class="col-md-3">
+                    <div class="panel panel-default" id="lastQueries" >
+                        <div class="panel-heading" style="text-align: center"><span class="popover-element lastQ"  id="history_popover" data-html=true data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover" data-content='All the queries from the current session are stored here.'><span class="glyphicon glyphicon-question-sign"></span> Last queries: </span></div>
+                        <div class="tabbable tabs-left">
+                            <ul id="myTab" class="nav nav-tabs">
+                                <li class="popover-element active" data-html=true data-container="body" data-toggle="popover" data-placement="right" data-trigger="hover" data-content="click on a word <br/> to show its graph" id="removed_popover"><a href="#removed" data-toggle="tab"><strong>removed</strong></a></li>
+                                <li class=""><a href="#successful" data-toggle="tab"><strong>successful</strong></a></li>
+                                <li class=""><a href="#notInCorpus" data-toggle="tab"><strong>not found</strong></a></li>
+                            </ul>
+                            <div id="myTabContent" class="tab-content" style="float:right;">
+                                <div class="tab-pane fade active in" id="removed">
+                                    <div class="list-group" id="removedLines">
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="successful">
+                                    <div class="list-group" id="successfulQueries">
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="notInCorpus">
+                                    <div class="list-group" id="notInCorpusQueries">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" >
+                    <div class="panel panel-default">
+                        <div class="panel-heading" style="text-align: center"><span style="float:left;font-size:12px;cursor:default;"><input type="checkbox" id="showNoOcc" style="cursor:pointer;" checked> show text with no occurrences</span><span class="popover-element originalData"  id="context_popover" data-html=true data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover" data-content='Click on a data point on the graph to display the text*. <br> * <em>If text is provided in the corpus.</em>'> <span class="glyphicon glyphicon-question-sign"></span> Original Data </span><button type="button" class="close" style="font-size: 14px; color: darkorange;" onclick="deleteAllContextBoxes()" >/CLEAR ALL</button></div>
+                        <div id='context_table'>
+                            <!--  context here -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                </div>
+            </div>
+
+            <br/><br/>
+            <div class="row">
+                <div style="text-align: center; color:orange; margin-top:40px;" id="report-problem" class="col-md-2">
+                    <span class="glyphicon glyphicon-envelope"></span><a href="mailto:maria.chinkina@student.uni-tuebingen.de?Subject=Feedback%20(Slash/A)" target="_top" title="Report a problem or just share your feedback." style="color:orange;"> Report a problem</a>
+                </div>
+                <div style=" text-align: center; margin-left: 60px;" class="col-md-7 text_license">
+                    <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br/> <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">Slash/A N-Gram Tendency Viewer</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Velislava Todorova and Maria Chinkina</span><br/> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.            
+                </div>            
+            </div>
+        </div>
+
+
+        <div class="col-md-2 sidebar" id="the_sidebar" style="overflow: scroll">
+
+            <div id="author_panels">
+<!--                <div style="text-align:center; color:lightgrey; cursor: pointer;" title="hide sidebar" onclick="hideSidebar();">
+                    <span class="glyphicon glyphicon-arrow-right" ></span><br/><br/>
+                </div>-->
+                <span class="popover-element searchWords"  id="search_popover" data-html=true data-container="body" data-toggle="popover" data-placement="left" data-trigger="hover" data-content='<br/>Enter the ngrams to compare their usage across specified subsets.'>search words in... <span class="glyphicon glyphicon-question-sign"></span></span> <br><br>
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <button type="button" class="close" style="font-size: 12px" onclick="clearSelectedWords('all')">/clear</button>
+                            <a data-toggle="collapse" data-parent="#accordion"
+                               href="#collapse_all">
+                                whole corpus
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse_all" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <input type="text" id= "word1_all" placeholder="ngram 1...">
+                            <input type="text" id= "word2_all" placeholder="ngram 2...">
+                            <input type="text" id= "word3_all" placeholder="ngram 3...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button     type="button" id="show-btn"  data-loading-text="Searching..." class="btn btn-lg btn-warning" onclick="showData('unknown')">SHOW GRAPH</button>
+
+
+            <div id="alertNoCorpus" class="alert alert-warning" hidden></div>
+
+            <div id="alertNoWords" class="alert alert-warning" hidden></div>
+
+            <div id="alertLessWords" class="alert alert-info" hidden></div>
+
+            <div id="alertNotFound" class="alert alert-danger" hidden></div>
+
+            <div id="alertFiles" class="alert alert-warning" hidden style="font-size:12px;"></div>
+
+            <div id="alertProcessing" class="alert alert-info" hidden></div>
+
+            <div id="alertOneDay" class="alert alert-warning" hidden></div>
+
+            <div id="alertOneLetter" class="alert alert-warning" hidden></div>
+
+            <div id="alertMissingData" class="alert alert-danger" hidden></div>
+
+        </div>
+
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+
+        <script src="js/libs/jquery-1.11.0.min.js"></script>
+        <script src="js/libs/number-polyfill.js"></script>
+        <script src="js/libs/underscore.js"></script>
+        <script src="js/libs/underscore-min.js"></script>
+        <script type="text/javascript" src="js/libs/d3.v3.min.js"></script>
+        <script src="js/libs/bootstrap.js"></script>
+        <script src="js/libs/bootstrap-confirmation.js"></script>
+        <!--        <script src="js/libs/bootstrap-slider/js/bootstrap-slider.js"></script>-->
+        <script src="js/smooth.js"></script>
+        <script src="js/smoothObjects.js"></script>
+        <script src="js/controls.js"></script>
+        <script src="js/WordVizMain.js"></script>
+        <script src="js/WordVizFunctions.js"></script>
+
+        <script>
+//                $('#removed_popover').popover();
+//                $('#stats_popover').popover();
+//                $('#smooth_popover').popover();
+//                $('#search_popover').popover();
+//                $('#load_popover').popover();
+//                $('#history_popover').popover();
+//                $('#context_popover').popover();
+                $('.popover-element').popover();
+                $('#custom_smooth').inputNumber();
+//                $('#slideфr').slider();
+//                $('#slider').slider("disable");
+                $('#stats-select').on('change', function () {
+                    showData(getSmoothLevel(), false);
+//                    var val = this.value;
+//                    var sl = $('#slider').slider();
+//                    if (val === "no_thanks") {
+//                        sl.slider("disable");
+//                    } else {
+//                        sl.slider("enable");
+//                    }
+                });
+        </script>
+
+    </body></html>

@@ -1,0 +1,278 @@
+/*
+Copyright (c) [2014] [Chinkina M]
+*/
+
+
+/* If we define a style such as stroke-width in a stylesheet (css), 
+it will take precedence over the attribute stroke-width. 
+When attempting to overwrite a style of an element, use the .style method. */
+
+body {
+    /*    font-size: 18px;*/
+}
+
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    shape-rendering: crispEdges;
+}
+
+.x.axis path {
+    display: none;
+}
+
+.line {
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 1.5px; 
+}
+
+
+.smooth {
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 1.5px; 
+}
+
+.smooth-stat {
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 1.5px; 
+}
+
+.text_heading {
+    font : 22px sans-serif; 
+    font-variant: small-caps;
+    text-align: center;
+    padding-bottom: 9px;
+    padding-right: 270px;
+    padding-top: 50px;
+    border-bottom: 1px solid #eee;
+}
+
+.text1{
+    font : 16px sans-serif;
+    font-variant: small-caps;
+    cursor: pointer;
+}
+
+.text_license {
+    font : 14px sans-serif;
+    font-variant: small-caps;
+}
+
+.dot {
+    fill: white;
+    stroke-width: 2px;
+    cursor: pointer;
+}
+
+
+.toolTip {
+    font-size: 12px;
+    background-color: white;
+    position: absolute;
+    width: 160px;
+/*    height: 55px;*/
+    text-align: center;                            
+    padding: 2px;   
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    border-radius: 5px;    
+    pointer-events: none;
+}
+
+.toolTip_remove {
+    font-size: 12px;
+    background-color: white;
+    color: #555;
+    position: absolute;
+    width: 170px;
+    height: 40px;
+    text-align: center;                            
+    //padding: 2px;   
+    pointer-events: none;
+}
+
+.tmpLine {
+    stroke-width: 1px;
+    stroke: lightgray;
+}
+
+
+.mouseover {
+    font-size: 13px;
+    font-variant: small-caps;
+    text-align: center;
+    text-decoration: overline;
+}
+
+.hideDots {
+    font-size: 15px;
+    font-variant: small-caps;
+}
+
+
+.help-tooltip {
+    border: lightgrey 1px solid;
+    border-radius: 3px;
+    background-color: white;
+    font-size:13px;
+    /*    height: 35px;*/
+    /*    width: 26%;*/
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* change the cursors */
+g.hideDots { cursor: pointer; }
+span.loadCorpus, span.searchWords, span.smoothBy, span.lastQ, span.originalData, span.stats  { cursor: help;  }
+
+
+div.same-line {
+    float: left;
+}
+
+
+#statistics {
+    /*    width: 30%;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rectStats {
+    opacity: 0.1;
+}
+
+.diff-line {
+    fill: none;
+    stroke: red;
+    stroke-width: 3px; 
+}
+
+
+
+
+/* custom inclusion of right, left and below tabs */
+
+.tabbable {
+    *zoom: 1;
+}
+.tabbable:before,
+.tabbable:after {
+    display: table;
+    content: "";
+}
+.tabbable:after {
+    clear: both;
+}
+
+
+.tabs-below > .nav-tabs,
+.tabs-right > .nav-tabs,
+.tabs-left > .nav-tabs {
+    border-bottom: 0;
+}
+
+.tab-content > .tab-pane,
+.pill-content > .pill-pane {
+    display: none;
+}
+
+.tab-content > .active,
+.pill-content > .active {
+    display: block;
+}
+
+.tabs-below > .nav-tabs {
+    border-top: 1px solid #ddd;
+}
+
+.tabs-below > .nav-tabs > li {
+    margin-top: -1px;
+    margin-bottom: 0;
+}
+
+.tabs-below > .nav-tabs > li > a {
+    -webkit-border-radius: 0 0 4px 4px;
+    -moz-border-radius: 0 0 4px 4px;
+    border-radius: 0 0 4px 4px;
+}
+
+.tabs-below > .nav-tabs > li > a:hover,
+.tabs-below > .nav-tabs > li > a:focus {
+    border-top-color: #ddd;
+    border-bottom-color: transparent;
+}
+
+.tabs-below > .nav-tabs > .active > a,
+.tabs-below > .nav-tabs > .active > a:hover,
+.tabs-below > .nav-tabs > .active > a:focus {
+    border-color: transparent #ddd #ddd #ddd;
+}
+
+.tabs-left > .nav-tabs > li,
+.tabs-right > .nav-tabs > li {
+    float: none;
+}
+
+.tabs-left > .nav-tabs > li > a,
+.tabs-right > .nav-tabs > li > a {
+    min-width: 74px;
+    margin-right: 0;
+    margin-bottom: 3px;
+}
+
+.tabs-left > .nav-tabs {
+    float: left;
+    margin-right: 19px;
+    border-right: 1px solid #ddd;
+}
+
+.tabs-left > .nav-tabs > li > a {
+    margin-right: -1px;
+    -webkit-border-radius: 4px 0 0 4px;
+    -moz-border-radius: 4px 0 0 4px;
+    border-radius: 4px 0 0 4px;
+}
+
+.tabs-left > .nav-tabs > li > a:hover,
+.tabs-left > .nav-tabs > li > a:focus {
+    border-color: #eeeeee #dddddd #eeeeee #eeeeee;
+}
+
+.tabs-left > .nav-tabs .active > a,
+.tabs-left > .nav-tabs .active > a:hover,
+.tabs-left > .nav-tabs .active > a:focus {
+    border-color: #ddd transparent #ddd #ddd;
+    *border-right-color: #ffffff;
+}
+
+.tabs-right > .nav-tabs {
+    float: right;
+    margin-left: 19px;
+    border-left: 1px solid #ddd;
+}
+
+.tabs-right > .nav-tabs > li > a {
+    margin-left: -1px;
+    -webkit-border-radius: 0 4px 4px 0;
+    -moz-border-radius: 0 4px 4px 0;
+    border-radius: 0 4px 4px 0;
+}
+
+.tabs-right > .nav-tabs > li > a:hover,
+.tabs-right > .nav-tabs > li > a:focus {
+    border-color: #eeeeee #eeeeee #eeeeee #dddddd;
+}
+
+.tabs-right > .nav-tabs .active > a,
+.tabs-right > .nav-tabs .active > a:hover,
+.tabs-right > .nav-tabs .active > a:focus {
+    border-color: #ddd #ddd #ddd transparent;
+    *border-left-color: #ffffff;
+}
+

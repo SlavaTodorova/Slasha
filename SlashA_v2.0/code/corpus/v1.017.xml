@@ -1,0 +1,4276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D-Spin xmlns="http://www.dspin.de/data" version="0.4">
+    <MetaData xmlns="http://www.dspin.de/data/metadata">
+        <vistola>
+            <number volume="v1" letter="017">
+            </number>
+            <correspondence to="R" from="E">
+            </correspondence>
+            <postmark date="1845-04-18">
+            </postmark>
+            <dates>
+                <date>
+                    <rough date="1845-04-18">
+                    </rough>
+                    <written date="1845-04-18">
+                    </written>
+                    <calculated date="1845-04-18">
+                    </calculated>
+                    <window sdate="1845-04-18" edate="1845-04-18">
+                    </window>
+                </date>
+            </dates>
+            <editor initials="">
+            </editor>
+        </vistola>
+    </MetaData>
+    <TextCorpus xmlns="http://www.dspin.de/data/textcorpus" lang="en">
+        <text>
+Thursday Morning.
+If you did but know dear Mr. Browning how often I have written ... not
+this letter I am about to write, but another better letter to you, ...
+in the midst of my silence, ... you would not think for a moment that
+the east wind, with all the harm it does to me, is able to do the
+great harm of putting out the light of the thought of you to my mind;
+for this, indeed, it has no power to do. I had the pen in my hand once
+to write; and why it fell out, I cannot tell you. And you see, ... all
+your writing will not change the wind! You wished all manner of good
+to me one day as the clock struck ten; yes, and I assure you I was
+better that day — and I must not forget to tell you so though it is so
+long since. And therefore, I was logically bound to believe that you
+had never thought of me since ... unless you thought east winds of me!
+That was quite clear; was it not? or would have been; if it had not
+been for the supernatural conviction, I had above all, of your
+kindness, which was too large to be taken in the hinge of a syllogism.
+In fact I have long left off thinking that logic proves anything — it
+doesn't, you know.
+But your Lamia has taught you some subtle 'viperine' reasoning and
+motiving, for the turning down one street instead of another. It was
+conclusive.
+Ah — but you will never persuade me that I am the better, or as well,
+for the thing that I have not. We look from different points of view,
+and yours is the point of attainment. Not that you do not truly say
+that, when all is done, we must come home to place our engines, and
+act by our own strength. I do not want material as material; no one
+does — but every life requires a full experience, a various
+experience — and I have a profound conviction that where a poet has
+been shut from most of the outward aspects of life, he is at a
+lamentable disadvantage. Can you, speaking for yourself, separate the
+results in you from the external influences at work around you, that
+you say so boldly that you get nothing from the world? You do not
+directly, I know — but you do indirectly and by a rebound. Whatever
+acts upon you, becomes you — and whatever you love or hate, whatever
+charms you or is scorned by you, acts on you and becomes you. Have
+you read the 'Improvisatore'? or will you? The writer seems to feel,
+just as I do, the good of the outward life; and he is a poet in his
+soul. It is a book full of beauty and had a great charm to me.
+As to the Polkas and Cellariuses I do not covet them of course ... but
+what a strange world you seem to have, to me at a distance — what a
+strange husk of a world! How it looks to me like mandarin-life or
+something as remote; nay, not mandarin-life but mandarin manners,
+... life, even the outer life, meaning something deeper, in my account
+of it. As to dear Mr. Kenyon I do not make the mistake of fancying
+that many can look like him or talk like him or be like him. I know
+enough to know otherwise. When he spoke of me he should have said that
+I was better notwithstanding the east wind. It is really true — I am
+getting slowly up from the prostration of the severe cold, and feel
+stronger in myself.
+But Mrs. Norton discourses excellent music — and for the rest, there
+are fruits in the world so over-ripe, that they will fall, ... without
+being gathered. Let Maynooth witness to it! if you think it worth
+while!
+                                  Ever yours,
+                                       ELIZABETH B. BARRETT.
+And is it nothing to be 'justified to one's self in one's
+resources?' 'That's all,' indeed! For the 'soul's country' we will
+have it also — and I know how well the birds sing in it. How glad I was
+by the way to see your letter!
+        </text>
+        <tokens>
+            <token ID="t_0">Thursday</token>
+            <token ID="t_1">Morning</token>
+            <token ID="t_2">.</token>
+            <token ID="t_3">If</token>
+            <token ID="t_4">you</token>
+            <token ID="t_5">did</token>
+            <token ID="t_6">but</token>
+            <token ID="t_7">know</token>
+            <token ID="t_8">dear</token>
+            <token ID="t_9">Mr.</token>
+            <token ID="t_10">Browning</token>
+            <token ID="t_11">how</token>
+            <token ID="t_12">often</token>
+            <token ID="t_13">I</token>
+            <token ID="t_14">have</token>
+            <token ID="t_15">written</token>
+            <token ID="t_16">...</token>
+            <token ID="t_17">not</token>
+            <token ID="t_18">this</token>
+            <token ID="t_19">letter</token>
+            <token ID="t_20">I</token>
+            <token ID="t_21">am</token>
+            <token ID="t_22">about</token>
+            <token ID="t_23">to</token>
+            <token ID="t_24">write</token>
+            <token ID="t_25">,</token>
+            <token ID="t_26">but</token>
+            <token ID="t_27">another</token>
+            <token ID="t_28">better</token>
+            <token ID="t_29">letter</token>
+            <token ID="t_30">to</token>
+            <token ID="t_31">you</token>
+            <token ID="t_32">,</token>
+            <token ID="t_33">...</token>
+            <token ID="t_34">in</token>
+            <token ID="t_35">the</token>
+            <token ID="t_36">midst</token>
+            <token ID="t_37">of</token>
+            <token ID="t_38">my</token>
+            <token ID="t_39">silence</token>
+            <token ID="t_40">,</token>
+            <token ID="t_41">...</token>
+            <token ID="t_42">you</token>
+            <token ID="t_43">would</token>
+            <token ID="t_44">not</token>
+            <token ID="t_45">think</token>
+            <token ID="t_46">for</token>
+            <token ID="t_47">a</token>
+            <token ID="t_48">moment</token>
+            <token ID="t_49">that</token>
+            <token ID="t_50">the</token>
+            <token ID="t_51">east</token>
+            <token ID="t_52">wind</token>
+            <token ID="t_53">,</token>
+            <token ID="t_54">with</token>
+            <token ID="t_55">all</token>
+            <token ID="t_56">the</token>
+            <token ID="t_57">harm</token>
+            <token ID="t_58">it</token>
+            <token ID="t_59">does</token>
+            <token ID="t_60">to</token>
+            <token ID="t_61">me</token>
+            <token ID="t_62">,</token>
+            <token ID="t_63">is</token>
+            <token ID="t_64">able</token>
+            <token ID="t_65">to</token>
+            <token ID="t_66">do</token>
+            <token ID="t_67">the</token>
+            <token ID="t_68">great</token>
+            <token ID="t_69">harm</token>
+            <token ID="t_70">of</token>
+            <token ID="t_71">putting</token>
+            <token ID="t_72">out</token>
+            <token ID="t_73">the</token>
+            <token ID="t_74">light</token>
+            <token ID="t_75">of</token>
+            <token ID="t_76">the</token>
+            <token ID="t_77">thought</token>
+            <token ID="t_78">of</token>
+            <token ID="t_79">you</token>
+            <token ID="t_80">to</token>
+            <token ID="t_81">my</token>
+            <token ID="t_82">mind</token>
+            <token ID="t_83">;</token>
+            <token ID="t_84">for</token>
+            <token ID="t_85">this</token>
+            <token ID="t_86">,</token>
+            <token ID="t_87">indeed</token>
+            <token ID="t_88">,</token>
+            <token ID="t_89">it</token>
+            <token ID="t_90">has</token>
+            <token ID="t_91">no</token>
+            <token ID="t_92">power</token>
+            <token ID="t_93">to</token>
+            <token ID="t_94">do</token>
+            <token ID="t_95">.</token>
+            <token ID="t_96">I</token>
+            <token ID="t_97">had</token>
+            <token ID="t_98">the</token>
+            <token ID="t_99">pen</token>
+            <token ID="t_100">in</token>
+            <token ID="t_101">my</token>
+            <token ID="t_102">hand</token>
+            <token ID="t_103">once</token>
+            <token ID="t_104">to</token>
+            <token ID="t_105">write</token>
+            <token ID="t_106">;</token>
+            <token ID="t_107">and</token>
+            <token ID="t_108">why</token>
+            <token ID="t_109">it</token>
+            <token ID="t_110">fell</token>
+            <token ID="t_111">out</token>
+            <token ID="t_112">,</token>
+            <token ID="t_113">I</token>
+            <token ID="t_114">cannot</token>
+            <token ID="t_115">tell</token>
+            <token ID="t_116">you</token>
+            <token ID="t_117">.</token>
+            <token ID="t_118">And</token>
+            <token ID="t_119">you</token>
+            <token ID="t_120">see</token>
+            <token ID="t_121">,</token>
+            <token ID="t_122">...</token>
+            <token ID="t_123">all</token>
+            <token ID="t_124">your</token>
+            <token ID="t_125">writing</token>
+            <token ID="t_126">will</token>
+            <token ID="t_127">not</token>
+            <token ID="t_128">change</token>
+            <token ID="t_129">the</token>
+            <token ID="t_130">wind</token>
+            <token ID="t_131">!</token>
+            <token ID="t_132">You</token>
+            <token ID="t_133">wished</token>
+            <token ID="t_134">all</token>
+            <token ID="t_135">manner</token>
+            <token ID="t_136">of</token>
+            <token ID="t_137">good</token>
+            <token ID="t_138">to</token>
+            <token ID="t_139">me</token>
+            <token ID="t_140">one</token>
+            <token ID="t_141">day</token>
+            <token ID="t_142">as</token>
+            <token ID="t_143">the</token>
+            <token ID="t_144">clock</token>
+            <token ID="t_145">struck</token>
+            <token ID="t_146">ten</token>
+            <token ID="t_147">;</token>
+            <token ID="t_148">yes</token>
+            <token ID="t_149">,</token>
+            <token ID="t_150">and</token>
+            <token ID="t_151">I</token>
+            <token ID="t_152">assure</token>
+            <token ID="t_153">you</token>
+            <token ID="t_154">I</token>
+            <token ID="t_155">was</token>
+            <token ID="t_156">better</token>
+            <token ID="t_157">that</token>
+            <token ID="t_158">day</token>
+            <token ID="t_159">—</token>
+            <token ID="t_160">and</token>
+            <token ID="t_161">I</token>
+            <token ID="t_162">must</token>
+            <token ID="t_163">not</token>
+            <token ID="t_164">forget</token>
+            <token ID="t_165">to</token>
+            <token ID="t_166">tell</token>
+            <token ID="t_167">you</token>
+            <token ID="t_168">so</token>
+            <token ID="t_169">though</token>
+            <token ID="t_170">it</token>
+            <token ID="t_171">is</token>
+            <token ID="t_172">so</token>
+            <token ID="t_173">long</token>
+            <token ID="t_174">since</token>
+            <token ID="t_175">.</token>
+            <token ID="t_176">And</token>
+            <token ID="t_177">therefore</token>
+            <token ID="t_178">,</token>
+            <token ID="t_179">I</token>
+            <token ID="t_180">was</token>
+            <token ID="t_181">logically</token>
+            <token ID="t_182">bound</token>
+            <token ID="t_183">to</token>
+            <token ID="t_184">believe</token>
+            <token ID="t_185">that</token>
+            <token ID="t_186">you</token>
+            <token ID="t_187">had</token>
+            <token ID="t_188">never</token>
+            <token ID="t_189">thought</token>
+            <token ID="t_190">of</token>
+            <token ID="t_191">me</token>
+            <token ID="t_192">since</token>
+            <token ID="t_193">...</token>
+            <token ID="t_194">unless</token>
+            <token ID="t_195">you</token>
+            <token ID="t_196">thought</token>
+            <token ID="t_197">east</token>
+            <token ID="t_198">winds</token>
+            <token ID="t_199">of</token>
+            <token ID="t_200">me</token>
+            <token ID="t_201">!</token>
+            <token ID="t_202">That</token>
+            <token ID="t_203">was</token>
+            <token ID="t_204">quite</token>
+            <token ID="t_205">clear</token>
+            <token ID="t_206">;</token>
+            <token ID="t_207">was</token>
+            <token ID="t_208">it</token>
+            <token ID="t_209">not</token>
+            <token ID="t_210">?</token>
+            <token ID="t_211">or</token>
+            <token ID="t_212">would</token>
+            <token ID="t_213">have</token>
+            <token ID="t_214">been</token>
+            <token ID="t_215">;</token>
+            <token ID="t_216">if</token>
+            <token ID="t_217">it</token>
+            <token ID="t_218">had</token>
+            <token ID="t_219">not</token>
+            <token ID="t_220">been</token>
+            <token ID="t_221">for</token>
+            <token ID="t_222">the</token>
+            <token ID="t_223">supernatural</token>
+            <token ID="t_224">conviction</token>
+            <token ID="t_225">,</token>
+            <token ID="t_226">I</token>
+            <token ID="t_227">had</token>
+            <token ID="t_228">above</token>
+            <token ID="t_229">all</token>
+            <token ID="t_230">,</token>
+            <token ID="t_231">of</token>
+            <token ID="t_232">your</token>
+            <token ID="t_233">kindness</token>
+            <token ID="t_234">,</token>
+            <token ID="t_235">which</token>
+            <token ID="t_236">was</token>
+            <token ID="t_237">too</token>
+            <token ID="t_238">large</token>
+            <token ID="t_239">to</token>
+            <token ID="t_240">be</token>
+            <token ID="t_241">taken</token>
+            <token ID="t_242">in</token>
+            <token ID="t_243">the</token>
+            <token ID="t_244">hinge</token>
+            <token ID="t_245">of</token>
+            <token ID="t_246">a</token>
+            <token ID="t_247">syllogism</token>
+            <token ID="t_248">.</token>
+            <token ID="t_249">In</token>
+            <token ID="t_250">fact</token>
+            <token ID="t_251">I</token>
+            <token ID="t_252">have</token>
+            <token ID="t_253">long</token>
+            <token ID="t_254">left</token>
+            <token ID="t_255">off</token>
+            <token ID="t_256">thinking</token>
+            <token ID="t_257">that</token>
+            <token ID="t_258">logic</token>
+            <token ID="t_259">proves</token>
+            <token ID="t_260">anything</token>
+            <token ID="t_261">—</token>
+            <token ID="t_262">it</token>
+            <token ID="t_263">does</token>
+            <token ID="t_264">n't</token>
+            <token ID="t_265">,</token>
+            <token ID="t_266">you</token>
+            <token ID="t_267">know</token>
+            <token ID="t_268">.</token>
+            <token ID="t_269">But</token>
+            <token ID="t_270">your</token>
+            <token ID="t_271">Lamia</token>
+            <token ID="t_272">has</token>
+            <token ID="t_273">taught</token>
+            <token ID="t_274">you</token>
+            <token ID="t_275">some</token>
+            <token ID="t_276">subtle</token>
+            <token ID="t_277">'viperine</token>
+            <token ID="t_278">'</token>
+            <token ID="t_279">reasoning</token>
+            <token ID="t_280">and</token>
+            <token ID="t_281">motiving</token>
+            <token ID="t_282">,</token>
+            <token ID="t_283">for</token>
+            <token ID="t_284">the</token>
+            <token ID="t_285">turning</token>
+            <token ID="t_286">down</token>
+            <token ID="t_287">one</token>
+            <token ID="t_288">street</token>
+            <token ID="t_289">instead</token>
+            <token ID="t_290">of</token>
+            <token ID="t_291">another</token>
+            <token ID="t_292">.</token>
+            <token ID="t_293">It</token>
+            <token ID="t_294">was</token>
+            <token ID="t_295">conclusive</token>
+            <token ID="t_296">.</token>
+            <token ID="t_297">Ah</token>
+            <token ID="t_298">—</token>
+            <token ID="t_299">but</token>
+            <token ID="t_300">you</token>
+            <token ID="t_301">will</token>
+            <token ID="t_302">never</token>
+            <token ID="t_303">persuade</token>
+            <token ID="t_304">me</token>
+            <token ID="t_305">that</token>
+            <token ID="t_306">I</token>
+            <token ID="t_307">am</token>
+            <token ID="t_308">the</token>
+            <token ID="t_309">better</token>
+            <token ID="t_310">,</token>
+            <token ID="t_311">or</token>
+            <token ID="t_312">as</token>
+            <token ID="t_313">well</token>
+            <token ID="t_314">,</token>
+            <token ID="t_315">for</token>
+            <token ID="t_316">the</token>
+            <token ID="t_317">thing</token>
+            <token ID="t_318">that</token>
+            <token ID="t_319">I</token>
+            <token ID="t_320">have</token>
+            <token ID="t_321">not</token>
+            <token ID="t_322">.</token>
+            <token ID="t_323">We</token>
+            <token ID="t_324">look</token>
+            <token ID="t_325">from</token>
+            <token ID="t_326">different</token>
+            <token ID="t_327">points</token>
+            <token ID="t_328">of</token>
+            <token ID="t_329">view</token>
+            <token ID="t_330">,</token>
+            <token ID="t_331">and</token>
+            <token ID="t_332">yours</token>
+            <token ID="t_333">is</token>
+            <token ID="t_334">the</token>
+            <token ID="t_335">point</token>
+            <token ID="t_336">of</token>
+            <token ID="t_337">attainment</token>
+            <token ID="t_338">.</token>
+            <token ID="t_339">Not</token>
+            <token ID="t_340">that</token>
+            <token ID="t_341">you</token>
+            <token ID="t_342">do</token>
+            <token ID="t_343">not</token>
+            <token ID="t_344">truly</token>
+            <token ID="t_345">say</token>
+            <token ID="t_346">that</token>
+            <token ID="t_347">,</token>
+            <token ID="t_348">when</token>
+            <token ID="t_349">all</token>
+            <token ID="t_350">is</token>
+            <token ID="t_351">done</token>
+            <token ID="t_352">,</token>
+            <token ID="t_353">we</token>
+            <token ID="t_354">must</token>
+            <token ID="t_355">come</token>
+            <token ID="t_356">home</token>
+            <token ID="t_357">to</token>
+            <token ID="t_358">place</token>
+            <token ID="t_359">our</token>
+            <token ID="t_360">engines</token>
+            <token ID="t_361">,</token>
+            <token ID="t_362">and</token>
+            <token ID="t_363">act</token>
+            <token ID="t_364">by</token>
+            <token ID="t_365">our</token>
+            <token ID="t_366">own</token>
+            <token ID="t_367">strength</token>
+            <token ID="t_368">.</token>
+            <token ID="t_369">I</token>
+            <token ID="t_370">do</token>
+            <token ID="t_371">not</token>
+            <token ID="t_372">want</token>
+            <token ID="t_373">material</token>
+            <token ID="t_374">as</token>
+            <token ID="t_375">material</token>
+            <token ID="t_376">;</token>
+            <token ID="t_377">no</token>
+            <token ID="t_378">one</token>
+            <token ID="t_379">does</token>
+            <token ID="t_380">—</token>
+            <token ID="t_381">but</token>
+            <token ID="t_382">every</token>
+            <token ID="t_383">life</token>
+            <token ID="t_384">requires</token>
+            <token ID="t_385">a</token>
+            <token ID="t_386">full</token>
+            <token ID="t_387">experience</token>
+            <token ID="t_388">,</token>
+            <token ID="t_389">a</token>
+            <token ID="t_390">various</token>
+            <token ID="t_391">experience</token>
+            <token ID="t_392">—</token>
+            <token ID="t_393">and</token>
+            <token ID="t_394">I</token>
+            <token ID="t_395">have</token>
+            <token ID="t_396">a</token>
+            <token ID="t_397">profound</token>
+            <token ID="t_398">conviction</token>
+            <token ID="t_399">that</token>
+            <token ID="t_400">where</token>
+            <token ID="t_401">a</token>
+            <token ID="t_402">poet</token>
+            <token ID="t_403">has</token>
+            <token ID="t_404">been</token>
+            <token ID="t_405">shut</token>
+            <token ID="t_406">from</token>
+            <token ID="t_407">most</token>
+            <token ID="t_408">of</token>
+            <token ID="t_409">the</token>
+            <token ID="t_410">outward</token>
+            <token ID="t_411">aspects</token>
+            <token ID="t_412">of</token>
+            <token ID="t_413">life</token>
+            <token ID="t_414">,</token>
+            <token ID="t_415">he</token>
+            <token ID="t_416">is</token>
+            <token ID="t_417">at</token>
+            <token ID="t_418">a</token>
+            <token ID="t_419">lamentable</token>
+            <token ID="t_420">disadvantage</token>
+            <token ID="t_421">.</token>
+            <token ID="t_422">Can</token>
+            <token ID="t_423">you</token>
+            <token ID="t_424">,</token>
+            <token ID="t_425">speaking</token>
+            <token ID="t_426">for</token>
+            <token ID="t_427">yourself</token>
+            <token ID="t_428">,</token>
+            <token ID="t_429">separate</token>
+            <token ID="t_430">the</token>
+            <token ID="t_431">results</token>
+            <token ID="t_432">in</token>
+            <token ID="t_433">you</token>
+            <token ID="t_434">from</token>
+            <token ID="t_435">the</token>
+            <token ID="t_436">external</token>
+            <token ID="t_437">influences</token>
+            <token ID="t_438">at</token>
+            <token ID="t_439">work</token>
+            <token ID="t_440">around</token>
+            <token ID="t_441">you</token>
+            <token ID="t_442">,</token>
+            <token ID="t_443">that</token>
+            <token ID="t_444">you</token>
+            <token ID="t_445">say</token>
+            <token ID="t_446">so</token>
+            <token ID="t_447">boldly</token>
+            <token ID="t_448">that</token>
+            <token ID="t_449">you</token>
+            <token ID="t_450">get</token>
+            <token ID="t_451">nothing</token>
+            <token ID="t_452">from</token>
+            <token ID="t_453">the</token>
+            <token ID="t_454">world</token>
+            <token ID="t_455">?</token>
+            <token ID="t_456">You</token>
+            <token ID="t_457">do</token>
+            <token ID="t_458">not</token>
+            <token ID="t_459">directly</token>
+            <token ID="t_460">,</token>
+            <token ID="t_461">I</token>
+            <token ID="t_462">know</token>
+            <token ID="t_463">—</token>
+            <token ID="t_464">but</token>
+            <token ID="t_465">you</token>
+            <token ID="t_466">do</token>
+            <token ID="t_467">indirectly</token>
+            <token ID="t_468">and</token>
+            <token ID="t_469">by</token>
+            <token ID="t_470">a</token>
+            <token ID="t_471">rebound</token>
+            <token ID="t_472">.</token>
+            <token ID="t_473">Whatever</token>
+            <token ID="t_474">acts</token>
+            <token ID="t_475">upon</token>
+            <token ID="t_476">you</token>
+            <token ID="t_477">,</token>
+            <token ID="t_478">becomes</token>
+            <token ID="t_479">you</token>
+            <token ID="t_480">—</token>
+            <token ID="t_481">and</token>
+            <token ID="t_482">whatever</token>
+            <token ID="t_483">you</token>
+            <token ID="t_484">love</token>
+            <token ID="t_485">or</token>
+            <token ID="t_486">hate</token>
+            <token ID="t_487">,</token>
+            <token ID="t_488">whatever</token>
+            <token ID="t_489">charms</token>
+            <token ID="t_490">you</token>
+            <token ID="t_491">or</token>
+            <token ID="t_492">is</token>
+            <token ID="t_493">scorned</token>
+            <token ID="t_494">by</token>
+            <token ID="t_495">you</token>
+            <token ID="t_496">,</token>
+            <token ID="t_497">acts</token>
+            <token ID="t_498">on</token>
+            <token ID="t_499">you</token>
+            <token ID="t_500">and</token>
+            <token ID="t_501">becomes</token>
+            <token ID="t_502">you</token>
+            <token ID="t_503">.</token>
+            <token ID="t_504">Have</token>
+            <token ID="t_505">you</token>
+            <token ID="t_506">read</token>
+            <token ID="t_507">the</token>
+            <token ID="t_508">'Improvisatore</token>
+            <token ID="t_509">'</token>
+            <token ID="t_510">?</token>
+            <token ID="t_511">or</token>
+            <token ID="t_512">will</token>
+            <token ID="t_513">you</token>
+            <token ID="t_514">?</token>
+            <token ID="t_515">The</token>
+            <token ID="t_516">writer</token>
+            <token ID="t_517">seems</token>
+            <token ID="t_518">to</token>
+            <token ID="t_519">feel</token>
+            <token ID="t_520">,</token>
+            <token ID="t_521">just</token>
+            <token ID="t_522">as</token>
+            <token ID="t_523">I</token>
+            <token ID="t_524">do</token>
+            <token ID="t_525">,</token>
+            <token ID="t_526">the</token>
+            <token ID="t_527">good</token>
+            <token ID="t_528">of</token>
+            <token ID="t_529">the</token>
+            <token ID="t_530">outward</token>
+            <token ID="t_531">life</token>
+            <token ID="t_532">;</token>
+            <token ID="t_533">and</token>
+            <token ID="t_534">he</token>
+            <token ID="t_535">is</token>
+            <token ID="t_536">a</token>
+            <token ID="t_537">poet</token>
+            <token ID="t_538">in</token>
+            <token ID="t_539">his</token>
+            <token ID="t_540">soul</token>
+            <token ID="t_541">.</token>
+            <token ID="t_542">It</token>
+            <token ID="t_543">is</token>
+            <token ID="t_544">a</token>
+            <token ID="t_545">book</token>
+            <token ID="t_546">full</token>
+            <token ID="t_547">of</token>
+            <token ID="t_548">beauty</token>
+            <token ID="t_549">and</token>
+            <token ID="t_550">had</token>
+            <token ID="t_551">a</token>
+            <token ID="t_552">great</token>
+            <token ID="t_553">charm</token>
+            <token ID="t_554">to</token>
+            <token ID="t_555">me</token>
+            <token ID="t_556">.</token>
+            <token ID="t_557">As</token>
+            <token ID="t_558">to</token>
+            <token ID="t_559">the</token>
+            <token ID="t_560">Polkas</token>
+            <token ID="t_561">and</token>
+            <token ID="t_562">Cellariuses</token>
+            <token ID="t_563">I</token>
+            <token ID="t_564">do</token>
+            <token ID="t_565">not</token>
+            <token ID="t_566">covet</token>
+            <token ID="t_567">them</token>
+            <token ID="t_568">of</token>
+            <token ID="t_569">course</token>
+            <token ID="t_570">...</token>
+            <token ID="t_571">but</token>
+            <token ID="t_572">what</token>
+            <token ID="t_573">a</token>
+            <token ID="t_574">strange</token>
+            <token ID="t_575">world</token>
+            <token ID="t_576">you</token>
+            <token ID="t_577">seem</token>
+            <token ID="t_578">to</token>
+            <token ID="t_579">have</token>
+            <token ID="t_580">,</token>
+            <token ID="t_581">to</token>
+            <token ID="t_582">me</token>
+            <token ID="t_583">at</token>
+            <token ID="t_584">a</token>
+            <token ID="t_585">distance</token>
+            <token ID="t_586">—</token>
+            <token ID="t_587">what</token>
+            <token ID="t_588">a</token>
+            <token ID="t_589">strange</token>
+            <token ID="t_590">husk</token>
+            <token ID="t_591">of</token>
+            <token ID="t_592">a</token>
+            <token ID="t_593">world</token>
+            <token ID="t_594">!</token>
+            <token ID="t_595">How</token>
+            <token ID="t_596">it</token>
+            <token ID="t_597">looks</token>
+            <token ID="t_598">to</token>
+            <token ID="t_599">me</token>
+            <token ID="t_600">like</token>
+            <token ID="t_601">mandarin-life</token>
+            <token ID="t_602">or</token>
+            <token ID="t_603">something</token>
+            <token ID="t_604">as</token>
+            <token ID="t_605">remote</token>
+            <token ID="t_606">;</token>
+            <token ID="t_607">nay</token>
+            <token ID="t_608">,</token>
+            <token ID="t_609">not</token>
+            <token ID="t_610">mandarin-life</token>
+            <token ID="t_611">but</token>
+            <token ID="t_612">mandarin</token>
+            <token ID="t_613">manners</token>
+            <token ID="t_614">,</token>
+            <token ID="t_615">...</token>
+            <token ID="t_616">life</token>
+            <token ID="t_617">,</token>
+            <token ID="t_618">even</token>
+            <token ID="t_619">the</token>
+            <token ID="t_620">outer</token>
+            <token ID="t_621">life</token>
+            <token ID="t_622">,</token>
+            <token ID="t_623">meaning</token>
+            <token ID="t_624">something</token>
+            <token ID="t_625">deeper</token>
+            <token ID="t_626">,</token>
+            <token ID="t_627">in</token>
+            <token ID="t_628">my</token>
+            <token ID="t_629">account</token>
+            <token ID="t_630">of</token>
+            <token ID="t_631">it</token>
+            <token ID="t_632">.</token>
+            <token ID="t_633">As</token>
+            <token ID="t_634">to</token>
+            <token ID="t_635">dear</token>
+            <token ID="t_636">Mr.</token>
+            <token ID="t_637">Kenyon</token>
+            <token ID="t_638">I</token>
+            <token ID="t_639">do</token>
+            <token ID="t_640">not</token>
+            <token ID="t_641">make</token>
+            <token ID="t_642">the</token>
+            <token ID="t_643">mistake</token>
+            <token ID="t_644">of</token>
+            <token ID="t_645">fancying</token>
+            <token ID="t_646">that</token>
+            <token ID="t_647">many</token>
+            <token ID="t_648">can</token>
+            <token ID="t_649">look</token>
+            <token ID="t_650">like</token>
+            <token ID="t_651">him</token>
+            <token ID="t_652">or</token>
+            <token ID="t_653">talk</token>
+            <token ID="t_654">like</token>
+            <token ID="t_655">him</token>
+            <token ID="t_656">or</token>
+            <token ID="t_657">be</token>
+            <token ID="t_658">like</token>
+            <token ID="t_659">him</token>
+            <token ID="t_660">.</token>
+            <token ID="t_661">I</token>
+            <token ID="t_662">know</token>
+            <token ID="t_663">enough</token>
+            <token ID="t_664">to</token>
+            <token ID="t_665">know</token>
+            <token ID="t_666">otherwise</token>
+            <token ID="t_667">.</token>
+            <token ID="t_668">When</token>
+            <token ID="t_669">he</token>
+            <token ID="t_670">spoke</token>
+            <token ID="t_671">of</token>
+            <token ID="t_672">me</token>
+            <token ID="t_673">he</token>
+            <token ID="t_674">should</token>
+            <token ID="t_675">have</token>
+            <token ID="t_676">said</token>
+            <token ID="t_677">that</token>
+            <token ID="t_678">I</token>
+            <token ID="t_679">was</token>
+            <token ID="t_680">better</token>
+            <token ID="t_681">notwithstanding</token>
+            <token ID="t_682">the</token>
+            <token ID="t_683">east</token>
+            <token ID="t_684">wind</token>
+            <token ID="t_685">.</token>
+            <token ID="t_686">It</token>
+            <token ID="t_687">is</token>
+            <token ID="t_688">really</token>
+            <token ID="t_689">true</token>
+            <token ID="t_690">—</token>
+            <token ID="t_691">I</token>
+            <token ID="t_692">am</token>
+            <token ID="t_693">getting</token>
+            <token ID="t_694">slowly</token>
+            <token ID="t_695">up</token>
+            <token ID="t_696">from</token>
+            <token ID="t_697">the</token>
+            <token ID="t_698">prostration</token>
+            <token ID="t_699">of</token>
+            <token ID="t_700">the</token>
+            <token ID="t_701">severe</token>
+            <token ID="t_702">cold</token>
+            <token ID="t_703">,</token>
+            <token ID="t_704">and</token>
+            <token ID="t_705">feel</token>
+            <token ID="t_706">stronger</token>
+            <token ID="t_707">in</token>
+            <token ID="t_708">myself</token>
+            <token ID="t_709">.</token>
+            <token ID="t_710">But</token>
+            <token ID="t_711">Mrs.</token>
+            <token ID="t_712">Norton</token>
+            <token ID="t_713">discourses</token>
+            <token ID="t_714">excellent</token>
+            <token ID="t_715">music</token>
+            <token ID="t_716">—</token>
+            <token ID="t_717">and</token>
+            <token ID="t_718">for</token>
+            <token ID="t_719">the</token>
+            <token ID="t_720">rest</token>
+            <token ID="t_721">,</token>
+            <token ID="t_722">there</token>
+            <token ID="t_723">are</token>
+            <token ID="t_724">fruits</token>
+            <token ID="t_725">in</token>
+            <token ID="t_726">the</token>
+            <token ID="t_727">world</token>
+            <token ID="t_728">so</token>
+            <token ID="t_729">over-ripe</token>
+            <token ID="t_730">,</token>
+            <token ID="t_731">that</token>
+            <token ID="t_732">they</token>
+            <token ID="t_733">will</token>
+            <token ID="t_734">fall</token>
+            <token ID="t_735">,</token>
+            <token ID="t_736">...</token>
+            <token ID="t_737">without</token>
+            <token ID="t_738">being</token>
+            <token ID="t_739">gathered</token>
+            <token ID="t_740">.</token>
+            <token ID="t_741">Let</token>
+            <token ID="t_742">Maynooth</token>
+            <token ID="t_743">witness</token>
+            <token ID="t_744">to</token>
+            <token ID="t_745">it</token>
+            <token ID="t_746">!</token>
+            <token ID="t_747">if</token>
+            <token ID="t_748">you</token>
+            <token ID="t_749">think</token>
+            <token ID="t_750">it</token>
+            <token ID="t_751">worth</token>
+            <token ID="t_752">while</token>
+            <token ID="t_753">!</token>
+            <token ID="t_754">Ever</token>
+            <token ID="t_755">yours</token>
+            <token ID="t_756">,</token>
+            <token ID="t_757">ELIZABETH</token>
+            <token ID="t_758">B.</token>
+            <token ID="t_759">BARRETT.</token>
+            <token ID="t_760">And</token>
+            <token ID="t_761">is</token>
+            <token ID="t_762">it</token>
+            <token ID="t_763">nothing</token>
+            <token ID="t_764">to</token>
+            <token ID="t_765">be</token>
+            <token ID="t_766">'justified</token>
+            <token ID="t_767">to</token>
+            <token ID="t_768">one</token>
+            <token ID="t_769">'s</token>
+            <token ID="t_770">self</token>
+            <token ID="t_771">in</token>
+            <token ID="t_772">one</token>
+            <token ID="t_773">'s</token>
+            <token ID="t_774">resources</token>
+            <token ID="t_775">?</token>
+            <token ID="t_776">'</token>
+            <token ID="t_777">'</token>
+            <token ID="t_778">That</token>
+            <token ID="t_779">'s</token>
+            <token ID="t_780">all</token>
+            <token ID="t_781">,</token>
+            <token ID="t_782">'</token>
+            <token ID="t_783">indeed</token>
+            <token ID="t_784">!</token>
+            <token ID="t_785">For</token>
+            <token ID="t_786">the</token>
+            <token ID="t_787">'soul</token>
+            <token ID="t_788">'s</token>
+            <token ID="t_789">country</token>
+            <token ID="t_790">'</token>
+            <token ID="t_791">we</token>
+            <token ID="t_792">will</token>
+            <token ID="t_793">have</token>
+            <token ID="t_794">it</token>
+            <token ID="t_795">also</token>
+            <token ID="t_796">—</token>
+            <token ID="t_797">and</token>
+            <token ID="t_798">I</token>
+            <token ID="t_799">know</token>
+            <token ID="t_800">how</token>
+            <token ID="t_801">well</token>
+            <token ID="t_802">the</token>
+            <token ID="t_803">birds</token>
+            <token ID="t_804">sing</token>
+            <token ID="t_805">in</token>
+            <token ID="t_806">it</token>
+            <token ID="t_807">.</token>
+            <token ID="t_808">How</token>
+            <token ID="t_809">glad</token>
+            <token ID="t_810">I</token>
+            <token ID="t_811">was</token>
+            <token ID="t_812">by</token>
+            <token ID="t_813">the</token>
+            <token ID="t_814">way</token>
+            <token ID="t_815">to</token>
+            <token ID="t_816">see</token>
+            <token ID="t_817">your</token>
+            <token ID="t_818">letter</token>
+            <token ID="t_819">!</token>
+        </tokens>
+        <sentences>
+            <sentence tokenIDs="t_0 t_1 t_2">
+            </sentence>
+            <sentence tokenIDs="t_3 t_4 t_5 t_6 t_7 t_8 t_9 t_10 t_11 t_12 t_13 t_14 t_15 t_16 t_17 t_18 t_19 t_20 t_21 t_22 t_23 t_24 t_25 t_26 t_27 t_28 t_29 t_30 t_31 t_32 t_33 t_34 t_35 t_36 t_37 t_38 t_39 t_40 t_41 t_42 t_43 t_44 t_45 t_46 t_47 t_48 t_49 t_50 t_51 t_52 t_53 t_54 t_55 t_56 t_57 t_58 t_59 t_60 t_61 t_62 t_63 t_64 t_65 t_66 t_67 t_68 t_69 t_70 t_71 t_72 t_73 t_74 t_75 t_76 t_77 t_78 t_79 t_80 t_81 t_82 t_83 t_84 t_85 t_86 t_87 t_88 t_89 t_90 t_91 t_92 t_93 t_94 t_95">
+            </sentence>
+            <sentence tokenIDs="t_96 t_97 t_98 t_99 t_100 t_101 t_102 t_103 t_104 t_105 t_106 t_107 t_108 t_109 t_110 t_111 t_112 t_113 t_114 t_115 t_116 t_117">
+            </sentence>
+            <sentence tokenIDs="t_118 t_119 t_120 t_121 t_122 t_123 t_124 t_125 t_126 t_127 t_128 t_129 t_130 t_131">
+            </sentence>
+            <sentence tokenIDs="t_132 t_133 t_134 t_135 t_136 t_137 t_138 t_139 t_140 t_141 t_142 t_143 t_144 t_145 t_146 t_147 t_148 t_149 t_150 t_151 t_152 t_153 t_154 t_155 t_156 t_157 t_158 t_159 t_160 t_161 t_162 t_163 t_164 t_165 t_166 t_167 t_168 t_169 t_170 t_171 t_172 t_173 t_174 t_175">
+            </sentence>
+            <sentence tokenIDs="t_176 t_177 t_178 t_179 t_180 t_181 t_182 t_183 t_184 t_185 t_186 t_187 t_188 t_189 t_190 t_191 t_192 t_193 t_194 t_195 t_196 t_197 t_198 t_199 t_200 t_201">
+            </sentence>
+            <sentence tokenIDs="t_202 t_203 t_204 t_205 t_206 t_207 t_208 t_209 t_210">
+            </sentence>
+            <sentence tokenIDs="t_211 t_212 t_213 t_214 t_215 t_216 t_217 t_218 t_219 t_220 t_221 t_222 t_223 t_224 t_225 t_226 t_227 t_228 t_229 t_230 t_231 t_232 t_233 t_234 t_235 t_236 t_237 t_238 t_239 t_240 t_241 t_242 t_243 t_244 t_245 t_246 t_247 t_248">
+            </sentence>
+            <sentence tokenIDs="t_249 t_250 t_251 t_252 t_253 t_254 t_255 t_256 t_257 t_258 t_259 t_260 t_261 t_262 t_263 t_264 t_265 t_266 t_267 t_268">
+            </sentence>
+            <sentence tokenIDs="t_269 t_270 t_271 t_272 t_273 t_274 t_275 t_276 t_277 t_278 t_279 t_280 t_281 t_282 t_283 t_284 t_285 t_286 t_287 t_288 t_289 t_290 t_291 t_292">
+            </sentence>
+            <sentence tokenIDs="t_293 t_294 t_295 t_296">
+            </sentence>
+            <sentence tokenIDs="t_297 t_298 t_299 t_300 t_301 t_302 t_303 t_304 t_305 t_306 t_307 t_308 t_309 t_310 t_311 t_312 t_313 t_314 t_315 t_316 t_317 t_318 t_319 t_320 t_321 t_322">
+            </sentence>
+            <sentence tokenIDs="t_323 t_324 t_325 t_326 t_327 t_328 t_329 t_330 t_331 t_332 t_333 t_334 t_335 t_336 t_337 t_338">
+            </sentence>
+            <sentence tokenIDs="t_339 t_340 t_341 t_342 t_343 t_344 t_345 t_346 t_347 t_348 t_349 t_350 t_351 t_352 t_353 t_354 t_355 t_356 t_357 t_358 t_359 t_360 t_361 t_362 t_363 t_364 t_365 t_366 t_367 t_368">
+            </sentence>
+            <sentence tokenIDs="t_369 t_370 t_371 t_372 t_373 t_374 t_375 t_376 t_377 t_378 t_379 t_380 t_381 t_382 t_383 t_384 t_385 t_386 t_387 t_388 t_389 t_390 t_391 t_392 t_393 t_394 t_395 t_396 t_397 t_398 t_399 t_400 t_401 t_402 t_403 t_404 t_405 t_406 t_407 t_408 t_409 t_410 t_411 t_412 t_413 t_414 t_415 t_416 t_417 t_418 t_419 t_420 t_421">
+            </sentence>
+            <sentence tokenIDs="t_422 t_423 t_424 t_425 t_426 t_427 t_428 t_429 t_430 t_431 t_432 t_433 t_434 t_435 t_436 t_437 t_438 t_439 t_440 t_441 t_442 t_443 t_444 t_445 t_446 t_447 t_448 t_449 t_450 t_451 t_452 t_453 t_454 t_455">
+            </sentence>
+            <sentence tokenIDs="t_456 t_457 t_458 t_459 t_460 t_461 t_462 t_463 t_464 t_465 t_466 t_467 t_468 t_469 t_470 t_471 t_472">
+            </sentence>
+            <sentence tokenIDs="t_473 t_474 t_475 t_476 t_477 t_478 t_479 t_480 t_481 t_482 t_483 t_484 t_485 t_486 t_487 t_488 t_489 t_490 t_491 t_492 t_493 t_494 t_495 t_496 t_497 t_498 t_499 t_500 t_501 t_502 t_503">
+            </sentence>
+            <sentence tokenIDs="t_504 t_505 t_506 t_507 t_508 t_509 t_510">
+            </sentence>
+            <sentence tokenIDs="t_511 t_512 t_513 t_514">
+            </sentence>
+            <sentence tokenIDs="t_515 t_516 t_517 t_518 t_519 t_520 t_521 t_522 t_523 t_524 t_525 t_526 t_527 t_528 t_529 t_530 t_531 t_532 t_533 t_534 t_535 t_536 t_537 t_538 t_539 t_540 t_541">
+            </sentence>
+            <sentence tokenIDs="t_542 t_543 t_544 t_545 t_546 t_547 t_548 t_549 t_550 t_551 t_552 t_553 t_554 t_555 t_556">
+            </sentence>
+            <sentence tokenIDs="t_557 t_558 t_559 t_560 t_561 t_562 t_563 t_564 t_565 t_566 t_567 t_568 t_569 t_570 t_571 t_572 t_573 t_574 t_575 t_576 t_577 t_578 t_579 t_580 t_581 t_582 t_583 t_584 t_585 t_586 t_587 t_588 t_589 t_590 t_591 t_592 t_593 t_594">
+            </sentence>
+            <sentence tokenIDs="t_595 t_596 t_597 t_598 t_599 t_600 t_601 t_602 t_603 t_604 t_605 t_606 t_607 t_608 t_609 t_610 t_611 t_612 t_613 t_614 t_615 t_616 t_617 t_618 t_619 t_620 t_621 t_622 t_623 t_624 t_625 t_626 t_627 t_628 t_629 t_630 t_631 t_632">
+            </sentence>
+            <sentence tokenIDs="t_633 t_634 t_635 t_636 t_637 t_638 t_639 t_640 t_641 t_642 t_643 t_644 t_645 t_646 t_647 t_648 t_649 t_650 t_651 t_652 t_653 t_654 t_655 t_656 t_657 t_658 t_659 t_660">
+            </sentence>
+            <sentence tokenIDs="t_661 t_662 t_663 t_664 t_665 t_666 t_667">
+            </sentence>
+            <sentence tokenIDs="t_668 t_669 t_670 t_671 t_672 t_673 t_674 t_675 t_676 t_677 t_678 t_679 t_680 t_681 t_682 t_683 t_684 t_685">
+            </sentence>
+            <sentence tokenIDs="t_686 t_687 t_688 t_689 t_690 t_691 t_692 t_693 t_694 t_695 t_696 t_697 t_698 t_699 t_700 t_701 t_702 t_703 t_704 t_705 t_706 t_707 t_708 t_709">
+            </sentence>
+            <sentence tokenIDs="t_710 t_711 t_712 t_713 t_714 t_715 t_716 t_717 t_718 t_719 t_720 t_721 t_722 t_723 t_724 t_725 t_726 t_727 t_728 t_729 t_730 t_731 t_732 t_733 t_734 t_735 t_736 t_737 t_738 t_739 t_740">
+            </sentence>
+            <sentence tokenIDs="t_741 t_742 t_743 t_744 t_745 t_746">
+            </sentence>
+            <sentence tokenIDs="t_747 t_748 t_749 t_750 t_751 t_752 t_753">
+            </sentence>
+            <sentence tokenIDs="t_754 t_755 t_756 t_757 t_758 t_759">
+            </sentence>
+            <sentence tokenIDs="t_760 t_761 t_762 t_763 t_764 t_765 t_766 t_767 t_768 t_769 t_770 t_771 t_772 t_773 t_774 t_775 t_776 t_777 t_778 t_779 t_780 t_781 t_782 t_783 t_784">
+            </sentence>
+            <sentence tokenIDs="t_785 t_786 t_787 t_788 t_789 t_790 t_791 t_792 t_793 t_794 t_795 t_796 t_797 t_798 t_799 t_800 t_801 t_802 t_803 t_804 t_805 t_806 t_807">
+            </sentence>
+            <sentence tokenIDs="t_808 t_809 t_810 t_811 t_812 t_813 t_814 t_815 t_816 t_817 t_818 t_819">
+            </sentence>
+        </sentences>
+        <POStags tagset="PennTB">
+            <tag tokenIDs="t_0">NP
+            </tag>
+            <tag tokenIDs="t_1">NP
+            </tag>
+            <tag tokenIDs="t_2">.
+            </tag>
+            <tag tokenIDs="t_3">IN
+            </tag>
+            <tag tokenIDs="t_4">PP
+            </tag>
+            <tag tokenIDs="t_5">VBD
+            </tag>
+            <tag tokenIDs="t_6">CC
+            </tag>
+            <tag tokenIDs="t_7">VBP
+            </tag>
+            <tag tokenIDs="t_8">RB
+            </tag>
+            <tag tokenIDs="t_9">NP
+            </tag>
+            <tag tokenIDs="t_10">NP
+            </tag>
+            <tag tokenIDs="t_11">WRB
+            </tag>
+            <tag tokenIDs="t_12">RB
+            </tag>
+            <tag tokenIDs="t_13">PP
+            </tag>
+            <tag tokenIDs="t_14">VBP
+            </tag>
+            <tag tokenIDs="t_15">VBN
+            </tag>
+            <tag tokenIDs="t_16">:
+            </tag>
+            <tag tokenIDs="t_17">RB
+            </tag>
+            <tag tokenIDs="t_18">DT
+            </tag>
+            <tag tokenIDs="t_19">NN
+            </tag>
+            <tag tokenIDs="t_20">PP
+            </tag>
+            <tag tokenIDs="t_21">VBP
+            </tag>
+            <tag tokenIDs="t_22">RB
+            </tag>
+            <tag tokenIDs="t_23">TO
+            </tag>
+            <tag tokenIDs="t_24">VB
+            </tag>
+            <tag tokenIDs="t_25">,
+            </tag>
+            <tag tokenIDs="t_26">CC
+            </tag>
+            <tag tokenIDs="t_27">DT
+            </tag>
+            <tag tokenIDs="t_28">JJR
+            </tag>
+            <tag tokenIDs="t_29">NN
+            </tag>
+            <tag tokenIDs="t_30">TO
+            </tag>
+            <tag tokenIDs="t_31">PP
+            </tag>
+            <tag tokenIDs="t_32">,
+            </tag>
+            <tag tokenIDs="t_33">:
+            </tag>
+            <tag tokenIDs="t_34">IN
+            </tag>
+            <tag tokenIDs="t_35">DT
+            </tag>
+            <tag tokenIDs="t_36">NN
+            </tag>
+            <tag tokenIDs="t_37">IN
+            </tag>
+            <tag tokenIDs="t_38">PP$
+            </tag>
+            <tag tokenIDs="t_39">NN
+            </tag>
+            <tag tokenIDs="t_40">,
+            </tag>
+            <tag tokenIDs="t_41">:
+            </tag>
+            <tag tokenIDs="t_42">PP
+            </tag>
+            <tag tokenIDs="t_43">MD
+            </tag>
+            <tag tokenIDs="t_44">RB
+            </tag>
+            <tag tokenIDs="t_45">VB
+            </tag>
+            <tag tokenIDs="t_46">IN
+            </tag>
+            <tag tokenIDs="t_47">DT
+            </tag>
+            <tag tokenIDs="t_48">NN
+            </tag>
+            <tag tokenIDs="t_49">IN
+            </tag>
+            <tag tokenIDs="t_50">DT
+            </tag>
+            <tag tokenIDs="t_51">JJ
+            </tag>
+            <tag tokenIDs="t_52">NN
+            </tag>
+            <tag tokenIDs="t_53">,
+            </tag>
+            <tag tokenIDs="t_54">IN
+            </tag>
+            <tag tokenIDs="t_55">PDT
+            </tag>
+            <tag tokenIDs="t_56">DT
+            </tag>
+            <tag tokenIDs="t_57">NN
+            </tag>
+            <tag tokenIDs="t_58">PP
+            </tag>
+            <tag tokenIDs="t_59">VBZ
+            </tag>
+            <tag tokenIDs="t_60">TO
+            </tag>
+            <tag tokenIDs="t_61">PP
+            </tag>
+            <tag tokenIDs="t_62">,
+            </tag>
+            <tag tokenIDs="t_63">VBZ
+            </tag>
+            <tag tokenIDs="t_64">JJ
+            </tag>
+            <tag tokenIDs="t_65">TO
+            </tag>
+            <tag tokenIDs="t_66">VB
+            </tag>
+            <tag tokenIDs="t_67">DT
+            </tag>
+            <tag tokenIDs="t_68">JJ
+            </tag>
+            <tag tokenIDs="t_69">NN
+            </tag>
+            <tag tokenIDs="t_70">IN
+            </tag>
+            <tag tokenIDs="t_71">VBG
+            </tag>
+            <tag tokenIDs="t_72">RP
+            </tag>
+            <tag tokenIDs="t_73">DT
+            </tag>
+            <tag tokenIDs="t_74">NN
+            </tag>
+            <tag tokenIDs="t_75">IN
+            </tag>
+            <tag tokenIDs="t_76">DT
+            </tag>
+            <tag tokenIDs="t_77">NN
+            </tag>
+            <tag tokenIDs="t_78">IN
+            </tag>
+            <tag tokenIDs="t_79">PP
+            </tag>
+            <tag tokenIDs="t_80">TO
+            </tag>
+            <tag tokenIDs="t_81">PP$
+            </tag>
+            <tag tokenIDs="t_82">NN
+            </tag>
+            <tag tokenIDs="t_83">:
+            </tag>
+            <tag tokenIDs="t_84">IN
+            </tag>
+            <tag tokenIDs="t_85">DT
+            </tag>
+            <tag tokenIDs="t_86">,
+            </tag>
+            <tag tokenIDs="t_87">RB
+            </tag>
+            <tag tokenIDs="t_88">,
+            </tag>
+            <tag tokenIDs="t_89">PP
+            </tag>
+            <tag tokenIDs="t_90">VBZ
+            </tag>
+            <tag tokenIDs="t_91">DT
+            </tag>
+            <tag tokenIDs="t_92">NN
+            </tag>
+            <tag tokenIDs="t_93">TO
+            </tag>
+            <tag tokenIDs="t_94">VB
+            </tag>
+            <tag tokenIDs="t_95">.
+            </tag>
+            <tag tokenIDs="t_96">PP
+            </tag>
+            <tag tokenIDs="t_97">VBD
+            </tag>
+            <tag tokenIDs="t_98">DT
+            </tag>
+            <tag tokenIDs="t_99">NN
+            </tag>
+            <tag tokenIDs="t_100">IN
+            </tag>
+            <tag tokenIDs="t_101">PP$
+            </tag>
+            <tag tokenIDs="t_102">NN
+            </tag>
+            <tag tokenIDs="t_103">RB
+            </tag>
+            <tag tokenIDs="t_104">TO
+            </tag>
+            <tag tokenIDs="t_105">VB
+            </tag>
+            <tag tokenIDs="t_106">:
+            </tag>
+            <tag tokenIDs="t_107">CC
+            </tag>
+            <tag tokenIDs="t_108">WRB
+            </tag>
+            <tag tokenIDs="t_109">PP
+            </tag>
+            <tag tokenIDs="t_110">VBD
+            </tag>
+            <tag tokenIDs="t_111">RP
+            </tag>
+            <tag tokenIDs="t_112">,
+            </tag>
+            <tag tokenIDs="t_113">PP
+            </tag>
+            <tag tokenIDs="t_114">MD
+            </tag>
+            <tag tokenIDs="t_115">VB
+            </tag>
+            <tag tokenIDs="t_116">PP
+            </tag>
+            <tag tokenIDs="t_117">.
+            </tag>
+            <tag tokenIDs="t_118">CC
+            </tag>
+            <tag tokenIDs="t_119">PP
+            </tag>
+            <tag tokenIDs="t_120">VBP
+            </tag>
+            <tag tokenIDs="t_121">,
+            </tag>
+            <tag tokenIDs="t_122">:
+            </tag>
+            <tag tokenIDs="t_123">PDT
+            </tag>
+            <tag tokenIDs="t_124">PP$
+            </tag>
+            <tag tokenIDs="t_125">NN
+            </tag>
+            <tag tokenIDs="t_126">MD
+            </tag>
+            <tag tokenIDs="t_127">RB
+            </tag>
+            <tag tokenIDs="t_128">VB
+            </tag>
+            <tag tokenIDs="t_129">DT
+            </tag>
+            <tag tokenIDs="t_130">NN
+            </tag>
+            <tag tokenIDs="t_131">.
+            </tag>
+            <tag tokenIDs="t_132">PP
+            </tag>
+            <tag tokenIDs="t_133">VBD
+            </tag>
+            <tag tokenIDs="t_134">DT
+            </tag>
+            <tag tokenIDs="t_135">NN
+            </tag>
+            <tag tokenIDs="t_136">IN
+            </tag>
+            <tag tokenIDs="t_137">JJ
+            </tag>
+            <tag tokenIDs="t_138">TO
+            </tag>
+            <tag tokenIDs="t_139">PP
+            </tag>
+            <tag tokenIDs="t_140">CD
+            </tag>
+            <tag tokenIDs="t_141">NN
+            </tag>
+            <tag tokenIDs="t_142">IN
+            </tag>
+            <tag tokenIDs="t_143">DT
+            </tag>
+            <tag tokenIDs="t_144">NN
+            </tag>
+            <tag tokenIDs="t_145">VBD
+            </tag>
+            <tag tokenIDs="t_146">CD
+            </tag>
+            <tag tokenIDs="t_147">:
+            </tag>
+            <tag tokenIDs="t_148">UH
+            </tag>
+            <tag tokenIDs="t_149">,
+            </tag>
+            <tag tokenIDs="t_150">CC
+            </tag>
+            <tag tokenIDs="t_151">PP
+            </tag>
+            <tag tokenIDs="t_152">VB
+            </tag>
+            <tag tokenIDs="t_153">PP
+            </tag>
+            <tag tokenIDs="t_154">PP
+            </tag>
+            <tag tokenIDs="t_155">VBD
+            </tag>
+            <tag tokenIDs="t_156">RBR
+            </tag>
+            <tag tokenIDs="t_157">DT
+            </tag>
+            <tag tokenIDs="t_158">NN
+            </tag>
+            <tag tokenIDs="t_159">NN
+            </tag>
+            <tag tokenIDs="t_160">CC
+            </tag>
+            <tag tokenIDs="t_161">PP
+            </tag>
+            <tag tokenIDs="t_162">MD
+            </tag>
+            <tag tokenIDs="t_163">RB
+            </tag>
+            <tag tokenIDs="t_164">VB
+            </tag>
+            <tag tokenIDs="t_165">TO
+            </tag>
+            <tag tokenIDs="t_166">VB
+            </tag>
+            <tag tokenIDs="t_167">PP
+            </tag>
+            <tag tokenIDs="t_168">RB
+            </tag>
+            <tag tokenIDs="t_169">IN
+            </tag>
+            <tag tokenIDs="t_170">PP
+            </tag>
+            <tag tokenIDs="t_171">VBZ
+            </tag>
+            <tag tokenIDs="t_172">RB
+            </tag>
+            <tag tokenIDs="t_173">JJ
+            </tag>
+            <tag tokenIDs="t_174">IN
+            </tag>
+            <tag tokenIDs="t_175">.
+            </tag>
+            <tag tokenIDs="t_176">CC
+            </tag>
+            <tag tokenIDs="t_177">RB
+            </tag>
+            <tag tokenIDs="t_178">,
+            </tag>
+            <tag tokenIDs="t_179">PP
+            </tag>
+            <tag tokenIDs="t_180">VBD
+            </tag>
+            <tag tokenIDs="t_181">RB
+            </tag>
+            <tag tokenIDs="t_182">VBN
+            </tag>
+            <tag tokenIDs="t_183">TO
+            </tag>
+            <tag tokenIDs="t_184">VB
+            </tag>
+            <tag tokenIDs="t_185">IN
+            </tag>
+            <tag tokenIDs="t_186">PP
+            </tag>
+            <tag tokenIDs="t_187">VBD
+            </tag>
+            <tag tokenIDs="t_188">RB
+            </tag>
+            <tag tokenIDs="t_189">VBN
+            </tag>
+            <tag tokenIDs="t_190">IN
+            </tag>
+            <tag tokenIDs="t_191">PP
+            </tag>
+            <tag tokenIDs="t_192">IN
+            </tag>
+            <tag tokenIDs="t_193">:
+            </tag>
+            <tag tokenIDs="t_194">IN
+            </tag>
+            <tag tokenIDs="t_195">PP
+            </tag>
+            <tag tokenIDs="t_196">VBD
+            </tag>
+            <tag tokenIDs="t_197">JJ
+            </tag>
+            <tag tokenIDs="t_198">NNS
+            </tag>
+            <tag tokenIDs="t_199">IN
+            </tag>
+            <tag tokenIDs="t_200">PP
+            </tag>
+            <tag tokenIDs="t_201">.
+            </tag>
+            <tag tokenIDs="t_202">DT
+            </tag>
+            <tag tokenIDs="t_203">VBD
+            </tag>
+            <tag tokenIDs="t_204">RB
+            </tag>
+            <tag tokenIDs="t_205">JJ
+            </tag>
+            <tag tokenIDs="t_206">:
+            </tag>
+            <tag tokenIDs="t_207">VBD
+            </tag>
+            <tag tokenIDs="t_208">PP
+            </tag>
+            <tag tokenIDs="t_209">RB
+            </tag>
+            <tag tokenIDs="t_210">.
+            </tag>
+            <tag tokenIDs="t_211">CC
+            </tag>
+            <tag tokenIDs="t_212">MD
+            </tag>
+            <tag tokenIDs="t_213">VB
+            </tag>
+            <tag tokenIDs="t_214">VBN
+            </tag>
+            <tag tokenIDs="t_215">:
+            </tag>
+            <tag tokenIDs="t_216">IN
+            </tag>
+            <tag tokenIDs="t_217">PP
+            </tag>
+            <tag tokenIDs="t_218">VBD
+            </tag>
+            <tag tokenIDs="t_219">RB
+            </tag>
+            <tag tokenIDs="t_220">VBN
+            </tag>
+            <tag tokenIDs="t_221">IN
+            </tag>
+            <tag tokenIDs="t_222">DT
+            </tag>
+            <tag tokenIDs="t_223">JJ
+            </tag>
+            <tag tokenIDs="t_224">NN
+            </tag>
+            <tag tokenIDs="t_225">,
+            </tag>
+            <tag tokenIDs="t_226">PP
+            </tag>
+            <tag tokenIDs="t_227">VBD
+            </tag>
+            <tag tokenIDs="t_228">IN
+            </tag>
+            <tag tokenIDs="t_229">DT
+            </tag>
+            <tag tokenIDs="t_230">,
+            </tag>
+            <tag tokenIDs="t_231">IN
+            </tag>
+            <tag tokenIDs="t_232">PP$
+            </tag>
+            <tag tokenIDs="t_233">NN
+            </tag>
+            <tag tokenIDs="t_234">,
+            </tag>
+            <tag tokenIDs="t_235">WDT
+            </tag>
+            <tag tokenIDs="t_236">VBD
+            </tag>
+            <tag tokenIDs="t_237">RB
+            </tag>
+            <tag tokenIDs="t_238">JJ
+            </tag>
+            <tag tokenIDs="t_239">TO
+            </tag>
+            <tag tokenIDs="t_240">VB
+            </tag>
+            <tag tokenIDs="t_241">VBN
+            </tag>
+            <tag tokenIDs="t_242">IN
+            </tag>
+            <tag tokenIDs="t_243">DT
+            </tag>
+            <tag tokenIDs="t_244">NN
+            </tag>
+            <tag tokenIDs="t_245">IN
+            </tag>
+            <tag tokenIDs="t_246">DT
+            </tag>
+            <tag tokenIDs="t_247">NN
+            </tag>
+            <tag tokenIDs="t_248">.
+            </tag>
+            <tag tokenIDs="t_249">IN
+            </tag>
+            <tag tokenIDs="t_250">NN
+            </tag>
+            <tag tokenIDs="t_251">PP
+            </tag>
+            <tag tokenIDs="t_252">VBP
+            </tag>
+            <tag tokenIDs="t_253">RB
+            </tag>
+            <tag tokenIDs="t_254">VBN
+            </tag>
+            <tag tokenIDs="t_255">RP
+            </tag>
+            <tag tokenIDs="t_256">VBG
+            </tag>
+            <tag tokenIDs="t_257">DT
+            </tag>
+            <tag tokenIDs="t_258">NN
+            </tag>
+            <tag tokenIDs="t_259">VBZ
+            </tag>
+            <tag tokenIDs="t_260">NN
+            </tag>
+            <tag tokenIDs="t_261">NN
+            </tag>
+            <tag tokenIDs="t_262">PP
+            </tag>
+            <tag tokenIDs="t_263">VBZ
+            </tag>
+            <tag tokenIDs="t_264">RB
+            </tag>
+            <tag tokenIDs="t_265">,
+            </tag>
+            <tag tokenIDs="t_266">PP
+            </tag>
+            <tag tokenIDs="t_267">VBP
+            </tag>
+            <tag tokenIDs="t_268">.
+            </tag>
+            <tag tokenIDs="t_269">CC
+            </tag>
+            <tag tokenIDs="t_270">PP$
+            </tag>
+            <tag tokenIDs="t_271">NP
+            </tag>
+            <tag tokenIDs="t_272">VBZ
+            </tag>
+            <tag tokenIDs="t_273">VBN
+            </tag>
+            <tag tokenIDs="t_274">PP
+            </tag>
+            <tag tokenIDs="t_275">DT
+            </tag>
+            <tag tokenIDs="t_276">JJ
+            </tag>
+            <tag tokenIDs="t_277">NN
+            </tag>
+            <tag tokenIDs="t_278">POS
+            </tag>
+            <tag tokenIDs="t_279">NN
+            </tag>
+            <tag tokenIDs="t_280">CC
+            </tag>
+            <tag tokenIDs="t_281">VBG
+            </tag>
+            <tag tokenIDs="t_282">,
+            </tag>
+            <tag tokenIDs="t_283">IN
+            </tag>
+            <tag tokenIDs="t_284">DT
+            </tag>
+            <tag tokenIDs="t_285">VBG
+            </tag>
+            <tag tokenIDs="t_286">RP
+            </tag>
+            <tag tokenIDs="t_287">CD
+            </tag>
+            <tag tokenIDs="t_288">NN
+            </tag>
+            <tag tokenIDs="t_289">RB
+            </tag>
+            <tag tokenIDs="t_290">IN
+            </tag>
+            <tag tokenIDs="t_291">DT
+            </tag>
+            <tag tokenIDs="t_292">.
+            </tag>
+            <tag tokenIDs="t_293">PP
+            </tag>
+            <tag tokenIDs="t_294">VBD
+            </tag>
+            <tag tokenIDs="t_295">JJ
+            </tag>
+            <tag tokenIDs="t_296">.
+            </tag>
+            <tag tokenIDs="t_297">UH
+            </tag>
+            <tag tokenIDs="t_298">NN
+            </tag>
+            <tag tokenIDs="t_299">CC
+            </tag>
+            <tag tokenIDs="t_300">PP
+            </tag>
+            <tag tokenIDs="t_301">MD
+            </tag>
+            <tag tokenIDs="t_302">RB
+            </tag>
+            <tag tokenIDs="t_303">VB
+            </tag>
+            <tag tokenIDs="t_304">PP
+            </tag>
+            <tag tokenIDs="t_305">IN
+            </tag>
+            <tag tokenIDs="t_306">PP
+            </tag>
+            <tag tokenIDs="t_307">VBP
+            </tag>
+            <tag tokenIDs="t_308">DT
+            </tag>
+            <tag tokenIDs="t_309">JJR
+            </tag>
+            <tag tokenIDs="t_310">,
+            </tag>
+            <tag tokenIDs="t_311">CC
+            </tag>
+            <tag tokenIDs="t_312">RB
+            </tag>
+            <tag tokenIDs="t_313">RB
+            </tag>
+            <tag tokenIDs="t_314">,
+            </tag>
+            <tag tokenIDs="t_315">IN
+            </tag>
+            <tag tokenIDs="t_316">DT
+            </tag>
+            <tag tokenIDs="t_317">NN
+            </tag>
+            <tag tokenIDs="t_318">IN
+            </tag>
+            <tag tokenIDs="t_319">PP
+            </tag>
+            <tag tokenIDs="t_320">VBP
+            </tag>
+            <tag tokenIDs="t_321">RB
+            </tag>
+            <tag tokenIDs="t_322">.
+            </tag>
+            <tag tokenIDs="t_323">PP
+            </tag>
+            <tag tokenIDs="t_324">VBP
+            </tag>
+            <tag tokenIDs="t_325">IN
+            </tag>
+            <tag tokenIDs="t_326">JJ
+            </tag>
+            <tag tokenIDs="t_327">NNS
+            </tag>
+            <tag tokenIDs="t_328">IN
+            </tag>
+            <tag tokenIDs="t_329">NN
+            </tag>
+            <tag tokenIDs="t_330">,
+            </tag>
+            <tag tokenIDs="t_331">CC
+            </tag>
+            <tag tokenIDs="t_332">PP$
+            </tag>
+            <tag tokenIDs="t_333">VBZ
+            </tag>
+            <tag tokenIDs="t_334">DT
+            </tag>
+            <tag tokenIDs="t_335">NN
+            </tag>
+            <tag tokenIDs="t_336">IN
+            </tag>
+            <tag tokenIDs="t_337">NN
+            </tag>
+            <tag tokenIDs="t_338">.
+            </tag>
+            <tag tokenIDs="t_339">RB
+            </tag>
+            <tag tokenIDs="t_340">IN
+            </tag>
+            <tag tokenIDs="t_341">PP
+            </tag>
+            <tag tokenIDs="t_342">VBP
+            </tag>
+            <tag tokenIDs="t_343">RB
+            </tag>
+            <tag tokenIDs="t_344">RB
+            </tag>
+            <tag tokenIDs="t_345">VBP
+            </tag>
+            <tag tokenIDs="t_346">IN
+            </tag>
+            <tag tokenIDs="t_347">,
+            </tag>
+            <tag tokenIDs="t_348">WRB
+            </tag>
+            <tag tokenIDs="t_349">DT
+            </tag>
+            <tag tokenIDs="t_350">VBZ
+            </tag>
+            <tag tokenIDs="t_351">VBN
+            </tag>
+            <tag tokenIDs="t_352">,
+            </tag>
+            <tag tokenIDs="t_353">PP
+            </tag>
+            <tag tokenIDs="t_354">MD
+            </tag>
+            <tag tokenIDs="t_355">VB
+            </tag>
+            <tag tokenIDs="t_356">NN
+            </tag>
+            <tag tokenIDs="t_357">TO
+            </tag>
+            <tag tokenIDs="t_358">VB
+            </tag>
+            <tag tokenIDs="t_359">PP$
+            </tag>
+            <tag tokenIDs="t_360">NNS
+            </tag>
+            <tag tokenIDs="t_361">,
+            </tag>
+            <tag tokenIDs="t_362">CC
+            </tag>
+            <tag tokenIDs="t_363">VB
+            </tag>
+            <tag tokenIDs="t_364">IN
+            </tag>
+            <tag tokenIDs="t_365">PP$
+            </tag>
+            <tag tokenIDs="t_366">JJ
+            </tag>
+            <tag tokenIDs="t_367">NN
+            </tag>
+            <tag tokenIDs="t_368">.
+            </tag>
+            <tag tokenIDs="t_369">PP
+            </tag>
+            <tag tokenIDs="t_370">VBP
+            </tag>
+            <tag tokenIDs="t_371">RB
+            </tag>
+            <tag tokenIDs="t_372">VB
+            </tag>
+            <tag tokenIDs="t_373">NN
+            </tag>
+            <tag tokenIDs="t_374">IN
+            </tag>
+            <tag tokenIDs="t_375">NN
+            </tag>
+            <tag tokenIDs="t_376">:
+            </tag>
+            <tag tokenIDs="t_377">DT
+            </tag>
+            <tag tokenIDs="t_378">CD
+            </tag>
+            <tag tokenIDs="t_379">VBZ
+            </tag>
+            <tag tokenIDs="t_380">NN
+            </tag>
+            <tag tokenIDs="t_381">CC
+            </tag>
+            <tag tokenIDs="t_382">DT
+            </tag>
+            <tag tokenIDs="t_383">NN
+            </tag>
+            <tag tokenIDs="t_384">VBZ
+            </tag>
+            <tag tokenIDs="t_385">DT
+            </tag>
+            <tag tokenIDs="t_386">JJ
+            </tag>
+            <tag tokenIDs="t_387">NN
+            </tag>
+            <tag tokenIDs="t_388">,
+            </tag>
+            <tag tokenIDs="t_389">DT
+            </tag>
+            <tag tokenIDs="t_390">JJ
+            </tag>
+            <tag tokenIDs="t_391">NN
+            </tag>
+            <tag tokenIDs="t_392">NN
+            </tag>
+            <tag tokenIDs="t_393">CC
+            </tag>
+            <tag tokenIDs="t_394">PP
+            </tag>
+            <tag tokenIDs="t_395">VBP
+            </tag>
+            <tag tokenIDs="t_396">DT
+            </tag>
+            <tag tokenIDs="t_397">JJ
+            </tag>
+            <tag tokenIDs="t_398">NN
+            </tag>
+            <tag tokenIDs="t_399">IN
+            </tag>
+            <tag tokenIDs="t_400">WRB
+            </tag>
+            <tag tokenIDs="t_401">DT
+            </tag>
+            <tag tokenIDs="t_402">NN
+            </tag>
+            <tag tokenIDs="t_403">VBZ
+            </tag>
+            <tag tokenIDs="t_404">VBN
+            </tag>
+            <tag tokenIDs="t_405">VBN
+            </tag>
+            <tag tokenIDs="t_406">IN
+            </tag>
+            <tag tokenIDs="t_407">JJS
+            </tag>
+            <tag tokenIDs="t_408">IN
+            </tag>
+            <tag tokenIDs="t_409">DT
+            </tag>
+            <tag tokenIDs="t_410">RB
+            </tag>
+            <tag tokenIDs="t_411">NNS
+            </tag>
+            <tag tokenIDs="t_412">IN
+            </tag>
+            <tag tokenIDs="t_413">NN
+            </tag>
+            <tag tokenIDs="t_414">,
+            </tag>
+            <tag tokenIDs="t_415">PP
+            </tag>
+            <tag tokenIDs="t_416">VBZ
+            </tag>
+            <tag tokenIDs="t_417">IN
+            </tag>
+            <tag tokenIDs="t_418">DT
+            </tag>
+            <tag tokenIDs="t_419">JJ
+            </tag>
+            <tag tokenIDs="t_420">NN
+            </tag>
+            <tag tokenIDs="t_421">.
+            </tag>
+            <tag tokenIDs="t_422">MD
+            </tag>
+            <tag tokenIDs="t_423">PP
+            </tag>
+            <tag tokenIDs="t_424">,
+            </tag>
+            <tag tokenIDs="t_425">VBG
+            </tag>
+            <tag tokenIDs="t_426">IN
+            </tag>
+            <tag tokenIDs="t_427">PP
+            </tag>
+            <tag tokenIDs="t_428">,
+            </tag>
+            <tag tokenIDs="t_429">VB
+            </tag>
+            <tag tokenIDs="t_430">DT
+            </tag>
+            <tag tokenIDs="t_431">NNS
+            </tag>
+            <tag tokenIDs="t_432">IN
+            </tag>
+            <tag tokenIDs="t_433">PP
+            </tag>
+            <tag tokenIDs="t_434">IN
+            </tag>
+            <tag tokenIDs="t_435">DT
+            </tag>
+            <tag tokenIDs="t_436">JJ
+            </tag>
+            <tag tokenIDs="t_437">NNS
+            </tag>
+            <tag tokenIDs="t_438">IN
+            </tag>
+            <tag tokenIDs="t_439">NN
+            </tag>
+            <tag tokenIDs="t_440">IN
+            </tag>
+            <tag tokenIDs="t_441">PP
+            </tag>
+            <tag tokenIDs="t_442">,
+            </tag>
+            <tag tokenIDs="t_443">IN
+            </tag>
+            <tag tokenIDs="t_444">PP
+            </tag>
+            <tag tokenIDs="t_445">VBP
+            </tag>
+            <tag tokenIDs="t_446">RB
+            </tag>
+            <tag tokenIDs="t_447">RB
+            </tag>
+            <tag tokenIDs="t_448">IN
+            </tag>
+            <tag tokenIDs="t_449">PP
+            </tag>
+            <tag tokenIDs="t_450">VBP
+            </tag>
+            <tag tokenIDs="t_451">NN
+            </tag>
+            <tag tokenIDs="t_452">IN
+            </tag>
+            <tag tokenIDs="t_453">DT
+            </tag>
+            <tag tokenIDs="t_454">NN
+            </tag>
+            <tag tokenIDs="t_455">.
+            </tag>
+            <tag tokenIDs="t_456">PP
+            </tag>
+            <tag tokenIDs="t_457">VBP
+            </tag>
+            <tag tokenIDs="t_458">RB
+            </tag>
+            <tag tokenIDs="t_459">RB
+            </tag>
+            <tag tokenIDs="t_460">,
+            </tag>
+            <tag tokenIDs="t_461">PP
+            </tag>
+            <tag tokenIDs="t_462">VBP
+            </tag>
+            <tag tokenIDs="t_463">NN
+            </tag>
+            <tag tokenIDs="t_464">CC
+            </tag>
+            <tag tokenIDs="t_465">PP
+            </tag>
+            <tag tokenIDs="t_466">VBP
+            </tag>
+            <tag tokenIDs="t_467">RB
+            </tag>
+            <tag tokenIDs="t_468">CC
+            </tag>
+            <tag tokenIDs="t_469">IN
+            </tag>
+            <tag tokenIDs="t_470">DT
+            </tag>
+            <tag tokenIDs="t_471">NN
+            </tag>
+            <tag tokenIDs="t_472">.
+            </tag>
+            <tag tokenIDs="t_473">WDT
+            </tag>
+            <tag tokenIDs="t_474">VBZ
+            </tag>
+            <tag tokenIDs="t_475">IN
+            </tag>
+            <tag tokenIDs="t_476">PP
+            </tag>
+            <tag tokenIDs="t_477">,
+            </tag>
+            <tag tokenIDs="t_478">VBZ
+            </tag>
+            <tag tokenIDs="t_479">PP
+            </tag>
+            <tag tokenIDs="t_480">NN
+            </tag>
+            <tag tokenIDs="t_481">CC
+            </tag>
+            <tag tokenIDs="t_482">WDT
+            </tag>
+            <tag tokenIDs="t_483">PP
+            </tag>
+            <tag tokenIDs="t_484">VBP
+            </tag>
+            <tag tokenIDs="t_485">CC
+            </tag>
+            <tag tokenIDs="t_486">VBP
+            </tag>
+            <tag tokenIDs="t_487">,
+            </tag>
+            <tag tokenIDs="t_488">WDT
+            </tag>
+            <tag tokenIDs="t_489">VBZ
+            </tag>
+            <tag tokenIDs="t_490">PP
+            </tag>
+            <tag tokenIDs="t_491">CC
+            </tag>
+            <tag tokenIDs="t_492">VBZ
+            </tag>
+            <tag tokenIDs="t_493">VBN
+            </tag>
+            <tag tokenIDs="t_494">IN
+            </tag>
+            <tag tokenIDs="t_495">PP
+            </tag>
+            <tag tokenIDs="t_496">,
+            </tag>
+            <tag tokenIDs="t_497">VBZ
+            </tag>
+            <tag tokenIDs="t_498">IN
+            </tag>
+            <tag tokenIDs="t_499">PP
+            </tag>
+            <tag tokenIDs="t_500">CC
+            </tag>
+            <tag tokenIDs="t_501">VBZ
+            </tag>
+            <tag tokenIDs="t_502">PP
+            </tag>
+            <tag tokenIDs="t_503">.
+            </tag>
+            <tag tokenIDs="t_504">VBP
+            </tag>
+            <tag tokenIDs="t_505">PP
+            </tag>
+            <tag tokenIDs="t_506">VBP
+            </tag>
+            <tag tokenIDs="t_507">DT
+            </tag>
+            <tag tokenIDs="t_508">NP
+            </tag>
+            <tag tokenIDs="t_509">POS
+            </tag>
+            <tag tokenIDs="t_510">.
+            </tag>
+            <tag tokenIDs="t_511">CC
+            </tag>
+            <tag tokenIDs="t_512">MD
+            </tag>
+            <tag tokenIDs="t_513">PP
+            </tag>
+            <tag tokenIDs="t_514">.
+            </tag>
+            <tag tokenIDs="t_515">DT
+            </tag>
+            <tag tokenIDs="t_516">NN
+            </tag>
+            <tag tokenIDs="t_517">VBZ
+            </tag>
+            <tag tokenIDs="t_518">TO
+            </tag>
+            <tag tokenIDs="t_519">VB
+            </tag>
+            <tag tokenIDs="t_520">,
+            </tag>
+            <tag tokenIDs="t_521">RB
+            </tag>
+            <tag tokenIDs="t_522">IN
+            </tag>
+            <tag tokenIDs="t_523">PP
+            </tag>
+            <tag tokenIDs="t_524">VBP
+            </tag>
+            <tag tokenIDs="t_525">,
+            </tag>
+            <tag tokenIDs="t_526">DT
+            </tag>
+            <tag tokenIDs="t_527">JJ
+            </tag>
+            <tag tokenIDs="t_528">IN
+            </tag>
+            <tag tokenIDs="t_529">DT
+            </tag>
+            <tag tokenIDs="t_530">RB
+            </tag>
+            <tag tokenIDs="t_531">NN
+            </tag>
+            <tag tokenIDs="t_532">:
+            </tag>
+            <tag tokenIDs="t_533">CC
+            </tag>
+            <tag tokenIDs="t_534">PP
+            </tag>
+            <tag tokenIDs="t_535">VBZ
+            </tag>
+            <tag tokenIDs="t_536">DT
+            </tag>
+            <tag tokenIDs="t_537">NN
+            </tag>
+            <tag tokenIDs="t_538">IN
+            </tag>
+            <tag tokenIDs="t_539">PP$
+            </tag>
+            <tag tokenIDs="t_540">NN
+            </tag>
+            <tag tokenIDs="t_541">.
+            </tag>
+            <tag tokenIDs="t_542">PP
+            </tag>
+            <tag tokenIDs="t_543">VBZ
+            </tag>
+            <tag tokenIDs="t_544">DT
+            </tag>
+            <tag tokenIDs="t_545">NN
+            </tag>
+            <tag tokenIDs="t_546">JJ
+            </tag>
+            <tag tokenIDs="t_547">IN
+            </tag>
+            <tag tokenIDs="t_548">NN
+            </tag>
+            <tag tokenIDs="t_549">CC
+            </tag>
+            <tag tokenIDs="t_550">VBD
+            </tag>
+            <tag tokenIDs="t_551">DT
+            </tag>
+            <tag tokenIDs="t_552">JJ
+            </tag>
+            <tag tokenIDs="t_553">NN
+            </tag>
+            <tag tokenIDs="t_554">TO
+            </tag>
+            <tag tokenIDs="t_555">PP
+            </tag>
+            <tag tokenIDs="t_556">.
+            </tag>
+            <tag tokenIDs="t_557">RB
+            </tag>
+            <tag tokenIDs="t_558">TO
+            </tag>
+            <tag tokenIDs="t_559">DT
+            </tag>
+            <tag tokenIDs="t_560">NP
+            </tag>
+            <tag tokenIDs="t_561">CC
+            </tag>
+            <tag tokenIDs="t_562">NP
+            </tag>
+            <tag tokenIDs="t_563">PP
+            </tag>
+            <tag tokenIDs="t_564">VBP
+            </tag>
+            <tag tokenIDs="t_565">RB
+            </tag>
+            <tag tokenIDs="t_566">VB
+            </tag>
+            <tag tokenIDs="t_567">PP
+            </tag>
+            <tag tokenIDs="t_568">IN
+            </tag>
+            <tag tokenIDs="t_569">NN
+            </tag>
+            <tag tokenIDs="t_570">:
+            </tag>
+            <tag tokenIDs="t_571">CC
+            </tag>
+            <tag tokenIDs="t_572">WP
+            </tag>
+            <tag tokenIDs="t_573">DT
+            </tag>
+            <tag tokenIDs="t_574">JJ
+            </tag>
+            <tag tokenIDs="t_575">NN
+            </tag>
+            <tag tokenIDs="t_576">PP
+            </tag>
+            <tag tokenIDs="t_577">VBP
+            </tag>
+            <tag tokenIDs="t_578">TO
+            </tag>
+            <tag tokenIDs="t_579">VB
+            </tag>
+            <tag tokenIDs="t_580">,
+            </tag>
+            <tag tokenIDs="t_581">TO
+            </tag>
+            <tag tokenIDs="t_582">PP
+            </tag>
+            <tag tokenIDs="t_583">IN
+            </tag>
+            <tag tokenIDs="t_584">DT
+            </tag>
+            <tag tokenIDs="t_585">NN
+            </tag>
+            <tag tokenIDs="t_586">NN
+            </tag>
+            <tag tokenIDs="t_587">WP
+            </tag>
+            <tag tokenIDs="t_588">DT
+            </tag>
+            <tag tokenIDs="t_589">JJ
+            </tag>
+            <tag tokenIDs="t_590">NN
+            </tag>
+            <tag tokenIDs="t_591">IN
+            </tag>
+            <tag tokenIDs="t_592">DT
+            </tag>
+            <tag tokenIDs="t_593">NN
+            </tag>
+            <tag tokenIDs="t_594">.
+            </tag>
+            <tag tokenIDs="t_595">WRB
+            </tag>
+            <tag tokenIDs="t_596">PP
+            </tag>
+            <tag tokenIDs="t_597">VBZ
+            </tag>
+            <tag tokenIDs="t_598">TO
+            </tag>
+            <tag tokenIDs="t_599">PP
+            </tag>
+            <tag tokenIDs="t_600">IN
+            </tag>
+            <tag tokenIDs="t_601">NN
+            </tag>
+            <tag tokenIDs="t_602">CC
+            </tag>
+            <tag tokenIDs="t_603">NN
+            </tag>
+            <tag tokenIDs="t_604">IN
+            </tag>
+            <tag tokenIDs="t_605">JJ
+            </tag>
+            <tag tokenIDs="t_606">:
+            </tag>
+            <tag tokenIDs="t_607">NN
+            </tag>
+            <tag tokenIDs="t_608">,
+            </tag>
+            <tag tokenIDs="t_609">RB
+            </tag>
+            <tag tokenIDs="t_610">NN
+            </tag>
+            <tag tokenIDs="t_611">CC
+            </tag>
+            <tag tokenIDs="t_612">NN
+            </tag>
+            <tag tokenIDs="t_613">NNS
+            </tag>
+            <tag tokenIDs="t_614">,
+            </tag>
+            <tag tokenIDs="t_615">:
+            </tag>
+            <tag tokenIDs="t_616">NN
+            </tag>
+            <tag tokenIDs="t_617">,
+            </tag>
+            <tag tokenIDs="t_618">RB
+            </tag>
+            <tag tokenIDs="t_619">DT
+            </tag>
+            <tag tokenIDs="t_620">JJ
+            </tag>
+            <tag tokenIDs="t_621">NN
+            </tag>
+            <tag tokenIDs="t_622">,
+            </tag>
+            <tag tokenIDs="t_623">VBG
+            </tag>
+            <tag tokenIDs="t_624">NN
+            </tag>
+            <tag tokenIDs="t_625">RBR
+            </tag>
+            <tag tokenIDs="t_626">,
+            </tag>
+            <tag tokenIDs="t_627">IN
+            </tag>
+            <tag tokenIDs="t_628">PP$
+            </tag>
+            <tag tokenIDs="t_629">NN
+            </tag>
+            <tag tokenIDs="t_630">IN
+            </tag>
+            <tag tokenIDs="t_631">PP
+            </tag>
+            <tag tokenIDs="t_632">.
+            </tag>
+            <tag tokenIDs="t_633">RB
+            </tag>
+            <tag tokenIDs="t_634">TO
+            </tag>
+            <tag tokenIDs="t_635">RB
+            </tag>
+            <tag tokenIDs="t_636">NP
+            </tag>
+            <tag tokenIDs="t_637">NP
+            </tag>
+            <tag tokenIDs="t_638">PP
+            </tag>
+            <tag tokenIDs="t_639">VBP
+            </tag>
+            <tag tokenIDs="t_640">RB
+            </tag>
+            <tag tokenIDs="t_641">VB
+            </tag>
+            <tag tokenIDs="t_642">DT
+            </tag>
+            <tag tokenIDs="t_643">NN
+            </tag>
+            <tag tokenIDs="t_644">IN
+            </tag>
+            <tag tokenIDs="t_645">VBG
+            </tag>
+            <tag tokenIDs="t_646">IN
+            </tag>
+            <tag tokenIDs="t_647">JJ
+            </tag>
+            <tag tokenIDs="t_648">MD
+            </tag>
+            <tag tokenIDs="t_649">VB
+            </tag>
+            <tag tokenIDs="t_650">IN
+            </tag>
+            <tag tokenIDs="t_651">PP
+            </tag>
+            <tag tokenIDs="t_652">CC
+            </tag>
+            <tag tokenIDs="t_653">VB
+            </tag>
+            <tag tokenIDs="t_654">IN
+            </tag>
+            <tag tokenIDs="t_655">PP
+            </tag>
+            <tag tokenIDs="t_656">CC
+            </tag>
+            <tag tokenIDs="t_657">VB
+            </tag>
+            <tag tokenIDs="t_658">IN
+            </tag>
+            <tag tokenIDs="t_659">PP
+            </tag>
+            <tag tokenIDs="t_660">.
+            </tag>
+            <tag tokenIDs="t_661">PP
+            </tag>
+            <tag tokenIDs="t_662">VBP
+            </tag>
+            <tag tokenIDs="t_663">RB
+            </tag>
+            <tag tokenIDs="t_664">TO
+            </tag>
+            <tag tokenIDs="t_665">VB
+            </tag>
+            <tag tokenIDs="t_666">RB
+            </tag>
+            <tag tokenIDs="t_667">.
+            </tag>
+            <tag tokenIDs="t_668">WRB
+            </tag>
+            <tag tokenIDs="t_669">PP
+            </tag>
+            <tag tokenIDs="t_670">VBD
+            </tag>
+            <tag tokenIDs="t_671">IN
+            </tag>
+            <tag tokenIDs="t_672">PP
+            </tag>
+            <tag tokenIDs="t_673">PP
+            </tag>
+            <tag tokenIDs="t_674">MD
+            </tag>
+            <tag tokenIDs="t_675">VB
+            </tag>
+            <tag tokenIDs="t_676">VBD
+            </tag>
+            <tag tokenIDs="t_677">IN
+            </tag>
+            <tag tokenIDs="t_678">PP
+            </tag>
+            <tag tokenIDs="t_679">VBD
+            </tag>
+            <tag tokenIDs="t_680">JJR
+            </tag>
+            <tag tokenIDs="t_681">IN
+            </tag>
+            <tag tokenIDs="t_682">DT
+            </tag>
+            <tag tokenIDs="t_683">JJ
+            </tag>
+            <tag tokenIDs="t_684">NN
+            </tag>
+            <tag tokenIDs="t_685">.
+            </tag>
+            <tag tokenIDs="t_686">PP
+            </tag>
+            <tag tokenIDs="t_687">VBZ
+            </tag>
+            <tag tokenIDs="t_688">RB
+            </tag>
+            <tag tokenIDs="t_689">JJ
+            </tag>
+            <tag tokenIDs="t_690">NN
+            </tag>
+            <tag tokenIDs="t_691">PP
+            </tag>
+            <tag tokenIDs="t_692">VBP
+            </tag>
+            <tag tokenIDs="t_693">VBG
+            </tag>
+            <tag tokenIDs="t_694">RB
+            </tag>
+            <tag tokenIDs="t_695">RB
+            </tag>
+            <tag tokenIDs="t_696">IN
+            </tag>
+            <tag tokenIDs="t_697">DT
+            </tag>
+            <tag tokenIDs="t_698">NN
+            </tag>
+            <tag tokenIDs="t_699">IN
+            </tag>
+            <tag tokenIDs="t_700">DT
+            </tag>
+            <tag tokenIDs="t_701">JJ
+            </tag>
+            <tag tokenIDs="t_702">NN
+            </tag>
+            <tag tokenIDs="t_703">,
+            </tag>
+            <tag tokenIDs="t_704">CC
+            </tag>
+            <tag tokenIDs="t_705">VBP
+            </tag>
+            <tag tokenIDs="t_706">JJR
+            </tag>
+            <tag tokenIDs="t_707">IN
+            </tag>
+            <tag tokenIDs="t_708">PP
+            </tag>
+            <tag tokenIDs="t_709">.
+            </tag>
+            <tag tokenIDs="t_710">CC
+            </tag>
+            <tag tokenIDs="t_711">NP
+            </tag>
+            <tag tokenIDs="t_712">NP
+            </tag>
+            <tag tokenIDs="t_713">VBZ
+            </tag>
+            <tag tokenIDs="t_714">JJ
+            </tag>
+            <tag tokenIDs="t_715">NN
+            </tag>
+            <tag tokenIDs="t_716">NN
+            </tag>
+            <tag tokenIDs="t_717">CC
+            </tag>
+            <tag tokenIDs="t_718">IN
+            </tag>
+            <tag tokenIDs="t_719">DT
+            </tag>
+            <tag tokenIDs="t_720">NN
+            </tag>
+            <tag tokenIDs="t_721">,
+            </tag>
+            <tag tokenIDs="t_722">EX
+            </tag>
+            <tag tokenIDs="t_723">VBP
+            </tag>
+            <tag tokenIDs="t_724">NNS
+            </tag>
+            <tag tokenIDs="t_725">IN
+            </tag>
+            <tag tokenIDs="t_726">DT
+            </tag>
+            <tag tokenIDs="t_727">NN
+            </tag>
+            <tag tokenIDs="t_728">RB
+            </tag>
+            <tag tokenIDs="t_729">JJ
+            </tag>
+            <tag tokenIDs="t_730">,
+            </tag>
+            <tag tokenIDs="t_731">IN
+            </tag>
+            <tag tokenIDs="t_732">PP
+            </tag>
+            <tag tokenIDs="t_733">MD
+            </tag>
+            <tag tokenIDs="t_734">VB
+            </tag>
+            <tag tokenIDs="t_735">,
+            </tag>
+            <tag tokenIDs="t_736">:
+            </tag>
+            <tag tokenIDs="t_737">IN
+            </tag>
+            <tag tokenIDs="t_738">VBG
+            </tag>
+            <tag tokenIDs="t_739">VBN
+            </tag>
+            <tag tokenIDs="t_740">.
+            </tag>
+            <tag tokenIDs="t_741">VB
+            </tag>
+            <tag tokenIDs="t_742">NP
+            </tag>
+            <tag tokenIDs="t_743">NN
+            </tag>
+            <tag tokenIDs="t_744">TO
+            </tag>
+            <tag tokenIDs="t_745">PP
+            </tag>
+            <tag tokenIDs="t_746">.
+            </tag>
+            <tag tokenIDs="t_747">IN
+            </tag>
+            <tag tokenIDs="t_748">PP
+            </tag>
+            <tag tokenIDs="t_749">VBP
+            </tag>
+            <tag tokenIDs="t_750">PP
+            </tag>
+            <tag tokenIDs="t_751">JJ
+            </tag>
+            <tag tokenIDs="t_752">NN
+            </tag>
+            <tag tokenIDs="t_753">.
+            </tag>
+            <tag tokenIDs="t_754">RB
+            </tag>
+            <tag tokenIDs="t_755">PP$
+            </tag>
+            <tag tokenIDs="t_756">,
+            </tag>
+            <tag tokenIDs="t_757">NP
+            </tag>
+            <tag tokenIDs="t_758">NP
+            </tag>
+            <tag tokenIDs="t_759">NP
+            </tag>
+            <tag tokenIDs="t_760">CC
+            </tag>
+            <tag tokenIDs="t_761">VBZ
+            </tag>
+            <tag tokenIDs="t_762">PP
+            </tag>
+            <tag tokenIDs="t_763">NN
+            </tag>
+            <tag tokenIDs="t_764">TO
+            </tag>
+            <tag tokenIDs="t_765">VB
+            </tag>
+            <tag tokenIDs="t_766">VBN
+            </tag>
+            <tag tokenIDs="t_767">TO
+            </tag>
+            <tag tokenIDs="t_768">CD
+            </tag>
+            <tag tokenIDs="t_769">POS
+            </tag>
+            <tag tokenIDs="t_770">NN
+            </tag>
+            <tag tokenIDs="t_771">IN
+            </tag>
+            <tag tokenIDs="t_772">CD
+            </tag>
+            <tag tokenIDs="t_773">POS
+            </tag>
+            <tag tokenIDs="t_774">NNS
+            </tag>
+            <tag tokenIDs="t_775">.
+            </tag>
+            <tag tokenIDs="t_776">LQ
+            </tag>
+            <tag tokenIDs="t_777">LQ
+            </tag>
+            <tag tokenIDs="t_778">DT
+            </tag>
+            <tag tokenIDs="t_779">VBZ
+            </tag>
+            <tag tokenIDs="t_780">RB
+            </tag>
+            <tag tokenIDs="t_781">,
+            </tag>
+            <tag tokenIDs="t_782">LQ
+            </tag>
+            <tag tokenIDs="t_783">RB
+            </tag>
+            <tag tokenIDs="t_784">.
+            </tag>
+            <tag tokenIDs="t_785">IN
+            </tag>
+            <tag tokenIDs="t_786">DT
+            </tag>
+            <tag tokenIDs="t_787">NN
+            </tag>
+            <tag tokenIDs="t_788">POS
+            </tag>
+            <tag tokenIDs="t_789">NN
+            </tag>
+            <tag tokenIDs="t_790">LQ
+            </tag>
+            <tag tokenIDs="t_791">PP
+            </tag>
+            <tag tokenIDs="t_792">MD
+            </tag>
+            <tag tokenIDs="t_793">VB
+            </tag>
+            <tag tokenIDs="t_794">PP
+            </tag>
+            <tag tokenIDs="t_795">RB
+            </tag>
+            <tag tokenIDs="t_796">JJ
+            </tag>
+            <tag tokenIDs="t_797">CC
+            </tag>
+            <tag tokenIDs="t_798">PP
+            </tag>
+            <tag tokenIDs="t_799">VBP
+            </tag>
+            <tag tokenIDs="t_800">WRB
+            </tag>
+            <tag tokenIDs="t_801">RB
+            </tag>
+            <tag tokenIDs="t_802">DT
+            </tag>
+            <tag tokenIDs="t_803">NNS
+            </tag>
+            <tag tokenIDs="t_804">VBP
+            </tag>
+            <tag tokenIDs="t_805">IN
+            </tag>
+            <tag tokenIDs="t_806">PP
+            </tag>
+            <tag tokenIDs="t_807">.
+            </tag>
+            <tag tokenIDs="t_808">WRB
+            </tag>
+            <tag tokenIDs="t_809">JJ
+            </tag>
+            <tag tokenIDs="t_810">PP
+            </tag>
+            <tag tokenIDs="t_811">VBD
+            </tag>
+            <tag tokenIDs="t_812">IN
+            </tag>
+            <tag tokenIDs="t_813">DT
+            </tag>
+            <tag tokenIDs="t_814">NN
+            </tag>
+            <tag tokenIDs="t_815">TO
+            </tag>
+            <tag tokenIDs="t_816">VB
+            </tag>
+            <tag tokenIDs="t_817">PP$
+            </tag>
+            <tag tokenIDs="t_818">NN
+            </tag>
+            <tag tokenIDs="t_819">.
+            </tag>
+        </POStags>
+        <lemmas>
+            <lemma tokenIDs="t_0">Thursday
+            </lemma>
+            <lemma tokenIDs="t_1">Morning
+            </lemma>
+            <lemma tokenIDs="t_2">.
+            </lemma>
+            <lemma tokenIDs="t_3">if
+            </lemma>
+            <lemma tokenIDs="t_4">you
+            </lemma>
+            <lemma tokenIDs="t_5">do
+            </lemma>
+            <lemma tokenIDs="t_6">but
+            </lemma>
+            <lemma tokenIDs="t_7">know
+            </lemma>
+            <lemma tokenIDs="t_8">dear
+            </lemma>
+            <lemma tokenIDs="t_9">Mr.
+            </lemma>
+            <lemma tokenIDs="t_10">Browning
+            </lemma>
+            <lemma tokenIDs="t_11">how
+            </lemma>
+            <lemma tokenIDs="t_12">often
+            </lemma>
+            <lemma tokenIDs="t_13">I
+            </lemma>
+            <lemma tokenIDs="t_14">have
+            </lemma>
+            <lemma tokenIDs="t_15">write
+            </lemma>
+            <lemma tokenIDs="t_16">...
+            </lemma>
+            <lemma tokenIDs="t_17">not
+            </lemma>
+            <lemma tokenIDs="t_18">this
+            </lemma>
+            <lemma tokenIDs="t_19">letter
+            </lemma>
+            <lemma tokenIDs="t_20">I
+            </lemma>
+            <lemma tokenIDs="t_21">be
+            </lemma>
+            <lemma tokenIDs="t_22">about
+            </lemma>
+            <lemma tokenIDs="t_23">to
+            </lemma>
+            <lemma tokenIDs="t_24">write
+            </lemma>
+            <lemma tokenIDs="t_25">,
+            </lemma>
+            <lemma tokenIDs="t_26">but
+            </lemma>
+            <lemma tokenIDs="t_27">another
+            </lemma>
+            <lemma tokenIDs="t_28">good
+            </lemma>
+            <lemma tokenIDs="t_29">letter
+            </lemma>
+            <lemma tokenIDs="t_30">to
+            </lemma>
+            <lemma tokenIDs="t_31">you
+            </lemma>
+            <lemma tokenIDs="t_32">,
+            </lemma>
+            <lemma tokenIDs="t_33">...
+            </lemma>
+            <lemma tokenIDs="t_34">in
+            </lemma>
+            <lemma tokenIDs="t_35">the
+            </lemma>
+            <lemma tokenIDs="t_36">midst
+            </lemma>
+            <lemma tokenIDs="t_37">of
+            </lemma>
+            <lemma tokenIDs="t_38">my
+            </lemma>
+            <lemma tokenIDs="t_39">silence
+            </lemma>
+            <lemma tokenIDs="t_40">,
+            </lemma>
+            <lemma tokenIDs="t_41">...
+            </lemma>
+            <lemma tokenIDs="t_42">you
+            </lemma>
+            <lemma tokenIDs="t_43">would
+            </lemma>
+            <lemma tokenIDs="t_44">not
+            </lemma>
+            <lemma tokenIDs="t_45">think
+            </lemma>
+            <lemma tokenIDs="t_46">for
+            </lemma>
+            <lemma tokenIDs="t_47">a
+            </lemma>
+            <lemma tokenIDs="t_48">moment
+            </lemma>
+            <lemma tokenIDs="t_49">that
+            </lemma>
+            <lemma tokenIDs="t_50">the
+            </lemma>
+            <lemma tokenIDs="t_51">east
+            </lemma>
+            <lemma tokenIDs="t_52">wind
+            </lemma>
+            <lemma tokenIDs="t_53">,
+            </lemma>
+            <lemma tokenIDs="t_54">with
+            </lemma>
+            <lemma tokenIDs="t_55">all
+            </lemma>
+            <lemma tokenIDs="t_56">the
+            </lemma>
+            <lemma tokenIDs="t_57">harm
+            </lemma>
+            <lemma tokenIDs="t_58">it
+            </lemma>
+            <lemma tokenIDs="t_59">do
+            </lemma>
+            <lemma tokenIDs="t_60">to
+            </lemma>
+            <lemma tokenIDs="t_61">me
+            </lemma>
+            <lemma tokenIDs="t_62">,
+            </lemma>
+            <lemma tokenIDs="t_63">be
+            </lemma>
+            <lemma tokenIDs="t_64">able
+            </lemma>
+            <lemma tokenIDs="t_65">to
+            </lemma>
+            <lemma tokenIDs="t_66">do
+            </lemma>
+            <lemma tokenIDs="t_67">the
+            </lemma>
+            <lemma tokenIDs="t_68">great
+            </lemma>
+            <lemma tokenIDs="t_69">harm
+            </lemma>
+            <lemma tokenIDs="t_70">of
+            </lemma>
+            <lemma tokenIDs="t_71">put
+            </lemma>
+            <lemma tokenIDs="t_72">out
+            </lemma>
+            <lemma tokenIDs="t_73">the
+            </lemma>
+            <lemma tokenIDs="t_74">light
+            </lemma>
+            <lemma tokenIDs="t_75">of
+            </lemma>
+            <lemma tokenIDs="t_76">the
+            </lemma>
+            <lemma tokenIDs="t_77">thought
+            </lemma>
+            <lemma tokenIDs="t_78">of
+            </lemma>
+            <lemma tokenIDs="t_79">you
+            </lemma>
+            <lemma tokenIDs="t_80">to
+            </lemma>
+            <lemma tokenIDs="t_81">my
+            </lemma>
+            <lemma tokenIDs="t_82">mind
+            </lemma>
+            <lemma tokenIDs="t_83">;
+            </lemma>
+            <lemma tokenIDs="t_84">for
+            </lemma>
+            <lemma tokenIDs="t_85">this
+            </lemma>
+            <lemma tokenIDs="t_86">,
+            </lemma>
+            <lemma tokenIDs="t_87">indeed
+            </lemma>
+            <lemma tokenIDs="t_88">,
+            </lemma>
+            <lemma tokenIDs="t_89">it
+            </lemma>
+            <lemma tokenIDs="t_90">have
+            </lemma>
+            <lemma tokenIDs="t_91">no
+            </lemma>
+            <lemma tokenIDs="t_92">power
+            </lemma>
+            <lemma tokenIDs="t_93">to
+            </lemma>
+            <lemma tokenIDs="t_94">do
+            </lemma>
+            <lemma tokenIDs="t_95">.
+            </lemma>
+            <lemma tokenIDs="t_96">I
+            </lemma>
+            <lemma tokenIDs="t_97">have
+            </lemma>
+            <lemma tokenIDs="t_98">the
+            </lemma>
+            <lemma tokenIDs="t_99">pen
+            </lemma>
+            <lemma tokenIDs="t_100">in
+            </lemma>
+            <lemma tokenIDs="t_101">my
+            </lemma>
+            <lemma tokenIDs="t_102">hand
+            </lemma>
+            <lemma tokenIDs="t_103">once
+            </lemma>
+            <lemma tokenIDs="t_104">to
+            </lemma>
+            <lemma tokenIDs="t_105">write
+            </lemma>
+            <lemma tokenIDs="t_106">;
+            </lemma>
+            <lemma tokenIDs="t_107">and
+            </lemma>
+            <lemma tokenIDs="t_108">why
+            </lemma>
+            <lemma tokenIDs="t_109">it
+            </lemma>
+            <lemma tokenIDs="t_110">fall
+            </lemma>
+            <lemma tokenIDs="t_111">out
+            </lemma>
+            <lemma tokenIDs="t_112">,
+            </lemma>
+            <lemma tokenIDs="t_113">I
+            </lemma>
+            <lemma tokenIDs="t_114">can
+            </lemma>
+            <lemma tokenIDs="t_115">tell
+            </lemma>
+            <lemma tokenIDs="t_116">you
+            </lemma>
+            <lemma tokenIDs="t_117">.
+            </lemma>
+            <lemma tokenIDs="t_118">and
+            </lemma>
+            <lemma tokenIDs="t_119">you
+            </lemma>
+            <lemma tokenIDs="t_120">see
+            </lemma>
+            <lemma tokenIDs="t_121">,
+            </lemma>
+            <lemma tokenIDs="t_122">...
+            </lemma>
+            <lemma tokenIDs="t_123">all
+            </lemma>
+            <lemma tokenIDs="t_124">your
+            </lemma>
+            <lemma tokenIDs="t_125">writing
+            </lemma>
+            <lemma tokenIDs="t_126">will
+            </lemma>
+            <lemma tokenIDs="t_127">not
+            </lemma>
+            <lemma tokenIDs="t_128">change
+            </lemma>
+            <lemma tokenIDs="t_129">the
+            </lemma>
+            <lemma tokenIDs="t_130">wind
+            </lemma>
+            <lemma tokenIDs="t_131">!
+            </lemma>
+            <lemma tokenIDs="t_132">you
+            </lemma>
+            <lemma tokenIDs="t_133">wish
+            </lemma>
+            <lemma tokenIDs="t_134">all
+            </lemma>
+            <lemma tokenIDs="t_135">manner
+            </lemma>
+            <lemma tokenIDs="t_136">of
+            </lemma>
+            <lemma tokenIDs="t_137">good
+            </lemma>
+            <lemma tokenIDs="t_138">to
+            </lemma>
+            <lemma tokenIDs="t_139">me
+            </lemma>
+            <lemma tokenIDs="t_140">one
+            </lemma>
+            <lemma tokenIDs="t_141">day
+            </lemma>
+            <lemma tokenIDs="t_142">as
+            </lemma>
+            <lemma tokenIDs="t_143">the
+            </lemma>
+            <lemma tokenIDs="t_144">clock
+            </lemma>
+            <lemma tokenIDs="t_145">strike
+            </lemma>
+            <lemma tokenIDs="t_146">ten
+            </lemma>
+            <lemma tokenIDs="t_147">;
+            </lemma>
+            <lemma tokenIDs="t_148">yes
+            </lemma>
+            <lemma tokenIDs="t_149">,
+            </lemma>
+            <lemma tokenIDs="t_150">and
+            </lemma>
+            <lemma tokenIDs="t_151">I
+            </lemma>
+            <lemma tokenIDs="t_152">assure
+            </lemma>
+            <lemma tokenIDs="t_153">you
+            </lemma>
+            <lemma tokenIDs="t_154">I
+            </lemma>
+            <lemma tokenIDs="t_155">be
+            </lemma>
+            <lemma tokenIDs="t_156">well
+            </lemma>
+            <lemma tokenIDs="t_157">that
+            </lemma>
+            <lemma tokenIDs="t_158">day
+            </lemma>
+            <lemma tokenIDs="t_159">&lt;unknown&gt;
+            </lemma>
+            <lemma tokenIDs="t_160">and
+            </lemma>
+            <lemma tokenIDs="t_161">I
+            </lemma>
+            <lemma tokenIDs="t_162">must
+            </lemma>
+            <lemma tokenIDs="t_163">not
+            </lemma>
+            <lemma tokenIDs="t_164">forget
+            </lemma>
+            <lemma tokenIDs="t_165">to
+            </lemma>
+            <lemma tokenIDs="t_166">tell
+            </lemma>
+            <lemma tokenIDs="t_167">you
+            </lemma>
+            <lemma tokenIDs="t_168">so
+            </lemma>
+            <lemma tokenIDs="t_169">though
+            </lemma>
+            <lemma tokenIDs="t_170">it
+            </lemma>
+            <lemma tokenIDs="t_171">be
+            </lemma>
+            <lemma tokenIDs="t_172">so
+            </lemma>
+            <lemma tokenIDs="t_173">long
+            </lemma>
+            <lemma tokenIDs="t_174">since
+            </lemma>
+            <lemma tokenIDs="t_175">.
+            </lemma>
+            <lemma tokenIDs="t_176">and
+            </lemma>
+            <lemma tokenIDs="t_177">therefore
+            </lemma>
+            <lemma tokenIDs="t_178">,
+            </lemma>
+            <lemma tokenIDs="t_179">I
+            </lemma>
+            <lemma tokenIDs="t_180">be
+            </lemma>
+            <lemma tokenIDs="t_181">logically
+            </lemma>
+            <lemma tokenIDs="t_182">bind
+            </lemma>
+            <lemma tokenIDs="t_183">to
+            </lemma>
+            <lemma tokenIDs="t_184">believe
+            </lemma>
+            <lemma tokenIDs="t_185">that
+            </lemma>
+            <lemma tokenIDs="t_186">you
+            </lemma>
+            <lemma tokenIDs="t_187">have
+            </lemma>
+            <lemma tokenIDs="t_188">never
+            </lemma>
+            <lemma tokenIDs="t_189">think
+            </lemma>
+            <lemma tokenIDs="t_190">of
+            </lemma>
+            <lemma tokenIDs="t_191">me
+            </lemma>
+            <lemma tokenIDs="t_192">since
+            </lemma>
+            <lemma tokenIDs="t_193">...
+            </lemma>
+            <lemma tokenIDs="t_194">unless
+            </lemma>
+            <lemma tokenIDs="t_195">you
+            </lemma>
+            <lemma tokenIDs="t_196">think
+            </lemma>
+            <lemma tokenIDs="t_197">east
+            </lemma>
+            <lemma tokenIDs="t_198">wind
+            </lemma>
+            <lemma tokenIDs="t_199">of
+            </lemma>
+            <lemma tokenIDs="t_200">me
+            </lemma>
+            <lemma tokenIDs="t_201">!
+            </lemma>
+            <lemma tokenIDs="t_202">that
+            </lemma>
+            <lemma tokenIDs="t_203">be
+            </lemma>
+            <lemma tokenIDs="t_204">quite
+            </lemma>
+            <lemma tokenIDs="t_205">clear
+            </lemma>
+            <lemma tokenIDs="t_206">;
+            </lemma>
+            <lemma tokenIDs="t_207">be
+            </lemma>
+            <lemma tokenIDs="t_208">it
+            </lemma>
+            <lemma tokenIDs="t_209">not
+            </lemma>
+            <lemma tokenIDs="t_210">?
+            </lemma>
+            <lemma tokenIDs="t_211">or
+            </lemma>
+            <lemma tokenIDs="t_212">would
+            </lemma>
+            <lemma tokenIDs="t_213">have
+            </lemma>
+            <lemma tokenIDs="t_214">be
+            </lemma>
+            <lemma tokenIDs="t_215">;
+            </lemma>
+            <lemma tokenIDs="t_216">if
+            </lemma>
+            <lemma tokenIDs="t_217">it
+            </lemma>
+            <lemma tokenIDs="t_218">have
+            </lemma>
+            <lemma tokenIDs="t_219">not
+            </lemma>
+            <lemma tokenIDs="t_220">be
+            </lemma>
+            <lemma tokenIDs="t_221">for
+            </lemma>
+            <lemma tokenIDs="t_222">the
+            </lemma>
+            <lemma tokenIDs="t_223">supernatural
+            </lemma>
+            <lemma tokenIDs="t_224">conviction
+            </lemma>
+            <lemma tokenIDs="t_225">,
+            </lemma>
+            <lemma tokenIDs="t_226">I
+            </lemma>
+            <lemma tokenIDs="t_227">have
+            </lemma>
+            <lemma tokenIDs="t_228">above
+            </lemma>
+            <lemma tokenIDs="t_229">all
+            </lemma>
+            <lemma tokenIDs="t_230">,
+            </lemma>
+            <lemma tokenIDs="t_231">of
+            </lemma>
+            <lemma tokenIDs="t_232">your
+            </lemma>
+            <lemma tokenIDs="t_233">kindness
+            </lemma>
+            <lemma tokenIDs="t_234">,
+            </lemma>
+            <lemma tokenIDs="t_235">which
+            </lemma>
+            <lemma tokenIDs="t_236">be
+            </lemma>
+            <lemma tokenIDs="t_237">too
+            </lemma>
+            <lemma tokenIDs="t_238">large
+            </lemma>
+            <lemma tokenIDs="t_239">to
+            </lemma>
+            <lemma tokenIDs="t_240">be
+            </lemma>
+            <lemma tokenIDs="t_241">take
+            </lemma>
+            <lemma tokenIDs="t_242">in
+            </lemma>
+            <lemma tokenIDs="t_243">the
+            </lemma>
+            <lemma tokenIDs="t_244">hinge
+            </lemma>
+            <lemma tokenIDs="t_245">of
+            </lemma>
+            <lemma tokenIDs="t_246">a
+            </lemma>
+            <lemma tokenIDs="t_247">syllogism
+            </lemma>
+            <lemma tokenIDs="t_248">.
+            </lemma>
+            <lemma tokenIDs="t_249">in
+            </lemma>
+            <lemma tokenIDs="t_250">fact
+            </lemma>
+            <lemma tokenIDs="t_251">I
+            </lemma>
+            <lemma tokenIDs="t_252">have
+            </lemma>
+            <lemma tokenIDs="t_253">long
+            </lemma>
+            <lemma tokenIDs="t_254">leave
+            </lemma>
+            <lemma tokenIDs="t_255">off
+            </lemma>
+            <lemma tokenIDs="t_256">think
+            </lemma>
+            <lemma tokenIDs="t_257">that
+            </lemma>
+            <lemma tokenIDs="t_258">logic
+            </lemma>
+            <lemma tokenIDs="t_259">prove
+            </lemma>
+            <lemma tokenIDs="t_260">anything
+            </lemma>
+            <lemma tokenIDs="t_261">&lt;unknown&gt;
+            </lemma>
+            <lemma tokenIDs="t_262">it
+            </lemma>
+            <lemma tokenIDs="t_263">do
+            </lemma>
+            <lemma tokenIDs="t_264">n't
+            </lemma>
+            <lemma tokenIDs="t_265">,
+            </lemma>
+            <lemma tokenIDs="t_266">you
+            </lemma>
+            <lemma tokenIDs="t_267">know
+            </lemma>
+            <lemma tokenIDs="t_268">.
+            </lemma>
+            <lemma tokenIDs="t_269">but
+            </lemma>
+            <lemma tokenIDs="t_270">your
+            </lemma>
+            <lemma tokenIDs="t_271">Lamia
+            </lemma>
+            <lemma tokenIDs="t_272">have
+            </lemma>
+            <lemma tokenIDs="t_273">teach
+            </lemma>
+            <lemma tokenIDs="t_274">you
+            </lemma>
+            <lemma tokenIDs="t_275">some
+            </lemma>
+            <lemma tokenIDs="t_276">subtle
+            </lemma>
+            <lemma tokenIDs="t_277">&lt;unknown&gt;
+            </lemma>
+            <lemma tokenIDs="t_278">'
+            </lemma>
+            <lemma tokenIDs="t_279">reasoning
+            </lemma>
+            <lemma tokenIDs="t_280">and
+            </lemma>
+            <lemma tokenIDs="t_281">motive
+            </lemma>
+            <lemma tokenIDs="t_282">,
+            </lemma>
+            <lemma tokenIDs="t_283">for
+            </lemma>
+            <lemma tokenIDs="t_284">the
+            </lemma>
+            <lemma tokenIDs="t_285">turn
+            </lemma>
+            <lemma tokenIDs="t_286">down
+            </lemma>
+            <lemma tokenIDs="t_287">one
+            </lemma>
+            <lemma tokenIDs="t_288">street
+            </lemma>
+            <lemma tokenIDs="t_289">instead
+            </lemma>
+            <lemma tokenIDs="t_290">of
+            </lemma>
+            <lemma tokenIDs="t_291">another
+            </lemma>
+            <lemma tokenIDs="t_292">.
+            </lemma>
+            <lemma tokenIDs="t_293">it
+            </lemma>
+            <lemma tokenIDs="t_294">be
+            </lemma>
+            <lemma tokenIDs="t_295">conclusive
+            </lemma>
+            <lemma tokenIDs="t_296">.
+            </lemma>
+            <lemma tokenIDs="t_297">ah
+            </lemma>
+            <lemma tokenIDs="t_298">&lt;unknown&gt;
+            </lemma>
+            <lemma tokenIDs="t_299">but
+            </lemma>
+            <lemma tokenIDs="t_300">you
+            </lemma>
+            <lemma tokenIDs="t_301">will
+            </lemma>
+            <lemma tokenIDs="t_302">never
+            </lemma>
+            <lemma tokenIDs="t_303">persuade
+            </lemma>
+            <lemma tokenIDs="t_304">me
+            </lemma>
+            <lemma tokenIDs="t_305">that
+            </lemma>
+            <lemma tokenIDs="t_306">I
+            </lemma>
+            <lemma tokenIDs="t_307">be
+            </lemma>
+            <lemma tokenIDs="t_308">the
+            </lemma>
+            <lemma tokenIDs="t_309">good
+            </lemma>
+            <lemma tokenIDs="t_310">,
+            </lemma>
+            <lemma tokenIDs="t_311">or
+            </lemma>
+            <lemma tokenIDs="t_312">as
+            </lemma>
+            <lemma tokenIDs="t_313">well
+            </lemma>
+            <lemma tokenIDs="t_314">,
+            </lemma>
+            <lemma tokenIDs="t_315">for
+            </lemma>
+            <lemma tokenIDs="t_316">the
+            </lemma>
+            <lemma tokenIDs="t_317">thing
+            </lemma>
+            <lemma tokenIDs="t_318">that
+            </lemma>
+            <lemma tokenIDs="t_319">I
+            </lemma>
+            <lemma tokenIDs="t_320">have
+            </lemma>
+            <lemma tokenIDs="t_321">not
+            </lemma>
+            <lemma tokenIDs="t_322">.
+            </lemma>
+            <lemma tokenIDs="t_323">we
+            </lemma>
+            <lemma tokenIDs="t_324">look
+            </lemma>
+            <lemma tokenIDs="t_325">from
+            </lemma>
+            <lemma tokenIDs="t_326">different
+            </lemma>
+            <lemma tokenIDs="t_327">point
+            </lemma>
+            <lemma tokenIDs="t_328">of
+            </lemma>
+            <lemma tokenIDs="t_329">view
+            </lemma>
+            <lemma tokenIDs="t_330">,
+            </lemma>
+            <lemma tokenIDs="t_331">and
+            </lemma>
+            <lemma tokenIDs="t_332">yours
+            </lemma>
+            <lemma tokenIDs="t_333">be
+            </lemma>
+            <lemma tokenIDs="t_334">the
+            </lemma>
+            <lemma tokenIDs="t_335">point
+            </lemma>
+            <lemma tokenIDs="t_336">of
+            </lemma>
+            <lemma tokenIDs="t_337">attainment
+            </lemma>
+            <lemma tokenIDs="t_338">.
+            </lemma>
+            <lemma tokenIDs="t_339">not
+            </lemma>
+            <lemma tokenIDs="t_340">that
+            </lemma>
+            <lemma tokenIDs="t_341">you
+            </lemma>
+            <lemma tokenIDs="t_342">do
+            </lemma>
+            <lemma tokenIDs="t_343">not
+            </lemma>
+            <lemma tokenIDs="t_344">truly
+            </lemma>
+            <lemma tokenIDs="t_345">say
+            </lemma>
+            <lemma tokenIDs="t_346">that
+            </lemma>
+            <lemma tokenIDs="t_347">,
+            </lemma>
+            <lemma tokenIDs="t_348">when
+            </lemma>
+            <lemma tokenIDs="t_349">all
+            </lemma>
+            <lemma tokenIDs="t_350">be
+            </lemma>
+            <lemma tokenIDs="t_351">do
+            </lemma>
+            <lemma tokenIDs="t_352">,
+            </lemma>
+            <lemma tokenIDs="t_353">we
+            </lemma>
+            <lemma tokenIDs="t_354">must
+            </lemma>
+            <lemma tokenIDs="t_355">come
+            </lemma>
+            <lemma tokenIDs="t_356">home
+            </lemma>
+            <lemma tokenIDs="t_357">to
+            </lemma>
+            <lemma tokenIDs="t_358">place
+            </lemma>
+            <lemma tokenIDs="t_359">our
+            </lemma>
+            <lemma tokenIDs="t_360">engine
+            </lemma>
+            <lemma tokenIDs="t_361">,
+            </lemma>
+            <lemma tokenIDs="t_362">and
+            </lemma>
+            <lemma tokenIDs="t_363">act
+            </lemma>
+            <lemma tokenIDs="t_364">by
+            </lemma>
+            <lemma tokenIDs="t_365">our
+            </lemma>
+            <lemma tokenIDs="t_366">own
+            </lemma>
+            <lemma tokenIDs="t_367">strength
+            </lemma>
+            <lemma tokenIDs="t_368">.
+            </lemma>
+            <lemma tokenIDs="t_369">I
+            </lemma>
+            <lemma tokenIDs="t_370">do
+            </lemma>
+            <lemma tokenIDs="t_371">not
+            </lemma>
+            <lemma tokenIDs="t_372">want
+            </lemma>
+            <lemma tokenIDs="t_373">material
+            </lemma>
+            <lemma tokenIDs="t_374">as
+            </lemma>
+            <lemma tokenIDs="t_375">material
+            </lemma>
+            <lemma tokenIDs="t_376">;
+            </lemma>
+            <lemma tokenIDs="t_377">no
+            </lemma>
+            <lemma tokenIDs="t_378">one
+            </lemma>
+            <lemma tokenIDs="t_379">do
+            </lemma>
+            <lemma tokenIDs="t_380">&lt;unknown&gt;
+            </lemma>
+            <lemma tokenIDs="t_381">but
+            </lemma>
+            <lemma tokenIDs="t_382">every
+            </lemma>
+            <lemma tokenIDs="t_383">life
+            </lemma>
+            <lemma tokenIDs="t_384">require
+            </lemma>
+            <lemma tokenIDs="t_385">a
+            </lemma>
+            <lemma tokenIDs="t_386">full
+            </lemma>
+            <lemma tokenIDs="t_387">experience
+            </lemma>
+            <lemma tokenIDs="t_388">,
+            </lemma>
+            <lemma tokenIDs="t_389">a
+            </lemma>
+            <lemma tokenIDs="t_390">various
+            </lemma>
+            <lemma tokenIDs="t_391">experience
+            </lemma>
+            <lemma tokenIDs="t_392">&lt;unknown&gt;
+            </lemma>
+            <lemma tokenIDs="t_393">and
+            </lemma>
+            <lemma tokenIDs="t_394">I
+            </lemma>
+            <lemma tokenIDs="t_395">have
+            </lemma>
+            <lemma tokenIDs="t_396">a
+            </lemma>
+            <lemma tokenIDs="t_397">profound
+            </lemma>
+            <lemma tokenIDs="t_398">conviction
+            </lemma>
+            <lemma tokenIDs="t_399">that
+            </lemma>
+            <lemma tokenIDs="t_400">where
+            </lemma>
+            <lemma tokenIDs="t_401">a
+            </lemma>
+            <lemma tokenIDs="t_402">poet
+            </lemma>
+            <lemma tokenIDs="t_403">have
+            </lemma>
+            <lemma tokenIDs="t_404">be
+            </lemma>
+            <lemma tokenIDs="t_405">shut
+            </lemma>
+            <lemma tokenIDs="t_406">from
+            </lemma>
+            <lemma tokenIDs="t_407">most
+            </lemma>
+            <lemma tokenIDs="t_408">of
+            </lemma>
+            <lemma tokenIDs="t_409">the
+            </lemma>
+            <lemma tokenIDs="t_410">outward
+            </lemma>
+            <lemma tokenIDs="t_411">aspect
+            </lemma>
+            <lemma tokenIDs="t_412">of
+            </lemma>
+            <lemma tokenIDs="t_413">life
+            </lemma>
+            <lemma tokenIDs="t_414">,
+            </lemma>
+            <lemma tokenIDs="t_415">he
+            </lemma>
+            <lemma tokenIDs="t_416">be
+            </lemma>
+            <lemma tokenIDs="t_417">at
+            </lemma>
+            <lemma tokenIDs="t_418">a
+            </lemma>
+            <lemma tokenIDs="t_419">lamentable
+            </lemma>
+            <lemma tokenIDs="t_420">disadvantage
+            </lemma>
+            <lemma tokenIDs="t_421">.
+            </lemma>
+            <lemma tokenIDs="t_422">Can
+            </lemma>
+            <lemma tokenIDs="t_423">you
+            </lemma>
+            <lemma tokenIDs="t_424">,
+            </lemma>
+            <lemma tokenIDs="t_425">speak
+            </lemma>
+            <lemma tokenIDs="t_426">for
+            </lemma>
+            <lemma tokenIDs="t_427">yourself
+            </lemma>
+            <lemma tokenIDs="t_428">,
+            </lemma>
+            <lemma tokenIDs="t_429">separate
+            </lemma>
+            <lemma tokenIDs="t_430">the
+            </lemma>
+            <lemma tokenIDs="t_431">result
+            </lemma>
+            <lemma tokenIDs="t_432">in
+            </lemma>
+            <lemma tokenIDs="t_433">you
+            </lemma>
+            <lemma tokenIDs="t_434">from
+            </lemma>
+            <lemma tokenIDs="t_435">the
+            </lemma>
+            <lemma tokenIDs="t_436">external
+            </lemma>
+            <lemma tokenIDs="t_437">influence
+            </lemma>
+            <lemma tokenIDs="t_438">at
+            </lemma>
+            <lemma tokenIDs="t_439">work
+            </lemma>
+            <lemma tokenIDs="t_440">around
+            </lemma>
+            <lemma tokenIDs="t_441">you
+            </lemma>
+            <lemma tokenIDs="t_442">,
+            </lemma>
+            <lemma tokenIDs="t_443">that
+            </lemma>
+            <lemma tokenIDs="t_444">you
+            </lemma>
+            <lemma tokenIDs="t_445">say
+            </lemma>
+            <lemma tokenIDs="t_446">so
+            </lemma>
+            <lemma tokenIDs="t_447">boldly
+            </lemma>
+            <lemma tokenIDs="t_448">that
+            </lemma>
+            <lemma tokenIDs="t_449">you
+            </lemma>
+            <lemma tokenIDs="t_450">get
+            </lemma>
+            <lemma tokenIDs="t_451">nothing
+            </lemma>
+            <lemma tokenIDs="t_452">from
+            </lemma>
+            <lemma tokenIDs="t_453">the
+            </lemma>
+            <lemma tokenIDs="t_454">world
+            </lemma>
+            <lemma tokenIDs="t_455">?
+            </lemma>
+            <lemma tokenIDs="t_456">you
+            </lemma>
+            <lemma tokenIDs="t_457">do
+            </lemma>
+            <lemma tokenIDs="t_458">not
+            </lemma>
+            <lemma tokenIDs="t_459">directly
+            </lemma>
+            <lemma tokenIDs="t_460">,
+            </lemma>
+            <lemma tokenIDs="t_461">I
+            </lemma>
+            <lemma tokenIDs="t_462">know
+            </lemma>
+            <lemma tokenIDs="t_463">&lt;unknown&gt;
+            </lemma>
+            <lemma tokenIDs="t_464">but
+            </lemma>
+            <lemma tokenIDs="t_465">you
+            </lemma>
+            <lemma tokenIDs="t_466">do
+            </lemma>
+            <lemma tokenIDs="t_467">indirectly
+            </lemma>
+            <lemma tokenIDs="t_468">and
+            </lemma>
+            <lemma tokenIDs="t_469">by
+            </lemma>
+            <lemma tokenIDs="t_470">a
+            </lemma>
+            <lemma tokenIDs="t_471">rebound
+            </lemma>
+            <lemma tokenIDs="t_472">.
+            </lemma>
+            <lemma tokenIDs="t_473">whatever
+            </lemma>
+            <lemma tokenIDs="t_474">act
+            </lemma>
+            <lemma tokenIDs="t_475">upon
+            </lemma>
+            <lemma tokenIDs="t_476">you
+            </lemma>
+            <lemma tokenIDs="t_477">,
+            </lemma>
+            <lemma tokenIDs="t_478">become
+            </lemma>
+            <lemma tokenIDs="t_479">you
+            </lemma>
+            <lemma tokenIDs="t_480">&lt;unknown&gt;
+            </lemma>
+            <lemma tokenIDs="t_481">and
+            </lemma>
+            <lemma tokenIDs="t_482">whatever
+            </lemma>
+            <lemma tokenIDs="t_483">you
+            </lemma>
+            <lemma tokenIDs="t_484">love
+            </lemma>
+            <lemma tokenIDs="t_485">or
+            </lemma>
+            <lemma tokenIDs="t_486">hate
+            </lemma>
+            <lemma tokenIDs="t_487">,
+            </lemma>
+            <lemma tokenIDs="t_488">whatever
+            </lemma>
+            <lemma tokenIDs="t_489">charm
+            </lemma>
+            <lemma tokenIDs="t_490">you
+            </lemma>
+            <lemma tokenIDs="t_491">or
+            </lemma>
+            <lemma tokenIDs="t_492">be
+            </lemma>
+            <lemma tokenIDs="t_493">scorn
+            </lemma>
+            <lemma tokenIDs="t_494">by
+            </lemma>
+            <lemma tokenIDs="t_495">you
+            </lemma>
+            <lemma tokenIDs="t_496">,
+            </lemma>
+            <lemma tokenIDs="t_497">act
+            </lemma>
+            <lemma tokenIDs="t_498">on
+            </lemma>
+            <lemma tokenIDs="t_499">you
+            </lemma>
+            <lemma tokenIDs="t_500">and
+            </lemma>
+            <lemma tokenIDs="t_501">become
+            </lemma>
+            <lemma tokenIDs="t_502">you
+            </lemma>
+            <lemma tokenIDs="t_503">.
+            </lemma>
+            <lemma tokenIDs="t_504">have
+            </lemma>
+            <lemma tokenIDs="t_505">you
+            </lemma>
+            <lemma tokenIDs="t_506">read
+            </lemma>
+            <lemma tokenIDs="t_507">the
+            </lemma>
+            <lemma tokenIDs="t_508">&lt;unknown&gt;
+            </lemma>
+            <lemma tokenIDs="t_509">'
+            </lemma>
+            <lemma tokenIDs="t_510">?
+            </lemma>
+            <lemma tokenIDs="t_511">or
+            </lemma>
+            <lemma tokenIDs="t_512">will
+            </lemma>
+            <lemma tokenIDs="t_513">you
+            </lemma>
+            <lemma tokenIDs="t_514">?
+            </lemma>
+            <lemma tokenIDs="t_515">the
+            </lemma>
+            <lemma tokenIDs="t_516">writer
+            </lemma>
+            <lemma tokenIDs="t_517">seem
+            </lemma>
+            <lemma tokenIDs="t_518">to
+            </lemma>
+            <lemma tokenIDs="t_519">feel
+            </lemma>
+            <lemma tokenIDs="t_520">,
+            </lemma>
+            <lemma tokenIDs="t_521">just
+            </lemma>
+            <lemma tokenIDs="t_522">as
+            </lemma>
+            <lemma tokenIDs="t_523">I
+            </lemma>
+            <lemma tokenIDs="t_524">do
+            </lemma>
+            <lemma tokenIDs="t_525">,
+            </lemma>
+            <lemma tokenIDs="t_526">the
+            </lemma>
+            <lemma tokenIDs="t_527">good
+            </lemma>
+            <lemma tokenIDs="t_528">of
+            </lemma>
+            <lemma tokenIDs="t_529">the
+            </lemma>
+            <lemma tokenIDs="t_530">outward
+            </lemma>
+            <lemma tokenIDs="t_531">life
+            </lemma>
+            <lemma tokenIDs="t_532">;
+            </lemma>
+            <lemma tokenIDs="t_533">and
+            </lemma>
+            <lemma tokenIDs="t_534">he
+            </lemma>
+            <lemma tokenIDs="t_535">be
+            </lemma>
+            <lemma tokenIDs="t_536">a
+            </lemma>
+            <lemma tokenIDs="t_537">poet
+            </lemma>
+            <lemma tokenIDs="t_538">in
+            </lemma>
+            <lemma tokenIDs="t_539">his
+            </lemma>
+            <lemma tokenIDs="t_540">soul
+            </lemma>
+            <lemma tokenIDs="t_541">.
+            </lemma>
+            <lemma tokenIDs="t_542">it
+            </lemma>
+            <lemma tokenIDs="t_543">be
+            </lemma>
+            <lemma tokenIDs="t_544">a
+            </lemma>
+            <lemma tokenIDs="t_545">book
+            </lemma>
+            <lemma tokenIDs="t_546">full
+            </lemma>
+            <lemma tokenIDs="t_547">of
+            </lemma>
+            <lemma tokenIDs="t_548">beauty
+            </lemma>
+            <lemma tokenIDs="t_549">and
+            </lemma>
+            <lemma tokenIDs="t_550">have
+            </lemma>
+            <lemma tokenIDs="t_551">a
+            </lemma>
+            <lemma tokenIDs="t_552">great
+            </lemma>
+            <lemma tokenIDs="t_553">charm
+            </lemma>
+            <lemma tokenIDs="t_554">to
+            </lemma>
+            <lemma tokenIDs="t_555">me
+            </lemma>
+            <lemma tokenIDs="t_556">.
+            </lemma>
+            <lemma tokenIDs="t_557">as
+            </lemma>
+            <lemma tokenIDs="t_558">to
+            </lemma>
+            <lemma tokenIDs="t_559">the
+            </lemma>
+            <lemma tokenIDs="t_560">&lt;unknown&gt;
+            </lemma>
+            <lemma tokenIDs="t_561">and
+            </lemma>
+            <lemma tokenIDs="t_562">&lt;unknown&gt;
+            </lemma>
+            <lemma tokenIDs="t_563">I
+            </lemma>
+            <lemma tokenIDs="t_564">do
+            </lemma>
+            <lemma tokenIDs="t_565">not
+            </lemma>
+            <lemma tokenIDs="t_566">covet
+            </lemma>
+            <lemma tokenIDs="t_567">them
+            </lemma>
+            <lemma tokenIDs="t_568">of
+            </lemma>
+            <lemma tokenIDs="t_569">course
+            </lemma>
+            <lemma tokenIDs="t_570">...
+            </lemma>
+            <lemma tokenIDs="t_571">but
+            </lemma>
+            <lemma tokenIDs="t_572">what
+            </lemma>
+            <lemma tokenIDs="t_573">a
+            </lemma>
+            <lemma tokenIDs="t_574">strange
+            </lemma>
+            <lemma tokenIDs="t_575">world
+            </lemma>
+            <lemma tokenIDs="t_576">you
+            </lemma>
+            <lemma tokenIDs="t_577">seem
+            </lemma>
+            <lemma tokenIDs="t_578">to
+            </lemma>
+            <lemma tokenIDs="t_579">have
+            </lemma>
+            <lemma tokenIDs="t_580">,
+            </lemma>
+            <lemma tokenIDs="t_581">to
+            </lemma>
+            <lemma tokenIDs="t_582">me
+            </lemma>
+            <lemma tokenIDs="t_583">at
+            </lemma>
+            <lemma tokenIDs="t_584">a
+            </lemma>
+            <lemma tokenIDs="t_585">distance
+            </lemma>
+            <lemma tokenIDs="t_586">&lt;unknown&gt;
+            </lemma>
+            <lemma tokenIDs="t_587">what
+            </lemma>
+            <lemma tokenIDs="t_588">a
+            </lemma>
+            <lemma tokenIDs="t_589">strange
+            </lemma>
+            <lemma tokenIDs="t_590">husk
+            </lemma>
+            <lemma tokenIDs="t_591">of
+            </lemma>
+            <lemma tokenIDs="t_592">a
+            </lemma>
+            <lemma tokenIDs="t_593">world
+            </lemma>
+            <lemma tokenIDs="t_594">!
+            </lemma>
+            <lemma tokenIDs="t_595">How
+            </lemma>
+            <lemma tokenIDs="t_596">it
+            </lemma>
+            <lemma tokenIDs="t_597">look
+            </lemma>
+            <lemma tokenIDs="t_598">to
+            </lemma>
+            <lemma tokenIDs="t_599">me
+            </lemma>
+            <lemma tokenIDs="t_600">like
+            </lemma>
+            <lemma tokenIDs="t_601">&lt;unknown&gt;
+            </lemma>
+            <lemma tokenIDs="t_602">or
+            </lemma>
+            <lemma tokenIDs="t_603">something
+            </lemma>
+            <lemma tokenIDs="t_604">as
+            </lemma>
+            <lemma tokenIDs="t_605">remote
+            </lemma>
+            <lemma tokenIDs="t_606">;
+            </lemma>
+            <lemma tokenIDs="t_607">nay
+            </lemma>
+            <lemma tokenIDs="t_608">,
+            </lemma>
+            <lemma tokenIDs="t_609">not
+            </lemma>
+            <lemma tokenIDs="t_610">&lt;unknown&gt;
+            </lemma>
+            <lemma tokenIDs="t_611">but
+            </lemma>
+            <lemma tokenIDs="t_612">mandarin
+            </lemma>
+            <lemma tokenIDs="t_613">manner
+            </lemma>
+            <lemma tokenIDs="t_614">,
+            </lemma>
+            <lemma tokenIDs="t_615">...
+            </lemma>
+            <lemma tokenIDs="t_616">life
+            </lemma>
+            <lemma tokenIDs="t_617">,
+            </lemma>
+            <lemma tokenIDs="t_618">even
+            </lemma>
+            <lemma tokenIDs="t_619">the
+            </lemma>
+            <lemma tokenIDs="t_620">outer
+            </lemma>
+            <lemma tokenIDs="t_621">life
+            </lemma>
+            <lemma tokenIDs="t_622">,
+            </lemma>
+            <lemma tokenIDs="t_623">mean
+            </lemma>
+            <lemma tokenIDs="t_624">something
+            </lemma>
+            <lemma tokenIDs="t_625">deeper
+            </lemma>
+            <lemma tokenIDs="t_626">,
+            </lemma>
+            <lemma tokenIDs="t_627">in
+            </lemma>
+            <lemma tokenIDs="t_628">my
+            </lemma>
+            <lemma tokenIDs="t_629">account
+            </lemma>
+            <lemma tokenIDs="t_630">of
+            </lemma>
+            <lemma tokenIDs="t_631">it
+            </lemma>
+            <lemma tokenIDs="t_632">.
+            </lemma>
+            <lemma tokenIDs="t_633">as
+            </lemma>
+            <lemma tokenIDs="t_634">to
+            </lemma>
+            <lemma tokenIDs="t_635">dear
+            </lemma>
+            <lemma tokenIDs="t_636">Mr.
+            </lemma>
+            <lemma tokenIDs="t_637">Kenyon
+            </lemma>
+            <lemma tokenIDs="t_638">I
+            </lemma>
+            <lemma tokenIDs="t_639">do
+            </lemma>
+            <lemma tokenIDs="t_640">not
+            </lemma>
+            <lemma tokenIDs="t_641">make
+            </lemma>
+            <lemma tokenIDs="t_642">the
+            </lemma>
+            <lemma tokenIDs="t_643">mistake
+            </lemma>
+            <lemma tokenIDs="t_644">of
+            </lemma>
+            <lemma tokenIDs="t_645">fancy
+            </lemma>
+            <lemma tokenIDs="t_646">that
+            </lemma>
+            <lemma tokenIDs="t_647">many
+            </lemma>
+            <lemma tokenIDs="t_648">can
+            </lemma>
+            <lemma tokenIDs="t_649">look
+            </lemma>
+            <lemma tokenIDs="t_650">like
+            </lemma>
+            <lemma tokenIDs="t_651">him
+            </lemma>
+            <lemma tokenIDs="t_652">or
+            </lemma>
+            <lemma tokenIDs="t_653">talk
+            </lemma>
+            <lemma tokenIDs="t_654">like
+            </lemma>
+            <lemma tokenIDs="t_655">him
+            </lemma>
+            <lemma tokenIDs="t_656">or
+            </lemma>
+            <lemma tokenIDs="t_657">be
+            </lemma>
+            <lemma tokenIDs="t_658">like
+            </lemma>
+            <lemma tokenIDs="t_659">him
+            </lemma>
+            <lemma tokenIDs="t_660">.
+            </lemma>
+            <lemma tokenIDs="t_661">I
+            </lemma>
+            <lemma tokenIDs="t_662">know
+            </lemma>
+            <lemma tokenIDs="t_663">enough
+            </lemma>
+            <lemma tokenIDs="t_664">to
+            </lemma>
+            <lemma tokenIDs="t_665">know
+            </lemma>
+            <lemma tokenIDs="t_666">otherwise
+            </lemma>
+            <lemma tokenIDs="t_667">.
+            </lemma>
+            <lemma tokenIDs="t_668">when
+            </lemma>
+            <lemma tokenIDs="t_669">he
+            </lemma>
+            <lemma tokenIDs="t_670">speak
+            </lemma>
+            <lemma tokenIDs="t_671">of
+            </lemma>
+            <lemma tokenIDs="t_672">me
+            </lemma>
+            <lemma tokenIDs="t_673">he
+            </lemma>
+            <lemma tokenIDs="t_674">should
+            </lemma>
+            <lemma tokenIDs="t_675">have
+            </lemma>
+            <lemma tokenIDs="t_676">say
+            </lemma>
+            <lemma tokenIDs="t_677">that
+            </lemma>
+            <lemma tokenIDs="t_678">I
+            </lemma>
+            <lemma tokenIDs="t_679">be
+            </lemma>
+            <lemma tokenIDs="t_680">good
+            </lemma>
+            <lemma tokenIDs="t_681">notwithstanding
+            </lemma>
+            <lemma tokenIDs="t_682">the
+            </lemma>
+            <lemma tokenIDs="t_683">east
+            </lemma>
+            <lemma tokenIDs="t_684">wind
+            </lemma>
+            <lemma tokenIDs="t_685">.
+            </lemma>
+            <lemma tokenIDs="t_686">it
+            </lemma>
+            <lemma tokenIDs="t_687">be
+            </lemma>
+            <lemma tokenIDs="t_688">really
+            </lemma>
+            <lemma tokenIDs="t_689">true
+            </lemma>
+            <lemma tokenIDs="t_690">&lt;unknown&gt;
+            </lemma>
+            <lemma tokenIDs="t_691">I
+            </lemma>
+            <lemma tokenIDs="t_692">be
+            </lemma>
+            <lemma tokenIDs="t_693">get
+            </lemma>
+            <lemma tokenIDs="t_694">slowly
+            </lemma>
+            <lemma tokenIDs="t_695">up
+            </lemma>
+            <lemma tokenIDs="t_696">from
+            </lemma>
+            <lemma tokenIDs="t_697">the
+            </lemma>
+            <lemma tokenIDs="t_698">prostration
+            </lemma>
+            <lemma tokenIDs="t_699">of
+            </lemma>
+            <lemma tokenIDs="t_700">the
+            </lemma>
+            <lemma tokenIDs="t_701">severe
+            </lemma>
+            <lemma tokenIDs="t_702">cold
+            </lemma>
+            <lemma tokenIDs="t_703">,
+            </lemma>
+            <lemma tokenIDs="t_704">and
+            </lemma>
+            <lemma tokenIDs="t_705">feel
+            </lemma>
+            <lemma tokenIDs="t_706">strong
+            </lemma>
+            <lemma tokenIDs="t_707">in
+            </lemma>
+            <lemma tokenIDs="t_708">myself
+            </lemma>
+            <lemma tokenIDs="t_709">.
+            </lemma>
+            <lemma tokenIDs="t_710">but
+            </lemma>
+            <lemma tokenIDs="t_711">Mrs.
+            </lemma>
+            <lemma tokenIDs="t_712">Norton
+            </lemma>
+            <lemma tokenIDs="t_713">discourse
+            </lemma>
+            <lemma tokenIDs="t_714">excellent
+            </lemma>
+            <lemma tokenIDs="t_715">music
+            </lemma>
+            <lemma tokenIDs="t_716">&lt;unknown&gt;
+            </lemma>
+            <lemma tokenIDs="t_717">and
+            </lemma>
+            <lemma tokenIDs="t_718">for
+            </lemma>
+            <lemma tokenIDs="t_719">the
+            </lemma>
+            <lemma tokenIDs="t_720">rest
+            </lemma>
+            <lemma tokenIDs="t_721">,
+            </lemma>
+            <lemma tokenIDs="t_722">there
+            </lemma>
+            <lemma tokenIDs="t_723">be
+            </lemma>
+            <lemma tokenIDs="t_724">fruit
+            </lemma>
+            <lemma tokenIDs="t_725">in
+            </lemma>
+            <lemma tokenIDs="t_726">the
+            </lemma>
+            <lemma tokenIDs="t_727">world
+            </lemma>
+            <lemma tokenIDs="t_728">so
+            </lemma>
+            <lemma tokenIDs="t_729">over-ripe
+            </lemma>
+            <lemma tokenIDs="t_730">,
+            </lemma>
+            <lemma tokenIDs="t_731">that
+            </lemma>
+            <lemma tokenIDs="t_732">they
+            </lemma>
+            <lemma tokenIDs="t_733">will
+            </lemma>
+            <lemma tokenIDs="t_734">fall
+            </lemma>
+            <lemma tokenIDs="t_735">,
+            </lemma>
+            <lemma tokenIDs="t_736">...
+            </lemma>
+            <lemma tokenIDs="t_737">without
+            </lemma>
+            <lemma tokenIDs="t_738">be
+            </lemma>
+            <lemma tokenIDs="t_739">gather
+            </lemma>
+            <lemma tokenIDs="t_740">.
+            </lemma>
+            <lemma tokenIDs="t_741">let
+            </lemma>
+            <lemma tokenIDs="t_742">&lt;unknown&gt;
+            </lemma>
+            <lemma tokenIDs="t_743">witness
+            </lemma>
+            <lemma tokenIDs="t_744">to
+            </lemma>
+            <lemma tokenIDs="t_745">it
+            </lemma>
+            <lemma tokenIDs="t_746">!
+            </lemma>
+            <lemma tokenIDs="t_747">if
+            </lemma>
+            <lemma tokenIDs="t_748">you
+            </lemma>
+            <lemma tokenIDs="t_749">think
+            </lemma>
+            <lemma tokenIDs="t_750">it
+            </lemma>
+            <lemma tokenIDs="t_751">worth
+            </lemma>
+            <lemma tokenIDs="t_752">while
+            </lemma>
+            <lemma tokenIDs="t_753">!
+            </lemma>
+            <lemma tokenIDs="t_754">ever
+            </lemma>
+            <lemma tokenIDs="t_755">yours
+            </lemma>
+            <lemma tokenIDs="t_756">,
+            </lemma>
+            <lemma tokenIDs="t_757">Elizabeth
+            </lemma>
+            <lemma tokenIDs="t_758">B.
+            </lemma>
+            <lemma tokenIDs="t_759">&lt;unknown&gt;
+            </lemma>
+            <lemma tokenIDs="t_760">and
+            </lemma>
+            <lemma tokenIDs="t_761">be
+            </lemma>
+            <lemma tokenIDs="t_762">it
+            </lemma>
+            <lemma tokenIDs="t_763">nothing
+            </lemma>
+            <lemma tokenIDs="t_764">to
+            </lemma>
+            <lemma tokenIDs="t_765">be
+            </lemma>
+            <lemma tokenIDs="t_766">&lt;unknown&gt;
+            </lemma>
+            <lemma tokenIDs="t_767">to
+            </lemma>
+            <lemma tokenIDs="t_768">one
+            </lemma>
+            <lemma tokenIDs="t_769">'s
+            </lemma>
+            <lemma tokenIDs="t_770">self
+            </lemma>
+            <lemma tokenIDs="t_771">in
+            </lemma>
+            <lemma tokenIDs="t_772">one
+            </lemma>
+            <lemma tokenIDs="t_773">'s
+            </lemma>
+            <lemma tokenIDs="t_774">resource
+            </lemma>
+            <lemma tokenIDs="t_775">?
+            </lemma>
+            <lemma tokenIDs="t_776">'
+            </lemma>
+            <lemma tokenIDs="t_777">'
+            </lemma>
+            <lemma tokenIDs="t_778">that
+            </lemma>
+            <lemma tokenIDs="t_779">be
+            </lemma>
+            <lemma tokenIDs="t_780">all
+            </lemma>
+            <lemma tokenIDs="t_781">,
+            </lemma>
+            <lemma tokenIDs="t_782">'
+            </lemma>
+            <lemma tokenIDs="t_783">indeed
+            </lemma>
+            <lemma tokenIDs="t_784">!
+            </lemma>
+            <lemma tokenIDs="t_785">for
+            </lemma>
+            <lemma tokenIDs="t_786">the
+            </lemma>
+            <lemma tokenIDs="t_787">&lt;unknown&gt;
+            </lemma>
+            <lemma tokenIDs="t_788">'s
+            </lemma>
+            <lemma tokenIDs="t_789">country
+            </lemma>
+            <lemma tokenIDs="t_790">'
+            </lemma>
+            <lemma tokenIDs="t_791">we
+            </lemma>
+            <lemma tokenIDs="t_792">will
+            </lemma>
+            <lemma tokenIDs="t_793">have
+            </lemma>
+            <lemma tokenIDs="t_794">it
+            </lemma>
+            <lemma tokenIDs="t_795">also
+            </lemma>
+            <lemma tokenIDs="t_796">&lt;unknown&gt;
+            </lemma>
+            <lemma tokenIDs="t_797">and
+            </lemma>
+            <lemma tokenIDs="t_798">I
+            </lemma>
+            <lemma tokenIDs="t_799">know
+            </lemma>
+            <lemma tokenIDs="t_800">how
+            </lemma>
+            <lemma tokenIDs="t_801">well
+            </lemma>
+            <lemma tokenIDs="t_802">the
+            </lemma>
+            <lemma tokenIDs="t_803">bird
+            </lemma>
+            <lemma tokenIDs="t_804">sing
+            </lemma>
+            <lemma tokenIDs="t_805">in
+            </lemma>
+            <lemma tokenIDs="t_806">it
+            </lemma>
+            <lemma tokenIDs="t_807">.
+            </lemma>
+            <lemma tokenIDs="t_808">How
+            </lemma>
+            <lemma tokenIDs="t_809">glad
+            </lemma>
+            <lemma tokenIDs="t_810">I
+            </lemma>
+            <lemma tokenIDs="t_811">be
+            </lemma>
+            <lemma tokenIDs="t_812">by
+            </lemma>
+            <lemma tokenIDs="t_813">the
+            </lemma>
+            <lemma tokenIDs="t_814">way
+            </lemma>
+            <lemma tokenIDs="t_815">to
+            </lemma>
+            <lemma tokenIDs="t_816">see
+            </lemma>
+            <lemma tokenIDs="t_817">your
+            </lemma>
+            <lemma tokenIDs="t_818">letter
+            </lemma>
+            <lemma tokenIDs="t_819">!
+            </lemma>
+        </lemmas>
+        <namedEntities type="openNLP">
+            <entity class="date" tokenIDs="t_0">
+            </entity>
+            <entity class="person" tokenIDs="t_10">
+            </entity>
+            <entity class="person" tokenIDs="t_297">
+            </entity>
+        </namedEntities>
+    </TextCorpus>
+</D-Spin>
